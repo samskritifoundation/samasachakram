@@ -22,7 +22,7 @@ module.exports = {
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Yatra+One'}
     ]
   },
-  plugins: ['~/plugins/vuetify.js', '~/plugins/vue-tree-chart.js'],
+  plugins: ['~/plugins/vuetify.js'],
   css: [
     '~/assets/style/app.styl' 
   ],
