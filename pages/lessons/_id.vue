@@ -21,6 +21,11 @@
           <v-layout class="myheader3" v-html=lesson.common></v-layout>
           <img :src='lesson.example_img' width="100%" />
 
+          <div v-if='lesson.treeData'>
+            <tree :data="treeData" node-text="name" layoutType="circular">
+            </tree>
+          </div>
+
       <div v-if="lesson.types" class="myheader3">
         <div class="text-xs-center mt-3">
       <v-btn @click="nexttab">next tab</v-btn>
@@ -51,18 +56,20 @@
       </v-tab-item>
     </v-tabs>
 
-    <!-- <TreeChart :json="treeData" /> -->
-
   </div>
   </v-card>
 </v-container>
 </template>
 
 <script>
-// import TreeChart from "vue-tree-chart";
+let tree
+if (process.browser) {
+  tree = require('vued3tree').tree
+// use scrollmagic
+}
 export default {
   components: {
-    // TreeChart
+    tree
   },
   data () {
     return {
@@ -82,7 +89,8 @@ export default {
   mounted () {
     // console.log(this.id)
     this.lesson = this.$store.state.lessons.find(less => String(less.id) === this.id)
-    this.treeData = this.lesson.tree
+    this.treeData = this.lesson.treeData
+    console.log(this.treeData)
   },
   created () {
     // console.log(this.$store.state.lessons.find(lesson => lesson.id === '4.1'))
@@ -92,9 +100,9 @@ export default {
     this.length = this.$store.state.lessons.length
     this.previous = this.index > 1 ? '/lessons/' + (this.prev_lesson.id) : '/lessons/1'
     this.next = this.index < this.length ? '/lessons/' + (this.next_lesson.id) : '/lessons/4.2.ix'
-    console.log(this.index)
+    // console.log(this.index)
     // console.log(this.prev_lesson)
-    console.log(this.next_lesson.id)
+    // console.log(this.next_lesson.id)
     // console.log(this.$store.state.lessons)
     // console.log(this.$axios.$get('/lessons/' + this.$route.params.id))
   },

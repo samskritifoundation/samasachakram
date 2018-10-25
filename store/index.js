@@ -32,7 +32,23 @@ export const state = () => ({
       definition_sans: '',
       definition_eng: '',
       treeData: {
-        name: 'Types of Chandas'
+        name: 'Classification of Chandas',
+        children: [{
+          name: 'वर्णछन्दः Varna Chandas',
+          children: [
+            { name: 'समम् Samam' },
+            { name: 'अर्धसमम् Ardhasamam' },
+            { name: 'विषमम् Vishamam' }
+          ]
+        }, {
+          name: 'मात्राछन्दः Matra Chandas',
+          children: [
+            { name: 'आर्या' },
+            { name: 'गीतिः' },
+            { name: 'वैतालीयः' },
+            { name: 'वक्त्रम्' }
+          ]
+        }]
       }
     },
     {
@@ -48,7 +64,7 @@ export const state = () => ({
       title_eng: 'Samam',
       id: '4.1.i',
       definition_sans: '<p>यस्य पद्यस्य चत्वारः अङ्घ्रयः पादाः तुल्येन समानेन लक्षणेन लक्षिता युक्ताः सन्ति तद् वृत्तं समं ।</p><p>यथा – उपेन्द्रव्रज्रा – सर्वेऽपि पादाः एकादशवर्णात्मकाः समानलक्षणभाजश्च भवन्ति | </p><h3>समवृत्तभेदाः -</h3><p>एकाक्षरात् पादात् आरभ्य एकाक्षरवर्धितैः एकेन-एकेन अक्षरेण वर्धितैः पादैः यावत् षड्विंशति संख्याकं प्रति गतं गमनं भवति, तावत् पृथक् भिन्नं छन्दो भवेत् ।',
-      definition_eng: ''
+      definition_eng: '<p>Verses in which the quarters contain an equal number of syllables are called Samavrtta.</p><p>Anushtup, Indravajra, etc are examples of this type.</p><p>This type is divided into 26 vrittas according to the number of syllables in each of the four quarters. This number varies from one to twenty six. Each of these types has specific name. </p>'
     },
     {
       title_sans: 'उक्ता',
@@ -612,7 +628,7 @@ export const state = () => ({
       title_eng: 'Ardhasamam',
       id: '4.1.ii',
       definition_sans: '<p>यस्य पद्यस्य तृतीयः चरणः प्रथमाङ्घ्रिसमः प्रथमपादतुल्यो भवति तथा द्वितीयः चरणः तुर्यवत् चतुर्थपादवत् भवति, तद्वृत्तं अर्धसममिति उच्यते । यथा पुष्पिताग्रा ।</p>',
-      definition_eng: ''
+      definition_eng: '<p>In this, the 1st and 3rd quarters have one metre, and the 2nd and 4th have another.</p>'
     },
     {
       title_sans: 'उपचित्रम्',
@@ -703,7 +719,7 @@ export const state = () => ({
       title_eng: 'Vishamam',
       id: '4.1.iii',
       definition_sans: '<p>यस्य पादचतुष्के चतुर्ष्वपि पादेषु लक्षणं परस्परं मिथः भिन्नं दृश्यते, छन्दःशास्त्रविशारदाः तद् वृत्तं विषमं कथयन्ति । यथा कलिका छन्दः</p>',
-      definition_eng: ''
+      definition_eng: '<p>Here, all the 4 quarters have different metres.</p>'
     },
     {
       title_sans: 'पदचतुरूर्ध्वाभिधम्',
@@ -794,8 +810,17 @@ export const state = () => ({
       title_sans: '',
       title_eng: 'Matra Chandas or Metres of Syllabic Instants',
       id: '4.2',
-      definition_sans: '',
-      definition_eng: ''
+      definition_sans: 'गणाः - चतुर्मात्राः <ul><li>सर्वगुरुः ऽऽ</li><li>अन्तगुरुः ॥ऽ</li><li>मध्यगुरुः ।ऽ।</li><li>आदिगुरुः ऽ॥</li><li>सर्वलघुः ॥॥</li></ul>',
+      definition_eng: '',
+      treeData: {
+        name: 'मात्राछन्दस्',
+        children: [
+          { name: 'आर्या' },
+          { name: 'गीतिः' },
+          { name: 'वैतालीयः' },
+          { name: 'वक्त्रम्' }
+        ]
+      }
     },
     {
       title_sans: 'आर्या',

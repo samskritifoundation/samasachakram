@@ -22,9 +22,11 @@ module.exports = {
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Yatra+One'}
     ]
   },
-  plugins: ['~/plugins/vuetify.js'],
+  plugins: ['~/plugins/vuetify.js',
+  { src: '~/plugins/vued3.js', ssr: false }
+  ],
   css: [
-    '~/assets/style/app.styl' 
+    '~/assets/style/app.styl'
   ],
   /*
   ** Customize the progress bar color
@@ -40,7 +42,8 @@ module.exports = {
   */
   build: {
     vendor: [
-      '~/plugins/vuetify.js'
+      '~/plugins/vuetify.js',
+      '~/plugins/vued3.js'
     ],
     extractCSS: true,
     /*
