@@ -18,11 +18,11 @@
             <div class="font-weight-bold px-1" v-html=lesson.definition_eng></div>
             </v-flex>
           </v-layout>
-          <v-layout class="myheader3" v-html=lesson.common></v-layout>
+          <v-layout xs12 class="myheader3" v-html=lesson.common></v-layout>
           <img :src='lesson.example_img' width="100%" />
 
           <div v-if='lesson.treeData'>
-            <tree :data="treeData" node-text="name" layoutType="circular">
+            <tree type="cluster" class="tree" zoomable=true :data="treeData" node-text="name" layoutType="euclidean" :radius=4> 
             </tree>
           </div>
 
@@ -82,7 +82,8 @@ export default {
       length: '',
       previous: '/',
       next: '/',
-      treeData: ''
+      treeData: '',
+      currentNode: null
     }
   },
   layout: 'lessons',
@@ -128,5 +129,10 @@ export default {
 
  .neg_margin {
   margin-top: -10%;
+}
+
+.tree {
+  height: 800px;
+  width: 100%;
 }
 </style>

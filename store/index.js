@@ -6,7 +6,8 @@ export const state = () => ({
       title_eng: 'Introduction to Sanskrit Prosody',
       id: 1,
       definition_sans: '',
-      definition_eng: '<p>Sanskrit prosody or Chandas refers to one of the six Vedangas, or limbs of Vedic studies. It is the study of poetic metres and verse in Sanskrit.</p><p>Almost all Sanskrit poetry is based on following a certain meter, or arrangement of syllables. The Chandas or the metre is an essential element of versified poetry. Rigorous description of the form of the poems helps to preserve their shape over time. This description evolved into the formal study of meter. Both meter and the study of meter are called chandas.</p><p>A poetical stanza or verse in Sanskrit is called <em>padya</em>. Generally a <em>padya</em> or verse contains four <em>pādas</em> or quarters or metrical lines. Sanskrit verses are classified into groups and sub-groups according to: <ol type="a"><li>the number of syllables or syllabic instants they contain in each quarter and </li><li>the position or placement of short or long syllables within the verse</li></ol></p><p>Such groups and sub-groups are called <em>chandas</em></p>',
+      definition_eng: '',
+      common: '<p>Sanskrit prosody or Chandas refers to one of the six Vedangas, or limbs of Vedic studies. It is the study of poetic metres and verse in Sanskrit.<br> Almost all Sanskrit poetry is based on following a certain meter, or arrangement of syllables. The Chandas or the metre is an essential element of versified poetry. Rigorous description of the form of the poems helps to preserve their shape over time. This description evolved into the formal study of meter. Both meter and the study of meter are called chandas.<br>A poetical stanza or verse in Sanskrit is called <em>padya</em>. Generally a <em>padya</em> or verse contains four <em>pādas</em> or quarters or metrical lines. Sanskrit verses are classified into groups and sub-groups according to: <br><br>a. The number of syllables or syllabic instants they contain in each quarter <br><br>b. The position or placement of short or long syllables within the verse<br><br>Such groups and sub-groups are called <em>chandas</em></p>',
       example_sans: ''
     },
     {
@@ -149,7 +150,8 @@ export const state = () => ({
       title_eng: 'Anushtup',
       id: '4.1.i.VIII',
       definition_sans: '',
-      definition_eng: 'This metre allows great freedom in use of long and short syllables. However, in its usual form, the fifth syllable of each quarter should be short, the sixth long and the seventh alternatively long and short. There being no fixed rule for the other syllables.',
+      definition_eng: '',
+      common: 'This category refers to metres with eight syllables. This is the most widely used metre in Sanskrit language. This metre allows great freedom in use of long and short syllables. However, in its usual form, the fifth syllable of each quarter should be short, the sixth long and the seventh alternatively long and short. There being no fixed rule for the other syllables.',
       types: 6,
       type: [
         {
@@ -236,7 +238,7 @@ export const state = () => ({
           ex_img: '/upendravajra.png'
         },
         {
-          text_sans: '<h3>Upajati</h3><p>एकः पादः इन्द्रवज्राया एकादिर्वोपेन्द्रवज्रायाः ता “उपजातयो” नाम मताः। </p><p>एताश्चतुरक्षरप्रस्तारवत्प्रस्तारे आद्यन्तयोर्भेदयोः केवलेन्द्रवज्रोपेन्द्रवज्रयोस्त्यागात् चतुर्दश भेदा भवन्ति। तथाहि-</p><ol><li>इ इ इ इ       (इन्द्रवज्रा) </li><li>उ इ इ इ       (कीर्त्तिः) १</li><li>इ उ इ इ        (वाणी) २</li><li>उ उ इ इ       (माला) ३</li><li>इ इ उ इ (शाला) ४</li><li>इ इ उ इ       (हंसी) ५</li><li>इ उ उ इ       (माया) ६</li><li>उ उ उ इ       (जाया) ७</li><li>इ इ इ उ       (बाला) ८</li><li>उ इ इ उ       (आर्द्रा) ९</li><li>इ उ इ उ       (भद्रा) १०</li><li>उ उ इ उ       (रामा) ११</li><li>इ इ उ उ             १२</li><li>उ इ उ उ       (ऋद्धिः) १३</li><li>इ उ उ उ       (बुद्धिः) १४</li><li>उ उ उ उ       (उपेन्द्रवज्रा) </li></ol><br><p>उक्तञ्च वृद्धैः-</p>एकत्र पादे चरणद्वये वापादत्रये वान्यतरः स्थितश्चेत्।<br>तयोरिहान्यत्र तथोहनीयाश्चतुर्दशोक्ता उपजातिभेदाः॥इति॥<br><br><p>उदाहरणं यथा वा-</p>(इ०)      काचिन्मुरारेर्वदनारविन्दं <br>(उ०) संक्रान्तमालोक्य जले निवोढा। <br>   (इ०) व्यक्तं सलज्जा परिचुम्बितुं तत्॥ <br>         (उ०) तदर्थमेवाम्भसि निर्ममज्ज॥(अच्युतचरिते) <br><br><p>इत्येवमस्याश्चतुर्दश भेदाः प्रायो महाकव्येषु सन्तो ज्ञेयाः॥</p>'
+          text_sans: '<h3>Upajati</h3><p>एकः पादः इन्द्रवज्राया एकादिर्वोपेन्द्रवज्रायाः ता “उपजातयो” नाम मताः। </p><p>एताश्चतुरक्षरप्रस्तारवत्प्रस्तारे आद्यन्तयोर्भेदयोः केवलेन्द्रवज्रोपेन्द्रवज्रयोस्त्यागात् चतुर्दश भेदा भवन्ति। तथाहि-</p><ol><li>इ इ इ इ       (इन्द्रवज्रा) </li><li>उ इ इ इ       (कीर्त्तिः) १</li><li>इ उ इ इ        (वाणी) २</li><li>उ उ इ इ       (माला) ३</li><li>इ इ उ इ (शाला) ४</li><li>इ इ उ इ       (हंसी) ५</li><li>इ उ उ इ       (माया) ६</li><li>उ उ उ इ       (जाया) ७</li><li>इ इ इ उ       (बाला) ८</li><li>उ इ इ उ       (आर्द्रा) ९</li><li>इ उ इ उ       (भद्रा) १०</li><li>उ उ इ उ       (रामा) ११</li><li>इ इ उ उ             १२</li><li>उ इ उ उ       (ऋद्धिः) १३</li><li>इ उ उ उ       (बुद्धिः) १४</li><li>उ उ उ उ       (उपेन्द्रवज्रा) </li></ol><br><p>उक्तञ्च वृद्धैः-</p>एकत्र पादे चरणद्वये वापादत्रये वान्यतरः स्थितश्चेत्।<br>तयोरिहान्यत्र तथोहनीयाश्चतुर्दशोक्ता उपजातिभेदाः॥इति॥<br><br><p>उदाहरणं यथा वा-</p>(इ०)      काचिन्मुरारेर्वदनारविन्दं <br>(उ०) संक्रान्तमालोक्य जले निवोढा। <br>   (इ०) व्यक्तं सलज्जा परिचुम्बितुं तत्॥ <br>         (उ०) तदर्थमेवाम्भसि निर्ममज्ज॥(अच्युतचरिते) <br><br><p>इत्येवमस्याश्चतुर्दश भेदाः प्रायो महाकव्येषु सन्तो ज्ञेयाः॥</p><p>This is a mixed metre and usually takes the form of a combination of Indravajra and Upendravajra. The places of pause are same as in the other two. The different combinations of the two metres give rise to 14 types of Upajati metre.'
         },
         {
           text_sans: '<h3>सुमुखी</h3><p>आदौ नगणः, ततो जगणौ, तत एको लघुः,एको गुरुः स्यात्, सा “सुमुखी” इत्युच्यते। पञ्चभिः षड्भिश्च यतिरिति सम्प्रदायः। </p>',
@@ -298,6 +300,7 @@ export const state = () => ({
       id: '4.1.i.XII',
       definition_sans: '',
       definition_eng: '',
+      common: '<p>This metre contains 12 syllables in each quarter.</p>',
       types: 24,
       type: [
         {
@@ -305,7 +308,7 @@ export const state = () => ({
           ex_img: '/candravartma.png'
         },
         {
-          text_sans: '<h3>वंशस्थं</h3><p>जगणतगणौ जगणरगणौ स्याताम् तदा "वंशस्थं" नाम छन्द उक्तम्। पादे यतिः।</p>',
+          text_sans: '<h3>वंशस्थं</h3><p>जगणतगणौ जगणरगणौ स्याताम् तदा "वंशस्थं" नाम छन्द उक्तम्। पादे यतिः।</p><p>The 1st, 3rd, 6th, 7th, 9th and 11th syllables of each quarter of this metre are short and the others long. There should be a pause after the 5th and last syllables of each quarter.</p>',
           ex_img: '/vamshastham.png'
         },
         {
@@ -313,7 +316,7 @@ export const state = () => ({
           ex_img: '/indravamsha.png'
         },
         {
-          text_sans: '<h3>तोटकम्</h3><p>चतुर्भिः सगणैः “तोटकम्” नाम छन्दः प्रसिद्धम्। पादे यतिः।</p>'
+          text_sans: '<h3>तोटकम्</h3><p>चतुर्भिः सगणैः “तोटकम्” नाम छन्दः प्रसिद्धम्। पादे यतिः।</p><p>The 1st, 2nd, 4th, 5th, 7th, 8th, 10th and 11th syllables of each quarter of this metre are short and others long. There should be a pause after the 4th, 8th and last syllables of each quarter.</p>'
         },
         {
           text_sans: '<h3>द्रुतविलम्बितम्</h3><p>नगण-भगणौ, भगण,-रगणौ चेद् भवेताम् तदा “द्रुतविलम्बितम्” नाम । पादे यतिः।</p>',
@@ -335,7 +338,7 @@ export const state = () => ({
           text_sans: '<h3>जलोद्धतगतिः</h3><p>जगण-सगण-जगण-सगणा यत्र सा एवंभूता “जलोद्धतगतिः” नाम । षड्भिः षड्भिर्यतिमती ।</p>'
         },
         {
-          text_sans: '<h3>भुजङ्गप्रयातं</h3><p>चतुर्भिः यकारैः “भुजङ्गप्रयातं” नाम छन्दो भवेत्। अत्र पादान्ते यतिः। षड्भिः षड्भिश्च यतिरिति वदन् सम्प्रदायविरोधी । एकदेशी वा स्यात्।</p>'
+          text_sans: '<h3>भुजङ्गप्रयातं</h3><p>चतुर्भिः यकारैः “भुजङ्गप्रयातं” नाम छन्दो भवेत्। अत्र पादान्ते यतिः। षड्भिः षड्भिश्च यतिरिति वदन् सम्प्रदायविरोधी । एकदेशी वा स्यात्।</p><p>The 1st, 4th, 7th and 10th syllables of each quarter of this metre are short and the others long. There should be a pause after the 6th and last syllables of each quarter.</p>'
         },
         {
           text_sans: '<h3>स्रग्विणी</h3><p>चतुर्भिः अर्थात् चत्वारो रगणा एव सन्ति सा “स्रग्विणी” नाम सम्मता । इह शास्त्र इति शेषः। पादे यतिः।</p>'
@@ -393,7 +396,7 @@ export const state = () => ({
           text_sans: '<h3>क्षमा</h3><p>द्वौ नगणौ, द्वौ तगणौ, एको गुरुश्चेत् सा “क्षमा” नामोच्यते। सप्तभिः षड्भिश्च यतिर्यत्र। इमामेव “चन्द्रिका” माहुः। “उत्पलिनी” इत्यपरे।</p>'
         },
         {
-          text_sans: '<h3>प्रहर्षिणी</h3><p>मगणनगणौ, जगणरगणौ, एकश्चेद गुरुः तदा इयम् “प्रहर्षिणी” नाम। त्रिभिर्दशभिश्च यतिर्यत्र सा ।</p>'
+          text_sans: '<h3>प्रहर्षिणी</h3><p>मगणनगणौ, जगणरगणौ, एकश्चेद गुरुः तदा इयम् “प्रहर्षिणी” नाम। त्रिभिर्दशभिश्च यतिर्यत्र सा ।</p><p>The 1st, 2nd, 3rd, 8th, 10th, 12th and 13th syllables of each quarter of this metre are long and others short. There should be a pause after the 3rd and last syllables of each quarter.</p>'
         },
         {
           text_sans: '<h3>रुचिरा</h3><p>जगणभगणौ, सगणरगणौ, एको गुरुश्चेत् छन्दःशास्त्रे “रुचिरा” नाम सा ज्ञेया। चतुर्भिः नवभिश्च यतिर्ज्ञेया।</p>'
