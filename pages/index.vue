@@ -30,6 +30,8 @@ the most popular texts on Sanskrit prosody. Though there are many books on Sansk
           <v-btn round color="accent" class="font-weight-bold text-capitalize" nuxt to="/lessons" large>अध्यायाः<br>Learn</v-btn>
            <v-spacer></v-spacer>
           <v-btn round color="accent" class="font-weight-bold text-capitalize" nuxt to="/exercises" large>अभ्यासाः <br> Exercises</v-btn>
+          <v-spacer></v-spacer>
+          <v-btn round color="accent" class="font-weight-bold text-capitalize" nuxt to="/math" large>Mathematics in Sanskrit poetry</v-btn>
         </v-card-actions>
       </v-card>
     </v-flex>
