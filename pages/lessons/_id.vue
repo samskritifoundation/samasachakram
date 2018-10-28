@@ -18,8 +18,7 @@
             <div class="font-weight-bold px-1" v-html=lesson.definition_eng></div>
             </v-flex>
           </v-layout>
-          <v-layout xs12 class="myheader3" v-html=lesson.common></v-layout>
-          <img :src='lesson.example_img' width="100%" />
+          <v-layout xs12 class="myheader3 devanagari px-1" v-html=lesson.common></v-layout>
 
           <div v-if='lesson.treeData'>
             <tree type="cluster" class="tree" zoomable=true :data="treeData" node-text="name" layoutType="euclidean" :radius=4> 
@@ -51,7 +50,6 @@
       >
         <v-card flat>
           <v-card-text class="devanagari" v-html="n.text_sans"></v-card-text>
-          <v-img :src='n.ex_img' width="100%"></v-img>
         </v-card>
       </v-tab-item>
     </v-tabs>
@@ -100,7 +98,7 @@ export default {
     this.next_lesson = this.$store.state.lessons[this.index + 1]
     this.length = this.$store.state.lessons.length
     this.previous = this.index > 1 ? '/lessons/' + (this.prev_lesson.id) : '/lessons/1'
-    this.next = this.index < this.length ? '/lessons/' + (this.next_lesson.id) : '/lessons/4.2.ix'
+    this.next = this.index < this.length - 1 ? '/lessons/' + (this.next_lesson.id) : '/lessons/4.2.ix'
     // console.log(this.index)
     // console.log(this.prev_lesson)
     // console.log(this.next_lesson.id)

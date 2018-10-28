@@ -235,27 +235,23 @@ export const state = () => ({
       types: 16,
       type: [
         {
-          text_sans: '<h3>1. इन्द्रवज्रा Indravajrā</h3><p>स्यादिन्द्रवज्रा यदि तौ जगौ गः॥</p><p>द्वौ तगणौ ततो जगणगुरु पुनरेको गुरुश्चेत् सा इन्द्रवज्रा नाम</p><p>Each quarter of this meter contains 11 syllables. Here, the 1st, 2nd, 4th, 5th, 8th, 10th and 11th syllables of each quarter are long and the others short. There should be a pause after the 5th and last syllables of each quarter.</p>',
-          ex: 'लोकाभिरामं रणरङ्गधीरं<br>राजीवनेत्रं रघुवंशनाथम् ।<br>कारुण्यरूपं करुणाकरं तं<br>श्रीरामचन्द्रं शरणं प्रपद्ये ॥'
+          text_sans: '<h3>1. इन्द्रवज्रा Indravajrā</h3><p>स्यादिन्द्रवज्रा यदि तौ जगौ गः॥</p><p>द्वौ तगणौ ततो जगणगुरु पुनरेको गुरुश्चेत् सा इन्द्रवज्रा नाम</p><p>Each quarter of this meter contains 11 syllables. Here, the 1st, 2nd, 4th, 5th, 8th, 10th and 11th syllables of each quarter are long and the others short. There should be a pause after the 5th and last syllables of each quarter.</p>Example: <br>लोकाभिरामं रणरङ्गधीरं<br>राजीवनेत्रं रघुवंशनाथम् ।<br>कारुण्यरूपं करुणाकरं तं<br>श्रीरामचन्द्रं शरणं प्रपद्ये ॥'
         },
         {
-          text_sans: '<h3>2. उपेन्द्रवज्रा Upendravajrā</h3><p>उपेन्द्रवज्रा जतजातस्ततो गौ॥</p><p>जगण-तगण-जगणाः स्युः, ततो द्वौ च गुरु स्याताम्, तदा उपेन्द्रवज्रा नाम छन्द उच्यते।</p><p>This metre is similar to the previous one, indravajrā. The difference between two is that in it first syllable of each quarter is short, whereas it is long in indravajrā. The places of pause are also same in both.',
-          ex_img: '/upendravajrā.png'
+          text_sans: '<h3>2. उपेन्द्रवज्रा Upendravajrā</h3><p>उपेन्द्रवज्रा जतजातस्ततो गौ॥</p><p>जगण-तगण-जगणाः स्युः, ततो द्वौ च गुरु स्याताम्, तदा उपेन्द्रवज्रा नाम छन्द उच्यते।</p><p>This metre is similar to the previous one, indravajrā. The difference between two is that in it first syllable of each quarter is short, whereas it is long in indravajrā. The places of pause are also same in both.</p>Example<br>मुकुन्द मूर्ध्ना प्रणिपत्य याचे<br>भवन्तमेकान्तमियन्तमर्थम् ।<br>अविस्मृतिस्त्वच्चरणारविन्दे<br>भवे भवे मेऽस्तु भवत्प्रसादात् ॥'
         },
         {
           text_sans: '<h3>3. उपजातिः Upajāti</h3><p>एकः पादः इन्द्रवज्राया एकादिर्वोपेन्द्रवज्रायाः ता “उपजातयो” नाम मताः। </p><p>एताश्चतुरक्षरप्रस्तारवत्प्रस्तारे आद्यन्तयोर्भेदयोः केवलेन्द्रवज्रोपेन्द्रवज्रयोस्त्यागात् चतुर्दश भेदा भवन्ति। तथाहि-</p><ol><li>इ इ इ इ       (इन्द्रवज्रा) </li><li>उ इ इ इ       (कीर्त्तिः) १</li><li>इ उ इ इ        (वाणी) २</li><li>उ उ इ इ       (माला) ३</li><li>इ इ उ इ (शाला) ४</li><li>इ इ उ इ       (हंसी) ५</li><li>इ उ उ इ       (माया) ६</li><li>उ उ उ इ       (जाया) ७</li><li>इ इ इ उ       (बाला) ८</li><li>उ इ इ उ       (आर्द्रा) ९</li><li>इ उ इ उ       (भद्रा) १०</li><li>उ उ इ उ       (रामा) ११</li><li>इ इ उ उ             १२</li><li>उ इ उ उ       (ऋद्धिः) १३</li><li>इ उ उ उ       (बुद्धिः) १४</li><li>उ उ उ उ       (उपेन्द्रवज्रा) </li></ol><br><p>उक्तञ्च वृद्धैः-</p>एकत्र पादे चरणद्वये वापादत्रये वान्यतरः स्थितश्चेत्।<br>तयोरिहान्यत्र तथोहनीयाश्चतुर्दशोक्ता उपजातिभेदाः॥इति॥<br><br><p>उदाहरणं यथा वा-</p>(इ०)      काचिन्मुरारेर्वदनारविन्दं <br>(उ०) संक्रान्तमालोक्य जले निवोढा। <br>   (इ०) व्यक्तं सलज्जा परिचुम्बितुं तत्॥ <br>         (उ०) तदर्थमेवाम्भसि निर्ममज्ज॥(अच्युतचरिते) <br><br><p>इत्येवमस्याश्चतुर्दश भेदाः प्रायो महाकव्येषु सन्तो ज्ञेयाः॥</p><p>This is a mixed metre and usually takes the form of a combination of indravajrā and upendravajrā. The places of pause are same as in the other two. The different combinations of the two metres give rise to 14 types of Upajati metre.'
         },
         {
-          text_sans: '<h3>4. सुमुखी Sumukhī</h3><p>आदौ नगणः, ततो जगणौ, तत एको लघुः,एको गुरुः स्यात्, सा “सुमुखी” इत्युच्यते। पञ्चभिः षड्भिश्च यतिरिति सम्प्रदायः। </p><p>The arrangement of Gaṇas in each quarter of this metre is - na. two ja groups, la and ga. So here the 5th, 8th and 11th syllables of each quarter are long and others short. There is a pause after 5th and last syllable of each quarter.</p>',
-          ex_img: '/sumukhi.png'
+          text_sans: '<h3>4. सुमुखी Sumukhī</h3><p>आदौ नगणः, ततो जगणौ, तत एको लघुः,एको गुरुः स्यात्, सा “सुमुखी” इत्युच्यते। पञ्चभिः षड्भिश्च यतिरिति सम्प्रदायः। </p><p>The arrangement of Gaṇas in each quarter of this metre is - na. two ja groups, la and ga. So here the 5th, 8th and 11th syllables of each quarter are long and others short. There is a pause after 5th and last syllable of each quarter.</p><p>Example:</p><p>तरणिसुतातटकुञ्जगृहे <br>वदनविधुस्मितदीधितिभिः । <br> तिमिरमुदस्य मुखं सुमुखी <br> हरिमवलोक्य चुचुम्ब चिरम् ॥</p>'
         },
         {
           text_sans: '<h3>5. दोधकवृत्तम् Dodhakavṛttam</h3><p>भगणत्रयात् ऊर्ध्वे द्वौ गुरु स्यातां चेत् इदं “दोधकवृत्तम्” नाम भवति। पादन्ते यतिः।</p><p>The arrangement of Gaṇas in each quarter of this metre is - 3 bha groups and 2 ga groups. So, here the 1st, 4th, 7th, 10th and 11th syllables of each quarter are long and the others short. There is a pause after 6th and last syllable of each quarter.</p>',
           ex_img: '/dodhaka.png'
         },
         {
-          text_sans: '<h3>6. शालिनी śālinī</h3><p>मगणः तगणश्च, तगणः गुरुश्च, पुनरप्येको गुरुः अर्थात् म-त-तानामुत्तरं गुरुद्वयञ्चेत् तदा “शालिनी” नाम छन्द उक्तम्। चतुर्भिः सप्तभिश्च यतिरिति शेषः।</p><p>This metre has eleven syllables in each quarter. Here except the sixth and ninth syllables of each quarter, all other syllables are long. There should be a pause after the 4th and last syllables of each quarter.',
-          ex_img: '/shalini.png'
+          text_sans: '<h3>6. शालिनी śālinī</h3><p>मगणः तगणश्च, तगणः गुरुश्च, पुनरप्येको गुरुः अर्थात् म-त-तानामुत्तरं गुरुद्वयञ्चेत् तदा “शालिनी” नाम छन्द उक्तम्। चतुर्भिः सप्तभिश्च यतिरिति शेषः।</p><p>This metre has eleven syllables in each quarter. Here except the sixth and ninth syllables of each quarter, all other syllables are long. There should be a pause after the 4th and last syllables of each quarter.<p>Example:</p>तत्कैशोरं तच्च वक्त्रारविन्दं<br>तत्कारुण्यं ते च लीलाकटाक्षाः।<br>तत्सौन्दर्यं सा च सान्द्रस्मितश्रीः<br>सत्यं सत्यं दुर्लभं दैवतेऽपि॥<br>केयं कान्तिः केशव त्वन्मुखेन्दोः<br>कोऽयं वेषः कापि वाचामभूमिः। <br>सेयं सेयं स्वादुता मञ्जुलश्रीः<br> भूयो भूयो भूयशस्त्वां नमामि॥<br>'
         },
         {
           text_sans: '<h3>7. वातोर्मी Vātormī</h3><p>मगणः भगणश्च, तगणः गुरुश्च, पुनरप्येको गुरुश्चेत्, इयम् “वातोर्मी” उच्यते। यतिः शालिनीवत्।</p><p>The arrangement of Gaṇas in each quarter of this metre is - ma, bha, ta and two ga groups. The 5th, 6th and 9th syllables of each quarter are short and the others long. There is a pause after 4th and last syllable of each quarter.</p>',
@@ -270,8 +266,7 @@ export const state = () => ({
           ex_img: '/bhramara.png'
         },
         {
-          text_sans: '<h3>10. रथोद्धता Rathoddhatā</h3><p>रगणात् नगणरगणौ स्याताम्, एको लघुः, एको गुरुश्चेत्, छन्दःशास्त्रे “रथोद्धता” नाम । पादे यतिः ।</p><p>This metre has 11 syllables of one <em>ra</em> group, one <em>na</em> group, one <em>ra</em> group, one <em>la</em> group and one <em>ga</em> group in each quarter. Here the 1st, 3rd, 7th, 9th and 11th syllables of each quarter are long and others short. There should be a pause after the 3rd and last syllables of each quarter.</p>',
-          ex_img: '/rathodhata.png'
+          text_sans: '<h3>10. रथोद्धता Rathoddhatā</h3><p>रगणात् नगणरगणौ स्याताम्, एको लघुः, एको गुरुश्चेत्, छन्दःशास्त्रे “रथोद्धता” नाम । पादे यतिः ।</p><p>This metre has 11 syllables of one <em>ra</em> group, one <em>na</em> group, one <em>ra</em> group, one <em>la</em> group and one <em>ga</em> group in each quarter. Here the 1st, 3rd, 7th, 9th and 11th syllables of each quarter are long and others short. There should be a pause after the 3rd and last syllables of each quarter.</p><p>Example:</p><p>धेनुपालदयितास्तनस्थली-<br>धन्यकुङ्कुमसनाथकान्तये।<br>वेणुगीतगतिमूलवेधसे<br>ब्रह्मराशिमहसे नमो नमः</p>'
         },
         {
           text_sans: '<h3>11. स्वागता Svāgatā</h3><p>रगण- नगण- भगणेभ्यः परं गुरुद्वयं चेत् सा “स्वागता” ज्ञेया । पादे यतिः।</p><p>The arrangement of Gaṇas in each quarter of this metre is - ra, na, bha and two ga groups. The 1st, 3rd, 7th, 10th and 11th syllables of each quarter are long and the others short. There is a pause after 3rd and last syllable of each quarter.</p>',
@@ -844,7 +839,7 @@ export const state = () => ({
       id: '4.2.i',
       definition_sans: 'पूर्वार्धः – <ul><li>३० मात्राः</li><li> सप्तगणाः भवन्ति अन्ते गुरुः</li><li>प्रथमे पादे द्वादश द्वितीये पादे अष्टादश अक्षराः</li><li>विषमे (प्रथमतृतीयपञ्चमसप्तम) स्थाने जगणः न भवति ।</li><li>षष्ठे गणे जगणो भवति अथवा चत्वारो लघवो भवन्ति ।</li></ul>उत्तरार्धे <ul><li> २७ मात्राः</li><li>सप्तगणाः भवन्ति अन्ते गुरुः</li><li>तृतीयपादे द्वादश अक्षराः </li></li>चतुर्थपादे पञ्चदश अक्षराः</li><li>षष्ठस्थाने गणे एको लघुः भवति ।</li></ul>यतिनियमम् – <ul><li>षष्ठस्थाने चतुर्लघौ गणे कृते सति द्वितीयलघोः पूर्वं प्रथम लघ्वनन्तरं यतियुक्तं पदं नियमेन समाप्यते । </li><li>सप्तमस्थाने  चतुर्लघो कृते सति प्रथम लघोः पूर्वमेव षष्ठगणानन्तरं सयति पद नियमो भवति । </li><li>उत्तरार्धे पञ्चमस्थाने चतुर्लघौ गणे सति प्रथमलघोः पूर्वं चतुर्थं गणान्ते सयति पदं नियम्यते ।</li></ul>',
       definition_eng: '<p>Āryā meter is a meter used in Sanskrit and Prakrit verses. A verse in āryā metre is in four metrical feet called pādas. Unlike the majority of meters employed in classical Sanskrit, the āryā meter is based on the number of mātrās (morae) per pāda. A syllable containing a short vowel counts for one mātrā, and a syllable containing a long vowel or a short vowel followed by two consonants counts for two mātrās. </p><p>The basic āryā verse has 12, 18, 12 and 15 mātrās in the first, second, third, and fourth pādas respectively. </p><p>Odd numbered mātrā-Gaṇas should not be ja-Gaṇa.</p><p>Sixth Gaṇa should be ja-Gaṇa.</p>',
-      example_img: '/arya.png'
+      common: 'Examples: <br><br>1. हन्त विरहः समन्तात्, ज्वलयति दुवरितीव्र- संवे-गः।<br>अरुणस्तपनशिलामिव, पुनर्न मां भस्मतां नयति॥<br><br><br><br> 2. वृन्दावनेस-लीलं वल्गुद्रुमकांडनिहित तनुयष्टिः।<br>स्मेरमुखार्पितवेणुः कृष्णो यदि मनसि कः स्वर्गः॥'
     },
     {
       title_sans: 'पथ्या',
@@ -852,7 +847,7 @@ export const state = () => ({
       id: '4.2.i.I',
       definition_sans: 'यस्याम् आर्यायां द्वादशमात्रात्मको प्रथमतृतीयौ पादौ भवतः सा पथ्याभिधीयते',
       definition_eng: 'Āryā metre in which the first and third quarters have 12 mātrās is called Pathyā',
-      example_img: '/pathya.png'
+      common: 'Example: <br />जय जय जगदीश विभो, केशव कंसान्त माधवानन्त।<br>कुरु करुणामिति भणितिः, पथ्या भवेरोग दुःस्थानाम्॥'
     },
     {
       title_sans: 'विपुला',
@@ -860,7 +855,7 @@ export const state = () => ({
       id: '4.2.i.II',
       definition_sans: 'यस्याः आर्यायाः पूर्वार्धोत्तरार्धयोः व्यस्तयोः समस्तयोर्वा आदिमं प्रारम्भस्थितं गणत्रयं संलङ्घ्य लंघयित्वा पादो भवति, ताम् आर्यां विपुलामिति कथयति',
       definition_eng: 'Āryā metre in which the first three gaṇas (in either all 4 quarters or the first 2 quarters) together form one quarter, it is called Vipulā.  ',
-      example_img: '/vipula.png'
+      common: 'Example: <br> या स्त्रीकुचकलशनितम्बमण्डला जायते महाविपुला।<br>गम्भीरनाभिरतिदीर्घलोचना भवति सा सुभगा॥'
     },
     {
       title_sans: 'चपला',
@@ -868,16 +863,14 @@ export const state = () => ({
       id: '4.2.i.III',
       definition_sans: 'यस्याः आर्यायाः पूर्वार्धे उत्तरार्धे च द्वितीयचतुर्थौ  गणौ मध्यगुरुसम्पन्नौ जगणौ भवतः तस्याः चपला इति नाम कथितम् ।',
       definition_eng: 'Āryā metre in which there is ja-gaṇa between the second and fourth gaṇa is called Capalā.',
-      example_img: '/capala.png',
+      common: 'Example: <br>जपला न चेत् कदाचिन्नृणां भवेद्भक्तिभावना कृष्णो।<br>धर्मार्थकाममोक्षास्तदा करस्था न सन्देहः॥',
       types: 2,
       type: [
         {
-          text_sans: '<h3>1. मुखचपला Mukhacapalā</h3><p>यस्याः आर्यायाः पूर्वार्धं चपलानिष्ठं लक्षणं धारयेत, उत्तरार्धे आर्यायाः सामान्यभवं लक्षणं यस्याः सा आर्या मुखचपला कथिता ।</p><p>In this metre, the first two quarters have the characteristics of Capalā metre and the last two quarters have the characteristics of āryā metre.</p>',
-          ex_img: '/mukhacapala.png'
+          text_sans: '<h3>1. मुखचपला Mukhacapalā</h3><p>यस्याः आर्यायाः पूर्वार्धं चपलानिष्ठं लक्षणं धारयेत, उत्तरार्धे आर्यायाः सामान्यभवं लक्षणं यस्याः सा आर्या मुखचपला कथिता ।</p><p>In this metre, the first two quarters have the characteristics of Capalā metre and the last two quarters have the characteristics of āryā metre.</p>Example: <br>नन्दसुत! वञ्चकस्त्वं दृढं न ते प्रेम गच्छ तत्रै-व।<br>यत्र भवति ते रागः कापि जगादेति मुखचपला॥'
         },
         {
-          text_sans: '<h3>2. जघनचपला Jaghanacapalā</h3><p>यस्याः आर्यायाः प्रथमे अर्धे आर्यायाः सामान्यलक्षणं भवति तथा उत्तरार्धे चपलायाः लक्षणम् आश्रयेत सा जघनचपला ।</p><p>In this metre, the first two quarters have the characteristics of āryā metre and the last two quarters have the characteristics of Capalā metre.</p>',
-          ex_img: '/jaghanacapala.png'
+          text_sans: '<h3>2. जघनचपला Jaghanacapalā</h3><p>यस्याः आर्यायाः प्रथमे अर्धे आर्यायाः सामान्यलक्षणं भवति तथा उत्तरार्धे चपलायाः लक्षणम् आश्रयेत सा जघनचपला ।</p><p>In this metre, the first two quarters have the characteristics of āryā metre and the last two quarters have the characteristics of Capalā metre.</p>Example<br>कृष्णः श्रृङ्गार पदुयौवनमदरागचपल ललिताङ्गः।<br>आसीद् व्रजाङ्गनानां मनोहरो जघनचपलानाम्॥'
         }
       ]
     },
@@ -886,8 +879,8 @@ export const state = () => ({
       title_eng: 'Gīti ',
       id: '4.2.ii',
       definition_sans: '<p>पूर्वोत्तरार्धयोः आर्यापूर्वार्धगतं लक्षणं भवेत् सा गीतिः </p><p>उभयपादाः त्रिंशन्मात्राः पूर्वोत्तरपादौ सप्तगणाःअन्ते गुरुः</p><p>प्रथमे पादे द्वादश मात्राः</p><p>द्वितीये पादे अष्टादश मात्राः</p><p>विषमे (प्रथमतृतीयपञ्चमसप्तम) स्थाने जगणः न भवति ।</p> <p>षष्ठे गणे जगणो भवति अथवा चत्वारो लघवो भवन्ति ।</p>यतिनियमम् – <p>षष्ठस्थाने चतुर्लघौ गणे कृते सति द्वितीयलघोः पूर्वं प्रथम लघ्वनन्तरं यतियुक्तं पदं नियमेन समाप्यते । </p><p>सप्तमस्थाने  चतुर्लघो कृते सति प्रथम लघोः पूर्वमेव षष्ठगणानन्तरं सयति पद नियमो भवति ।</p>',
-      definition_eng: 'The gīti meter has 12, 18, 12 and 18 mātrās in its four pādas respectively.',
-      example_img: '/Gīti.png'
+      definition_eng: 'The gīti meter has 12, 18, 12 and 18 mātrās in its four pādas respectively. <br><br>',
+      common: 'Example: <br><br>केशबवंशजगीतिर्लोकमनोहरिणहारिणी जयति।<br>गोपीमानग्रन्थेर्विमोचनि दिव्यगायनाश्चर्या॥'
     },
     {
       title_sans: 'उपगीतिः',
@@ -895,7 +888,7 @@ export const state = () => ({
       id: '4.2.ii.I',
       definition_sans: '<p>आर्यायाः उत्तरार्धे यत् लक्षणं  भवति तत् लक्षणं यदि उभयोरपि अर्धयोः स्यात् तां उपगीतिं कथयति ।</p><p>उत्तरार्धे – </p><ul><li>२७ मात्राः</li><li>सप्तगणाः भवन्ति अन्ते गुरुः</li><li>तृतीयपादे द्वादश अक्षराः </li><li>चतुर्थपादे पञ्चदश अक्षराः</li><li>षष्ठस्थाने गणे एको लघुः भवति ।</li><li>सप्तगणाः भवन्ति अन्ते गुरुः</li></ul>',
       definition_eng: 'The upagīti meter has 12, 15, 12 and 15 mātrās in its four pādas respectively.',
-      example_img: '/upaGīti .png'
+      common: 'Example: <br><br>नवगोपसुन्दरीणां रासोल्लासे मुरारातिम्।<br>अस्मारयदुपगितिः स्वर्गकुरङ्गीदृशां गीतेः॥'
     },
     {
       title_sans: 'उद्गीतिः',
@@ -903,7 +896,7 @@ export const state = () => ({
       id: '4.2.ii.II',
       definition_sans: '<p>आर्यायाः पूर्वार्धं यस्या उत्तरार्धं भवेत्, आर्याया उत्तरार्धं च यस्याः पूर्वार्धं भवेत् सा उद्गीतिः ।</p>',
       definition_eng: 'The udgīti meter has 12, 15, 12 and 18 mātrās in its four pādas respectively.',
-      example_img: '/udGīti .png'
+      common: 'Example: <br><br>नारायणस्य सन्ततमुदगीतिः संस्मृतिर्भक्त्या।<br>आर्चायामासक्तिर्दुस्तरसंसारसागरे तरणिः॥'
     },
     {
       title_sans: 'आर्यागीतिः',
@@ -911,7 +904,7 @@ export const state = () => ({
       id: '4.2.ii.III',
       definition_sans: '<p>यदि आर्यापूर्वार्धम् अवसाने एकेन अधिकेन गुरुणा युक्तं भवेत्, इतरत् द्वितीयं यदीयम् उत्तरार्धं पूर्वार्धवत् भवति सा आर्यागीतिः कथिता ।</p><p>आर्यागीत्यां तु पूर्वार्धे उत्तरार्धे उभयोरपि पूर्णा अष्टौ गणा भवन्ति । </p><p>उभयदलयोः ३२ मात्राः सन्ति ।</p>',
       definition_eng: 'The āryāgīti meter has 12, 20, 12 and 20 mātrās in its four pādas respectively.',
-      example_img: '/aryaGīti .png'
+      common: 'Example: <br><br>हर्षश्रुस्तिमितदृशः प्रमोदरोमाञ्चुकाञ्चितदेहाः।<br>आर्यागीति भक्ता गायत्नि श्रीपतेश्चरितसम्बद्धाम्॥'
     },
     {
       title_sans: 'वैतालीयछन्दस्',
@@ -919,7 +912,7 @@ export const state = () => ({
       id: '4.2.iii',
       definition_sans: '<ul><li>वैतालीये छन्दसि प्रथमे तृतीये च पादे षड् मात्राः भवन्ति तथा द्वितीये चतुर्थे च पादे अष्टौ मात्राः भवन्ति </li><li>उक्तानां कलानाम् अन्ते रगणश्च लघुश्च गुरुश्च भवन्ति </li><li>आद्यानां कलानां निवेशने नियमम् – <ul><li>समे पादे ताः षट्कलाः निरन्तराः लघवः नो स्युः ताः गुरुमिश्रिताः भवन्ति । </li><li>विषमे पादे यथेच्छं कर्तव्याः । </li></ul> </li><li>आद्यासु षट् मात्रासु विषमे पादे तथा अष्टसु मात्रासु समपादे द्वितीया चतुर्थी षष्ठी च कलाः </li> <li>तृतीयपञ्जमसप्तम्या मिलिताः न  भवन्ति । </li><li>पूर्वाश्रिता भवितुमर्हन्ति न तु पराश्रिताः । </li><li>प्रथमतृतीयपादे १४ कलाः भवन्ति </li><li>द्वितीयचतुर्थपादे १६ कलाः भवन्ति </li></ul>',
       definition_eng: '<p>The first and the third lines contain 14 mātrās in which after six mātrās the arrangement of syllables by short and long is: long-short-long-short-long. </p><p>The second and fourth lines of this metre have 16 syllabic instants in which after 8 mātrās the arrangement of syllable by short and long is: long-short-long-short-long.</p><p>The first six mātrās in the first and third lines and the first eight mātrās in the second and fourth lines can be a mixture of short or long syllables.</p>',
-      example_img: '/vaitaliya.png'
+      common: 'Example<br><br>घुसृणेन मदेन चर्चितं, तव यन्निन्दति राधिके कुचम्।<br>मुदमातनुतेऽत्र पाकिनं, तद् वैतालीयं कलं हरेः॥'
     },
     {
       title_sans: 'औपच्छन्दसिकम्',
@@ -927,7 +920,7 @@ export const state = () => ({
       id: '4.2.iii.I',
       definition_sans: '<ul><li>विषमपादयोः षण्णामन्ते तथा समपादयोः अष्टानां मात्राणाम् अन्ते यो रगणयगणौ भवतः शेषं तथैव वैतालीयवत् यदि स्यात् तदा औपच्छन्दसिकं नाम छन्दः कथितम् । </li><li>वैतालीयच्छन्दसि अन्ते यदि एको गुरुरधिको भवति तदा औपच्छन्दसिकं नाम छन्दः । </li><li>समे १८ मात्राः</li><li>विषमे १६ मात्राः</li></ul>',
       definition_eng: '<p>This chanda is exactly like that of vaitālīya but each line here has one long syllable extra at the end. </p><p>So here the first and third lines have 16 mātrās and second and fourth lines have 18 mātrās.</p>',
-      example_img: '/oupachandasikam.png'
+      common: 'Example<br>वाक्यैर्मधुरैः प्रतार्य पूर्व यः पश्चादभि सन्दधाति मित्रम्।<br>तं दुष्टमति विशिष्टगोष्ठ्यामौपच्छन्दसिकं वदन्ति बाह्या॥'
     },
     {
       title_sans: 'आपातलिका',
@@ -935,7 +928,7 @@ export const state = () => ({
       id: '4.2.iii.II',
       definition_sans: 'षण्णाम् अष्ठानां कलानाम् अन्ते भगणाद् द्वौ गुरू भवतः अन्यत् सर्वं वैतालीयवत् स्यात् आपातलिका कथिता ।',
       definition_eng: 'In this metre, one bha gaṇa and two guru-s follow after either 6 or 8 mātrās, all other characteristics are same as that of Vaitālīya metre.',
-      example_img: '/apatatilaka.png'
+      common: 'Example<br>पिङ्गलकेशी कपिलाक्षि, वाचाटा विकटोन्नतदन्ती।<br>आपातलिका पुनरेषा नृपति कुलेऽपि न भाग्यमुपैति॥'
     },
     {
       title_sans: 'दक्षिणान्तिका',
@@ -943,7 +936,7 @@ export const state = () => ({
       id: '4.2.iii.III',
       definition_sans: '<ul><li>चतुर्षु चरणेषु द्वितीया मात्रा तृतीयया संयुक्ता भवति चेत् तदा दक्षिणान्तिका नाम भवति । </li><li>वैतालीये यदा द्वितीया कला दीर्घा भवति तदा दक्षिणान्तिका छन्दो नामेति भावः ।</li></ul>',
       definition_eng: 'The characteristics of this metre are:<ul><li>In all the 4 quarters, the second and third mātrās are joint together.</li><li>Vaitālīya metre in which the second mātrā is a long syllable in all the four quarters then it is Dakṣiṇāntikā metre.</li></ul>',
-      example_img: '/dakshinantika.png'
+      common: 'Example<br>महीभजां श्रेष्ठ इत्यसो निगद्यते तैर्नीतिवेदिभिः।<br>श्रुतेन शीलेन संयतै-स्तथैव लङ्कालोचनो नृपः॥'
     },
     {
       title_sans: 'उदीच्यवृत्तिः',
@@ -951,7 +944,7 @@ export const state = () => ({
       id: '4.2.iii.IV',
       definition_sans: '<ul><li>यदा विषमयोः पादयोः द्वितीया मात्रा तृतीयया सह युक्तो भवति तदा उदीच्यवृत्तिर्नाम छन्दो भवति । </li><li>द्वितीया मात्रा प्रथम-तृतीयपादयोः दीर्घा भवति, अन्यत् सर्वं वैतालीयवत् ।</li></ul>',
       definition_eng: 'The characteristics of this metre are:<ul><li>In the first and third quarters, the second and third mātrās are joint together</li><li>Vaitālīya metre in which the second mātrā is a long syllable in the first and third quarters then it is Udicyavṛtti metre.</li></ul>',
-      example_img: '/udicyavritti.png'
+      common: 'Example<br>अवाचकमनूर्जिताक्षरं श्रुतिदुष्टं यतिदुष्टमक्रमम्।<br>प्रसादरहितं च नेष्यते, कविभिः काव्यमुदीच्यवृत्तिभिः॥'
     },
     {
       title_sans: 'प्राच्यवृत्तिः',
@@ -959,7 +952,7 @@ export const state = () => ({
       id: '4.2.iii.V',
       definition_sans: '<ul><li>समपादयोः पञ्चमो कालः चतुर्थेन लघुना युतो यदि भवति तदा प्राच्यवृत्तिः इति कथ्यते । </li><li>अत्र चतुर्थपञ्चममात्रे एकेन गुरुणा उपात्ते भवतः, अन्यत् सर्वं वैतालीयवत् भवति ।</li></ul>',
       definition_eng: 'The characteristics of this metre are:<ul><li>In the second and fourth quarters, the fourth and fifth mātrās are joint together.</li><li>Vaitālīya metre in which the fourth mātrā is a long syllable in the first and third quarters then it is Prācyavṛtti metre.</li></ul>',
-      example_img: '/pracyavritti.png'
+      common: 'Example<br>विपुलार्थसुवाचकाक्षराः कस्य नाम न हरन्ति मानसम्।<br>रसभावविशेषपेशलाः प्रच्यवृत्तिकविकाव्यसम्पदः॥'
     },
     {
       title_sans: 'प्रवृत्तकम्',
@@ -967,7 +960,7 @@ export const state = () => ({
       id: '4.2.iii.VI',
       definition_sans: '<ul><li>विषमपादे द्वितीयतृतीयमात्रायोगो भवति</li><li>समपादे  चतुर्थपञ्जममात्रासंयोगो भवति</li><li>अन्यत् सर्वं वैतालीयवत् ।</li></ul>',
       definition_eng: 'The characteristics of this metre are:<ul><li>In the first and third quarters, the second and third mātrās are joint together.</li><li>In the second and fourth quarters, the fourth and fifth mātrās are joint together.</li><li>All other characteristics are same as Vaitālīya metre.</li></ul>',
-      example_img: '/pravruttakam.png'
+      common: 'Example<br>इदं भरतवंशभू- भृता, श्रूयतां श्रुतिमनो रसायनम्।<br>पवित्रमधिकं शुभोदयं, व्यासवक्त्रकथितं प्रवृत्तकम्॥'
     },
     {
       title_sans: 'अपरान्तिका',
@@ -975,7 +968,7 @@ export const state = () => ({
       id: '4.2.iii.VII',
       definition_sans: 'यत्र चतुर्ष्वपि चरणेषु चतुर्थपञ्चममात्रयोः संयोगो दृश्यते तथा सर्वत्र षोडशमात्रता च जायते तदा अपरान्तिका नाम छन्दः',
       definition_eng: 'In all the four quarters, the fourth and fifth mātrās are joint together and all the quarters contain 16 mātrās.',
-      example_img: '/aparantika.png'
+      common: 'Example<br>स्थिरविलासनतमौक्तिकावली कमलकोमलाङ्गी मृगेक्षणा।<br>हरतिकस्यहृदयं न कामिनः सुरतकेलिकुशलाऽपरान्तिका॥'
     },
     {
       title_sans: 'चारुहासिनी',
@@ -983,7 +976,7 @@ export const state = () => ({
       id: '4.2.iii.VIII',
       definition_sans: 'सर्वेषु पादेषु –<ul><li>चतुर्दशमात्राः सन्ति</li><li>द्वितीयतृतीयमात्रयोः संयोगश्च भवति </li></ul>',
       definition_eng: 'In all the four quarters of this metre:<ul><li>there are 14 mātrās</li><li>second and third mātrās are combined together.</li></ul>',
-      example_img: '/caruhasini.png'
+      common: 'Example<br>मनाक् प्रसृतदन्तदीधितिः स्मरोल्लसित गण्डमडला।<br>कटाक्षललिता तु कामिनी मनोहरति चारुहासिनी॥'
     },
     {
       title_sans: 'वक्त्रम्',
@@ -991,7 +984,7 @@ export const state = () => ({
       id: '4.2.iv',
       definition_eng: '<ul><li>After the first syllable, there can be any gaṇa other than na gaṇa or sa gaṇa.</li><li>After the fourth syllable, there should be ya gaṇa </li><li>In the second and fourth quarters, after the first and fifth syllable there should be no ra gaṇa.</li></ul>',
       definition_sans: '<ul><li>प्रथमाक्षरात् ऊर्ध्वं नगण-सगणौ न स्याताम्, मगणादुषु कोऽपि यथेच्छं स्यात् ।</li><li>चतुर्थाक्षरात् परतः यगणः स्यात् </li><li>समपादयोः प्रथमाक्षरात् पञ्चात् रगणोऽपि न भवति</li></ul>',
-      example_img: '/vaktram.png'
+      common: 'Example<br>नवधाराम्बुसंसिक्तं वसुधागन्धिनिश्चासम्।<br>किचिदुन्नतधोणाग्रं महीकामयते वक्त्रम्॥'
     },
     {
       title_sans: 'पथ्यावक्त्रम्',
@@ -999,7 +992,7 @@ export const state = () => ({
       id: '4.2.iv.I',
       definition_sans: 'द्वितीय-चतुर्थपादयोः चतुर्थाक्षरात् परतः जगणेन युक्तं पथ्यावक्त्रं नाम वृत्तं प्रकीर्तितम् । ',
       definition_eng: 'In the second and fourth quarters after the fourth syllable there should be ja gaṇa.',
-      example_img: '/pathyavaktram.png'
+      common: 'Example<br>नित्यं नीतिनिषण्णस्य, राज्ञोराष्ट्रं न सीदति।<br>नहि पथ्याशिनः काये, जायन्ते व्याधिवेदना॥'
     },
     {
       title_sans: 'विपरीतपथ्यावक्त्रम्',
@@ -1007,7 +1000,7 @@ export const state = () => ({
       id: '4.2.iv.II',
       definition_sans: 'प्रथम-तृतीयपादयोः चतुराक्षरात् परतः जगणेन युक्ता स्यात् तदा विपरीतपथ्यावक्त्रम् । ',
       definition_eng: 'In the first and third quarters after the fourth syllable there should be ja gaṇa.',
-      example_img: '/viparitapathya.png'
+      common: 'Example<br>भर्त्तुराज्ञानुवर्तिनी, या स्त्री स्यात्सा स्थिरा लक्ष्मीः।<br>स्वप्ज्रभुत्वाऽभिमानिनी, विपरीता परित्याज्या॥'
     },
     {
       title_sans: 'चपलावक्त्रम्',
@@ -1015,7 +1008,7 @@ export const state = () => ({
       id: '4.2.iv.III',
       definition_sans: 'प्रथम-तृतीयपादयोः चतुराक्षरात् परतः यदि नगणः स्यात् तदा चपलावक्त्रं नाम वृत्तं भवति',
       definition_eng: 'In the first and third quarters after the fourth syllable there should be na gaṇa.',
-      example_img: '/capalavaktram.png'
+      common: 'Example<br>क्षीयमाणाऽग्रदशना, वक्त्रानिमसिनासाग्रा।<br>कन्यका वक्त्रचपला, लभते धूर्तसौभाग्यम्॥'
     },
     {
       title_sans: 'युग्मविपुला',
@@ -1023,7 +1016,7 @@ export const state = () => ({
       id: '4.2.iv.IV',
       definition_sans: '<ul><li>द्वितीय-चतुर्थपादयोः सप्तमः वर्णः लघुसंज्ञकः स्यात् सा युग्मविपुला कथिता ।</li><li>विशेषः – यद्यपि पथ्यानामके वृत्तेऽपि द्वितीयचतुर्थपादयोः सप्तमो वर्णो लघु भवति, तथापि तत्र जगणस्य प्राधान्यम्, अत्र तु प्राधान्ये सप्तमवर्णस्य लघुत्वं भवति ।</li><li>सैतवमुनेः मते चतुर्षु पादेषु सप्तमो वर्णो लघु भवति ।</li></ul>',
       definition_eng: '<ul><li>The seventh syllable in the second and fourth quarter is short</li><li>Even though in pathyā metre, the seventh syllable in the second and fourth quarter is short, there the importance is given to the presence of ja gaṇa, while here the seventh syllable being short is more important. </li><li>According to Saitava muni, the seventh syllable in all the quarters is short</li></ul>',
-      example_img: '/yugmavipula.png'
+      common: 'Example<br>इयं सखे चन्द्रमुखी स्मितज्योत्स्ना च मानिनी<br>इन्दीवराक्षी हृदयं दन्दहीति तथापि मे॥<br>सैतवेन पथाऽर्णवं तीर्णा दशरथात्मजः।<br>रक्षःक्षयकरीं पुनः प्रतिज्ञां स्वेन बाहुना॥'
     },
     {
       title_sans: 'भविपुला',
@@ -1031,7 +1024,7 @@ export const state = () => ({
       id: '4.2.iv.V',
       definition_sans: '<ul><li>चतुर्थाक्षरात् भगणेन संयुता चेत् तदा भविपुला भवति ।</li><li>केचन पण्डिताः सर्वेषु पादेषु स्वीकुर्वन्ति, केचित् तु विषमपादविषयेयमिति स्वीकुर्वन्ति ।</li></ul>',
       definition_eng: '<ul><li>After the fourth syllable there is bha gaṇa either in all the four quarters or in the first and third quarters.</li></ul>',
-      example_img: '/bhavipula.png'
+      common: 'Example<br>इयं सखे चन्द्रमुखी स्मितज्योत्स्ना च मानिनी।<br>इन्द्रीवराक्षी सततं दहतीति तथापि मे॥'
     },
     {
       title_sans: 'रविपुला',
@@ -1039,7 +1032,7 @@ export const state = () => ({
       id: '4.2.iv.VI',
       definition_sans: 'चतुर्थाक्षरात् रगणेन संयुता चेत् तदा रविपुला भवति ।',
       definition_eng: 'After the fourth syllable there is ra gaṇa',
-      example_img: '/ravipula.png'
+      common: 'Example<br>लक्ष्मीपति लोकनाथं रथाङ्गधरमीश्चरम्।<br>यज्ञेश्वरं शार्ङ्गपाणि प्रणमामि त्रयीतनुम्॥'
     },
     {
       title_sans: 'नविपुला',
@@ -1047,7 +1040,7 @@ export const state = () => ({
       id: '4.2.iv.VII',
       definition_sans: 'चतुर्थाक्षरात् परतः नगणेन संयुता चेत् तदा नविपुला भवति ।',
       definition_eng: 'After the fourth syllable there is na gaṇa',
-      example_img: '/navipula.png'
+      common: 'Example<br>तपः स्वाध्यायनिरतं तपस्वी वाग्विदां वरम्। <br>नारदं परिपप्रच्छ वाल्मीकिर्मुनिपुङ्गवम्॥'
     },
     {
       title_sans: 'तविपुला',
@@ -1055,7 +1048,7 @@ export const state = () => ({
       id: '4.2.iv.VIII',
       definition_sans: 'चतुर्थाक्षरात् परतः तगणेन संयुता चेत् तदा तविपुला भवति ।',
       definition_eng: 'After the fourth syllable there is ta gaṇa',
-      example_img: '/tavipula.png'
+      common: 'Example<br>सा वैदुष्ये प्रोढिर्यदि सर्वशास्त्रानुगामिनी।<br>सा शूरता श्रेष्ठा यदि सर्वशास्त्रानुगामिनी॥'
     },
     {
       title_sans: 'मात्रासमवृत्तम्',
@@ -1071,7 +1064,7 @@ export const state = () => ({
       id: '4.2.v.I',
       definition_sans: '<ul><li>षोढशलघवः वर्णाः यत्र सा अचलधृतिः ।</li><li>इमाम् अचलधृतिं पिङ्गलमुनिः गीत्यार्या नाम जातिभेदं स्वीकरोति ।</li></ul>',
       definition_eng: '<ul><li>It contains 16 short syllables</li><li>Piṅgala considers this metre as a category of gītyāryā.</li></ul>',
-      example_img: '/acaladhrti.png'
+      common: 'Example<br>मदकलखगकुलकलरवमुखरिणि।<br>विकसितसरसिजपरिमलसुरभिणि॥<br>गिरिवरपरिसरसरसि महति खलु।<br>रतिरतिशयमिह मम हृदि विलसति॥'
     },
     {
       title_sans: 'मात्रासमकम्',
@@ -1079,7 +1072,7 @@ export const state = () => ({
       id: '4.2.v.II',
       definition_sans: '<ul><li>यस्य श्लोकस्य पादे नवमः लघुः अन्तिमं (१६) गुरुः च स्यात् तद्व्रुत्तं मात्रासमकम् इत्युच्यते </li><li>षोढशमात्राः भवन्ति</li></ul>',
       definition_eng: '<p>Mātrāsamaka metre consists of four quarters each of which contains 16 syllabic instants. The most general variety of this metre is that in which the ninth syllabic instant is short and the last is long. The different varieties of this metre arise from particular syllabic instants being short or long.</p>',
-      example_img: '/matrasamaka.png'
+      common: 'Example<br>अश्मश्रुमुखो विरलैर्दन्तैर्गम्भीराक्षो मितनासाग्रः।<br>निर्मासहनुः स्फुटितैः केशैर्मात्रासमकं लभते दुःखम्॥'
     },
     {
       title_sans: 'विश्लोकवृत्तम्',
@@ -1087,7 +1080,7 @@ export const state = () => ({
       id: '4.2.v.III',
       definition_sans: '<ul><li>चतुष्कलातः पश्चात् जगणो यत्र भवति अथवा चतुर्लघुरूपो वा यत्र गणः तद् विश्लोकम् </li></li>षोढशमात्राः भवन्ति</li></ul>',
       definition_eng: '<ul><li>After the fourth syllable, there is ja gaṇa</li></li>It consists of 16 mātrās</li></ul>',
-      example_img: '/visloka.png'
+      common: 'Example<br>सद्यः पदारविन्दे मातः शान्ति तवाति सौभाग्येन।<br>लप्स्ये कदा भवानि प्रेम्णा येनात्र पूरुषो विश्लोकः॥'
     },
     {
       title_sans: 'वानवासिकावृत्तम्',
@@ -1095,7 +1088,7 @@ export const state = () => ({
       id: '4.2.v.IV',
       definition_sans: 'अष्टमात्रानन्तरं यदि जगणः चत्वारो लघुवर्णाः वा स्युः तदा वानवासिका वृत्तम् ।',
       definition_eng: 'After 8 mātrās there is ja gaṇa or four short syllables.',
-      example_img: '/vanavasika.PNG'
+      common: 'Example<br>या स्वसुखार्थं सदैव भक्त्या।<br>लोकहितार्य हरिहरमूर्ति॥'
     },
     {
       title_sans: 'चित्रा वृत्तम्',
@@ -1103,7 +1096,7 @@ export const state = () => ({
       id: '4.2.v.V',
       definition_sans: 'पञ्च, अष्टौ नव एतेषु यदि लघुः वर्णः स्यात् तदा चित्रा नाम वृत्तम् ',
       definition_eng: 'In this metre the fifth, eigth and nineth syllables are short syllables',
-      example_img: '/citra.png'
+      common: 'Example<br>यदि वाञ्च्छसि परपदमारोढुं<br>मैत्रीं परिहर सह वनिताभिः।<br>मुह्यति मुनि रपि विषयासङ्गा<br>च्चित्रा भवति हि मनसो वृत्तिः॥'
     },
     {
       title_sans: 'उपचित्रावृत्तम्',
@@ -1111,7 +1104,7 @@ export const state = () => ({
       id: '4.2.v.VI',
       definition_sans: '<ul><li>नवमे मात्रास्वरूपे दशमेन मात्रास्वरूपेण युक्ते सति उपचित्रा नाम मात्रासमकं वृत्तं भवति </li><br>अथवा<br><li>यस्मिन् छन्दसि अष्टाभ्यो मात्राभ्यः परतः भगणाद् द्वौ गुरुवर्णौ भवतः तद्वृत्तम् उपचित्रा नामकं भवति</li></ul>',
       definition_eng: '<ul><li>The nineth and tenth mātrās are combined.</li><li>After the 8th mātrā there is bha gaṇa and two long syllables. </li></ul>',
-      example_img: '/upacitra.PNG'
+      common: 'Example<br>यच्चितं गुरुसक्तमुदारं विद्याभ्यासमहाव्यसनञ्च।<br>पृथ्वी तस्य गुणै रूपचित्रा चन्द्रमरीचिनिभैर्भवतीयम्॥'
     },
     {
       title_sans: 'पादाकुलकवृत्तम्',
@@ -1119,7 +1112,7 @@ export const state = () => ({
       id: '4.2.v.VII',
       definition_sans: 'पादचतुष्टयेऽपि भिन्नभिन्नमात्रासमकवृत्तानां लक्षणैः समन्वितं, किन्तु षोढशमात्राभिर्युक्तं यद् वृत्तं तद् पादाकुलकम् ।',
       definition_eng: '<p>A mixed variety of several varieties of Mātrāsamaka metre gives rise to Pādākulaka.</p><p>In this metre there is no other restriction than that each quarter should have 16 syllabic instants.</p>',
-      example_img: '/padakulaka.JPG'
+      common: 'Example<br>यदतीतकृतविविधलक्ष्मयुतैः<br>मात्रासमादिपादैः कलितम्।<br>अनियतवृत्तपरिमाणसहितं<br>प्रथितं जगत्सु पादाकुलकम्॥'
     },
     {
       title_sans: 'शिखावृत्तम्',
@@ -1127,7 +1120,7 @@ export const state = () => ({
       id: '4.2.vi',
       definition_sans: '<ul><li>उभयदले – <ul><li>प्रथमपादे अष्टाविंशतिलघवः अन्ते एकश्च गुरुः</li><li>द्वितीयपादे ३० लघुयुक्तं अन्त्यगुरुः भवति </li></ul><li>कविप्रतिभोत्पादिता सचेतसां </li><li>चेतसश्चमत्कारकारिणी पदानां विस्तारो यत्र सा शिखा कथ्यते ।</li></ul>',
       definition_eng: '<ul><li>In both the halves – <ul><li>The first quarter contains 28 short and one long syllable in the end</li><li>The second quarter contains 30 short and one long syllable in the end</li></ul></ul>',
-      example_img: '/shikha.png'
+      common: 'Example<br>शिखिगुणितदशलघुरचितमपगतलधुयुगलमपरमिदमखिलम्।<br>सगुरुशकलयुगलकमपि सुपरिघटितललितपदवितति भवति शिखा॥'
     },
     {
       title_sans: 'खञ्जावृत्तम्',
@@ -1135,7 +1128,7 @@ export const state = () => ({
       id: '4.2.vii',
       definition_sans: '<ul><li>इदं वृत्तं शिखावृत्तस्य सर्वथा विपरीतं वर्तते ।</li><li>उभयदले – <ul><li>प्रथमपादे ३० लघुयुक्तं अन्त्यगुरुः भवति </li><li>द्वितीयपादे अष्टाविंशतिलघवः अन्ते एकश्च गुरुः</li></ul></ul>',
       definition_eng: '<ul><li>This metre is the reverse of śikhā metre.</li><li>In both the halves – <ul><li>The first quarter contains 30 short and one long syllable in the end</li><li>The second quarter contains 28 short and one long syllable in the end</li></ul></ul>',
-      example_img: '/khanja.png'
+      common: 'Example<br>विनिमयविहितशकलयुगललघुललितपदविततिरचितगुणनिचया।<br>श्रुतिसुखकृदियमपि जगति ञि जशिर उपगतवतिसति भवति खजा॥'
     },
     {
       title_sans: 'अनङ्गक्रीडावृत्तम्',
@@ -1143,7 +1136,7 @@ export const state = () => ({
       id: '4.2.viii',
       definition_sans: 'यस्य वृत्तस्य पूर्वार्धे षोढश गुरवः उत्तरार्धे ३२ लघवः स्युः सा अनङ्गक्रीडा ',
       definition_eng: 'In this metre the first half contains 16 long syllables and the second half contains 32 short syllables.',
-      example_img: '/anangakrida.png'
+      common: 'Example<br>सौम्यां दृष्टि देहि स्नेहा हे हेऽस्माकं मानं मुक्त्वा<br>शशधरमुखिमुखमपनय मम हृदि मनसिजरुजमपहर लघुतरमिह॥'
     },
     {
       title_sans: 'रुचिरावृत्तम्',
@@ -1151,12 +1144,12 @@ export const state = () => ({
       id: '4.2.ix',
       definition_sans: '<ul><li>२७ लघवो अवसाने गुरुः</li><li>अस्याः  अपरं नाम ’चलिका’ इति पिङ्गलसम्मतम् </li></ul>',
       definition_eng: 'This metre contains 27 short syllables and one long syllable in the end. It is also known as Calikā by Piṅgala.',
-      example_img: '/ruciravruttam.png'
+      common: 'Example<br>रघुकुलनलिनविकसनशशभृति दशमुखरिपुकुलतिमिर हरे।<br>विषधरविषमविषयविषहरमहसि कुरु रतिमिह दशरथतनये॥'
     },
     {
       title_sans: ' ',
       title_eng: ' ',
-      id: '4.2.x',
+      id: '',
       definition_sans: '<a href="/">Home</a>',
       definition_eng: ''
     }
