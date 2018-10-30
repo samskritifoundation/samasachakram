@@ -247,50 +247,40 @@ export const state = () => ({
           text_sans: '<h3>4. सुमुखी Sumukhī</h3><p>आदौ नगणः, ततो जगणौ, तत एको लघुः,एको गुरुः स्यात्, सा “सुमुखी” इत्युच्यते। पञ्चभिः षड्भिश्च यतिरिति सम्प्रदायः। </p><p>The arrangement of Gaṇas in each quarter of this metre is - na. two ja groups, la and ga. So here the 5th, 8th and 11th syllables of each quarter are long and others short. There is a pause after 5th and last syllable of each quarter.</p><p>Example:</p><p>तरणिसुतातटकुञ्जगृहे <br>वदनविधुस्मितदीधितिभिः । <br> तिमिरमुदस्य मुखं सुमुखी <br> हरिमवलोक्य चुचुम्ब चिरम् ॥</p>'
         },
         {
-          text_sans: '<h3>5. दोधकवृत्तम् Dodhakavṛttam</h3><p>भगणत्रयात् ऊर्ध्वे द्वौ गुरु स्यातां चेत् इदं “दोधकवृत्तम्” नाम भवति। पादन्ते यतिः।</p><p>The arrangement of Gaṇas in each quarter of this metre is - 3 bha groups and 2 ga groups. So, here the 1st, 4th, 7th, 10th and 11th syllables of each quarter are long and the others short. There is a pause after 6th and last syllable of each quarter.</p>',
-          ex_img: '/dodhaka.png'
+          text_sans: '<h3>5. दोधकवृत्तम् Dodhakavṛttam</h3><p>भगणत्रयात् ऊर्ध्वे द्वौ गुरु स्यातां चेत् इदं “दोधकवृत्तम्” नाम भवति। पादन्ते यतिः।</p><p>The arrangement of Gaṇas in each quarter of this metre is - 3 bha groups and 2 ga groups. So, here the 1st, 4th, 7th, 10th and 11th syllables of each quarter are long and the others short. There is a pause after 6th and last syllable of each quarter.</p><p>दोधकमर्थविरोधकमुग्रम्<br />स्त्रीचपलं युधि कातरचितम् ।<br />स्वार्थपरं मतिहीनममात्यं<br />मुञ्चति यः नृपतिः स सुखी स्यात् ॥</p>'
         },
         {
           text_sans: '<h3>6. शालिनी śālinī</h3><p>मगणः तगणश्च, तगणः गुरुश्च, पुनरप्येको गुरुः अर्थात् म-त-तानामुत्तरं गुरुद्वयञ्चेत् तदा “शालिनी” नाम छन्द उक्तम्। चतुर्भिः सप्तभिश्च यतिरिति शेषः।</p><p>This metre has eleven syllables in each quarter. Here except the sixth and ninth syllables of each quarter, all other syllables are long. There should be a pause after the 4th and last syllables of each quarter.<p>Example:</p>तत्कैशोरं तच्च वक्त्रारविन्दं<br>तत्कारुण्यं ते च लीलाकटाक्षाः।<br>तत्सौन्दर्यं सा च सान्द्रस्मितश्रीः<br>सत्यं सत्यं दुर्लभं दैवतेऽपि॥<br>केयं कान्तिः केशव त्वन्मुखेन्दोः<br>कोऽयं वेषः कापि वाचामभूमिः। <br>सेयं सेयं स्वादुता मञ्जुलश्रीः<br> भूयो भूयो भूयशस्त्वां नमामि॥<br>'
         },
         {
-          text_sans: '<h3>7. वातोर्मी Vātormī</h3><p>मगणः भगणश्च, तगणः गुरुश्च, पुनरप्येको गुरुश्चेत्, इयम् “वातोर्मी” उच्यते। यतिः शालिनीवत्।</p><p>The arrangement of Gaṇas in each quarter of this metre is - ma, bha, ta and two ga groups. The 5th, 6th and 9th syllables of each quarter are short and the others long. There is a pause after 4th and last syllable of each quarter.</p>',
-          ex_img: '/vatormi.png'
+          text_sans: '<h3>7. वातोर्मी Vātormī</h3><p>मगणः भगणश्च, तगणः गुरुश्च, पुनरप्येको गुरुश्चेत्, इयम् “वातोर्मी” उच्यते। यतिः शालिनीवत्।</p><p>The arrangement of Gaṇas in each quarter of this metre is - ma, bha, ta and two ga groups. The 5th, 6th and 9th syllables of each quarter are short and the others long. There is a pause after 4th and last syllable of each quarter.</p><p>यात्युत्सेकं सपदि प्राप्य किञ्चित्<br />स्याद्वा यस्याश्चपला चित्तवृत्तिः ।<br />या दीर्घाङ्गी स्फुटशब्दाट्टहासा-<br />त्याज्या सा स्त्री द्रुतवातोर्मिमाला ॥</p>'
         },
         {
-          text_sans: '<h3>8. श्रीः śrīḥ </h3><p>भगण- तगण- नगणैः द्वाभ्यां गुरुभ्याञ्च “श्रीः” नाम छन्दः। पञ्चभिः षड्भिश्च यतिः।</p><p>The arrangement of Gaṇas in each quarter of this metre is - bha, ta, na and two ga groups. There is a pause after 5th and last syllable of each quarter.</p>',
-          ex_img: '/shri.png'
+          text_sans: '<h3>8. श्रीः śrīḥ </h3><p>भगण- तगण- नगणैः द्वाभ्यां गुरुभ्याञ्च “श्रीः” नाम छन्दः। पञ्चभिः षड्भिश्च यतिः।</p><p>The arrangement of Gaṇas in each quarter of this metre is - bha, ta, na and two ga groups. There is a pause after 5th and last syllable of each quarter.</p><p>शोभनवर्णा सुविशदजातिः<br />सुक्रमराजद्गुरुलघुयुक्ता ।<br />सद्यति रम्या बुधहृदि छन्दो<br />मौक्तिकमाला विलसति हृद्या ॥</p>'
         },
         {
-          text_sans: '<h3>9. भ्रमरविलसिता Bhramaravilasitā</h3><p>मगणभगणौ, नगणलघू, अन्ते गुरुश्चैकश्चेत् सा भ्रमरविलसिता इत्युच्यते। चतुर्भिः, सप्तभिश्च यतिरित्याम्नायः। </p><p>The arrangement of Gaṇas in each quarter of this metre is - ma, ga, two na and ga. So here the 1st, 2nd, 3rd, 4th and 11th syllables of each quarter are long and the others short. There is a pause after 4th and last syllable of each quarter.</p>',
-          ex_img: '/bhramara.png'
+          text_sans: '<h3>9. भ्रमरविलसिता Bhramaravilasitā</h3><p>मगणभगणौ, नगणलघू, अन्ते गुरुश्चैकश्चेत् सा भ्रमरविलसिता इत्युच्यते। चतुर्भिः, सप्तभिश्च यतिरित्याम्नायः। </p><p>The arrangement of Gaṇas in each quarter of this metre is - ma, ga, two na and ga. So here the 1st, 2nd, 3rd, 4th and 11th syllables of each quarter are long and the others short. There is a pause after 4th and last syllable of each quarter.</p><p>मुग्धे मानं परिहर नचिरात्<br />तारुण्यं ते सफलयतु हरिः ।<br />फुल्ला वल्ली भ्रमरविलसिता<br />अभावे शोभां कलयति किमु ताम् ॥</p>'
         },
         {
-          text_sans: '<h3>10. रथोद्धता Rathoddhatā</h3><p>रगणात् नगणरगणौ स्याताम्, एको लघुः, एको गुरुश्चेत्, छन्दःशास्त्रे “रथोद्धता” नाम । पादे यतिः ।</p><p>This metre has 11 syllables of one <em>ra</em> group, one <em>na</em> group, one <em>ra</em> group, one <em>la</em> group and one <em>ga</em> group in each quarter. Here the 1st, 3rd, 7th, 9th and 11th syllables of each quarter are long and others short. There should be a pause after the 3rd and last syllables of each quarter.</p><p>Example:</p><p>धेनुपालदयितास्तनस्थली-<br>धन्यकुङ्कुमसनाथकान्तये।<br>वेणुगीतगतिमूलवेधसे<br>ब्रह्मराशिमहसे नमो नमः</p>'
+          text_sans: '<h3>10. रथोद्धता Rathoddhatā</h3><p>रगणात् नगणरगणौ स्याताम्, एको लघुः, एको गुरुश्चेत्, छन्दःशास्त्रे “रथोद्धता” नाम । पादे यतिः ।</p><p>This metre has 11 syllables of one <em>ra</em> group, one <em>na</em> group, one <em>ra</em> group, one <em>la</em> group and one <em>ga</em> group in each quarter. Here the 1st, 3rd, 7th, 9th and 11th syllables of each quarter are long and others short. There should be a pause after the 3rd and last syllables of each quarter.</p><p>Example:</p><p>धेनुपालदयितास्तनस्थली-<br>धन्यकुङ्कुमसनाथकान्तये।<br>वेणुगीतगतिमूलवेधसे<br>ब्रह्मराशिमहसे नमो नमः</p><p>किं त्वया सुभटदूरवर्जितं<br />नात्मनो न सुहृदां प्रियं कृतम् ।<br />यत्पलायनपरायणस्य ते<br />याति घूलिरधुना रथोद्धता ॥</p>'
         },
         {
-          text_sans: '<h3>11. स्वागता Svāgatā</h3><p>रगण- नगण- भगणेभ्यः परं गुरुद्वयं चेत् सा “स्वागता” ज्ञेया । पादे यतिः।</p><p>The arrangement of Gaṇas in each quarter of this metre is - ra, na, bha and two ga groups. The 1st, 3rd, 7th, 10th and 11th syllables of each quarter are long and the others short. There is a pause after 3rd and last syllable of each quarter.</p>',
-          ex_img: '/svagata.png'
+          text_sans: '<h3>11. स्वागता Svāgatā</h3><p>रगण- नगण- भगणेभ्यः परं गुरुद्वयं चेत् सा “स्वागता” ज्ञेया । पादे यतिः।</p><p>The arrangement of Gaṇas in each quarter of this metre is - ra, na, bha and two ga groups. The 1st, 3rd, 7th, 10th and 11th syllables of each quarter are long and the others short. There is a pause after 3rd and last syllable of each quarter.</p><p>रत्नभङ्गविमलैर्गुणतुङ्गै-<br />रर्थिनामभिमतार्पणसक्तैः ।<br />स्वागताभिमुखनम्रशिरस्कैः<br />जीव्यते जगति साधुभिरेव ॥</p>'
         },
         {
-          text_sans: '<h3>12. वृत्ता Vṛttā</h3><p>यदि द्वौ नगणौ, एकः सगणः, द्वौ गुरु, एतैः रचिता “वृत्ता” सा उच्यते । चतुर्भिः सप्तभिश्च यतिः। अस्यैव छन्दसो “वृत्तम्” इति नामान्तरम्। </p><p>The arrangement of Gaṇas in each quarter of this metre is - 2 na groups, sa, two ga groups. There is a pause after 4th and last syllable of each quarter.</p>',
-          ex_img: '/vṛtta.png'
+          text_sans: '<h3>12. वृत्ता Vṛttā</h3><p>यदि द्वौ नगणौ, एकः सगणः, द्वौ गुरु, एतैः रचिता “वृत्ता” सा उच्यते । चतुर्भिः सप्तभिश्च यतिः। अस्यैव छन्दसो “वृत्तम्” इति नामान्तरम्। </p><p>The arrangement of Gaṇas in each quarter of this metre is - 2 na groups, sa, two ga groups. There is a pause after 4th and last syllable of each quarter.</p><p>द्विजगुरुपतिभवकारी यो<br />नरपतिरतिधनलुब्धात्मा ।<br />ध्रुवमिहनिपतति पापाऽसौ<br />फलमिह पवनहतं वृत्तात् ॥</p>'
         },
         {
-          text_sans: '<h3>13. भद्रिका Bhadrikā</h3><p>द्वाभ्यां नगणाभ्याम् एकेन रगणेन, एकेन च गुरुणा “भद्रिका” नाम भवति । पादे यतिः।</p><p>The arrangement of Gaṇas in each quarter of this metre is - two na, one ra, one ga. There is a pause at the end of each quarter.</p>',
-          ex_img: '/bhadrika.png'
+          text_sans: '<h3>13. भद्रिका Bhadrikā</h3><p>द्वाभ्यां नगणाभ्याम् एकेन रगणेन, एकेन च गुरुणा “भद्रिका” नाम भवति । पादे यतिः।</p><p>The arrangement of Gaṇas in each quarter of this metre is - two na, one ra, one ga. There is a pause at the end of each quarter.</p><p>सकलदुरितनाशकारिणी<br />मदभिलषितकामपूरिणी ।<br />भगवति तव मूर्तिरेकिका <br />मम मनसि सदास्तु भद्रिका ॥</p>'
         },
         {
-          text_sans: '<h3>14. श्येनिका śyenikā </h3><p>रगणजगणौ रगण लघू अर्थात् एको रगणः, एको लघुः, एकश्च गुरुः स्यात् तदा “श्येनिका” इत्युच्यते। श्येनिका । पादे यतिः।</p><p>The arrangement of Gaṇas in each quarter of this metre is - ra, ja, ra, la and ga. The 1st, 3rd, 5th, 7th, 9th and 11th syllables of each quarter are long and the others short. There is a pause at the end of each quarter.</p>',
-          ex_img: '/shyenika.png'
+          text_sans: '<h3>14. श्येनिका śyenikā </h3><p>रगणजगणौ रगण लघू अर्थात् एको रगणः, एको लघुः, एकश्च गुरुः स्यात् तदा “श्येनिका” इत्युच्यते। श्येनिका । पादे यतिः।</p><p>The arrangement of Gaṇas in each quarter of this metre is - ra, ja, ra, la and ga. The 1st, 3rd, 5th, 7th, 9th and 11th syllables of each quarter are long and the others short. There is a pause at the end of each quarter.</p><p>क्रूरदृष्टिरायताग्रनासिका<br />चञ्चलाकठोरतीक्ष्णनादिनी ।<br />युद्धकाङ्क्षिणी सदाऽऽमिषप्रिया<br />श्येनिकेव सा विगर्हितानना ॥</p>'
         },
         {
-          text_sans: '<h3>15. मौक्तिकमाला Mouktikamālā</h3><p>भगण-तगण- नगणात् परं द्वौ गुरु स्यातां तदा “मौक्तिकमाला” भवति । पञ्चभिः षड्भिश्च यतिः ।</p><p>The arrangement of Gaṇas in each quarter of this metre is -bha, ta, na and two ga groups. There is a pause after 5th and last syllable of each quarter.</p>',
-          ex_img: '/mouktika.png'
+          text_sans: '<h3>15. मौक्तिकमाला Mouktikamālā</h3><p>भगण-तगण- नगणात् परं द्वौ गुरु स्यातां तदा “मौक्तिकमाला” भवति । पञ्चभिः षड्भिश्च यतिः ।</p><p>The arrangement of Gaṇas in each quarter of this metre is -bha, ta, na and two ga groups. There is a pause after 5th and last syllable of each quarter.</p><p>This metre is same as śrī metre. Therefore refer the example of śrī.</p>'
         },
         {
-          text_sans: '<h3>16. उपस्थितम् Upasthitam</h3><p>जगणसगणौ, ततः तगणात् परं द्वौ गुरु स्यातां चेत् तदा “उपस्थितम्” इत्युच्यते छन्दः। पादे यतिः । </p><p>The arrangement of Gaṇas in each quarter of this metre is - ja, sa, ta and two ga groups. There is a pause at the end of each quarter.</p>',
-          ex_img: '/upasthita.PNG'
+          text_sans: '<h3>16. उपस्थितम् Upasthitam</h3><p>जगणसगणौ, ततः तगणात् परं द्वौ गुरु स्यातां चेत् तदा “उपस्थितम्” इत्युच्यते छन्दः। पादे यतिः । </p><p>The arrangement of Gaṇas in each quarter of this metre is - ja, sa, ta and two ga groups. There is a pause at the end of each quarter.</p><p>जगज्जननो विद्वच्चित्तसंस्थे<br />समग्रजडतानाशैकदक्षे ।<br />सनाथय तव द्वारस्य मध्ये<br />उपस्थितमपाङ्गालोकनेन ॥</p>'
         }
       ]
     },
@@ -304,83 +294,76 @@ export const state = () => ({
       types: 24,
       type: [
         {
-          text_sans: '<h3>1. चन्द्रवर्त्म Candravartma</h3><p>रगण- नगण- भगण- सगणैः कृत्वा “चन्द्रवर्त्म” नाम छन्दो कथितम् । चतुर्भिरष्टभिश्च यतिः।</p><p>The arrangement of Gaṇas in each quarter of this metre is - ra, na, bha and sa. There is a pause after 4th and last syllable of each quarter.</p>',
-          ex_img: '/candravartma.png'
+          text_sans: '<h3>1. चन्द्रवर्त्म Candravartma</h3><p>रगण- नगण- भगण- सगणैः कृत्वा “चन्द्रवर्त्म” नाम छन्दो कथितम् । चतुर्भिरष्टभिश्च यतिः।</p><p>The arrangement of Gaṇas in each quarter of this metre is - ra, na, bha and sa. There is a pause after 4th and last syllable of each quarter.</p>चन्द्रवर्त्म विहितं घनतिमिरैः<br />राजवर्त्म रहितं जनगमनैः ।<br />दृष्टवर्त्म तदलङ्कुरु सरसे<br />कुञ्चवर्त्मनि हरिस्तव कुतुकी ॥</p>'
         },
         {
-          text_sans: '<h3>2. वंशस्थं vaṃśasthaṃ</h3><p>जगणतगणौ जगणरगणौ स्याताम् तदा "वंशस्थं" नाम छन्द उक्तम्। पादे यतिः।</p><p>The 1st, 3rd, 6th, 7th, 9th and 11th syllables of each quarter of this metre are short and the others long. There should be a pause after the 5th and last syllables of each quarter.</p><p>The arrangement of Gaṇas in each quarter of this metre is - ja, ta, ja and ra. There is a pause after 5th and last syllable of each quarter.</p>',
-          ex_img: '/vamshastham.png'
+          text_sans: '<h3>2. वंशस्थं vaṃśasthaṃ</h3><p>जगणतगणौ जगणरगणौ स्याताम् तदा "वंशस्थं" नाम छन्द उक्तम्। पादे यतिः।</p><p>The 1st, 3rd, 6th, 7th, 9th and 11th syllables of each quarter of this metre are short and the others long. There should be a pause after the 5th and last syllables of each quarter.</p><p>The arrangement of Gaṇas in each quarter of this metre is - ja, ta, ja and ra. There is a pause after 5th and last syllable of each quarter.</p><p>जनस्य तीव्रातपजार्तिवारणा<br />जयन्ति सन्तः सततं समुन्नताः ।<br />सितातप्त्रप्रतिमा विभान्ति ये<br />विशाल वंशस्थतया गुणोचिताः॥</p>'
         },
         {
-          text_sans: '<h3>3. इन्द्रवंशाः indravaṃśāḥ</h3><p>तगण- तगण- जगणैः, अन्ते रगणोपेतैः तदा “इन्द्रवंशाः” नाम छन्दः स्यात्। पादे यतिः।</p><p>The arrangement of Gaṇas in each quarter of this metre is - two ta groups, one ja and one ra. There is a pause after 5th and last syllable of each quarter.</p>',
-          ex_img: '/indravamsha.png'
+          text_sans: '<h3>3. इन्द्रवंशाः indravaṃśāḥ</h3><p>तगण- तगण- जगणैः, अन्ते रगणोपेतैः तदा “इन्द्रवंशाः” नाम छन्दः स्यात्। पादे यतिः।</p><p>The arrangement of Gaṇas in each quarter of this metre is - two ta groups, one ja and one ra. There is a pause after 5th and last syllable of each quarter.</p><p>कुर्वीत यो देवगुरुद्विजन्मना-<br />मुर्वीपतिः पालनमर्थलिप्सया ।<br />तस्येन्द्रवंशेऽपि गृहीतजन्मनः<br />सञ्जायते श्रीः प्रतिकूलवर्तिनी ॥<br /></p>'
         },
         {
-          text_sans: '<h3>4. तोटकम् Toṭakam</h3><p>चतुर्भिः सगणैः “तोटकम्” नाम छन्दः प्रसिद्धम्। पादे यतिः।</p><p>The 1st, 2nd, 4th, 5th, 7th, 8th, 10th and 11th syllables of each quarter of this metre are short and others long. There should be a pause after the 4th, 8th and last syllables of each quarter.</p>'
+          text_sans: '<h3>4. तोटकम् Toṭakam</h3><p>चतुर्भिः सगणैः “तोटकम्” नाम छन्दः प्रसिद्धम्। पादे यतिः।</p><p>The 1st, 2nd, 4th, 5th, 7th, 8th, 10th and 11th syllables of each quarter of this metre are short and others long. There should be a pause after the 4th, 8th and last syllables of each quarter.</p><p>त्यज तोटकमर्थनियोगकरं<br />प्रमदाधिकृतं व्यसनोपहतम् ।<br />उपधाभिरशुद्धमतिं सचिवं<br />नरनायक ! भीरुकमायुधिकम् ॥<br /></p>'
         },
         {
-          text_sans: '<h3>5. द्रुतविलम्बितम् Drutavilambitam</h3><p>नगण-भगणौ, भगण,-रगणौ चेद् भवेताम् तदा “द्रुतविलम्बितम्” नाम । पादे यतिः।</p><p>The arrangement of Gaṇas in each quarter of this metre is - na, two bha groups, and one ra group. There is a pause after 4th, 8th and last syllable of each quarter.</p>',
-          ex_img: '/drutavilambita.png'
+          text_sans: '<h3>5. द्रुतविलम्बितम् Drutavilambitam</h3><p>नगण-भगणौ, भगण,-रगणौ चेद् भवेताम् तदा “द्रुतविलम्बितम्” नाम । पादे यतिः।</p><p>The arrangement of Gaṇas in each quarter of this metre is - na, two bha groups, and one ra group. There is a pause after 4th, 8th and last syllable of each quarter.</p><p>यदि भजेत गुरोः पदपङ्कजं<br />क्लमहरं भवरोगमहौषधम् ।<br />अथ नरः परं पदमर्जयेत्<br />जठरघाजठरं न विशेत्पुनः॥<br /></p>'
         },
         {
-          text_sans: '<h3>6. पुटः Puṭaḥ</h3><p>द्वौ नगणौ, मगणयगणौ चेत्, अयम् “पुट” इति नामोच्यते । अष्टभिः चतुर्भिश्च विरामो ।</p><p>The arrangement of Gaṇas in each quarter of this metre is - two na groups, one ma and ya group. There is a pause after 8th and last syllable of each quarter.</p>',
-          ex_img: '/puta.png'
+          text_sans: '<h3>6. पुटः Puṭaḥ</h3><p>द्वौ नगणौ, मगणयगणौ चेत्, अयम् “पुट” इति नामोच्यते । अष्टभिः चतुर्भिश्च विरामो ।</p><p>The arrangement of Gaṇas in each quarter of this metre is - two na groups, one ma and ya group. There is a pause after 8th and last syllable of each quarter.</p><p>त्यज! दूरत एव शठं मनुजं<br />परवित्तहरं निजकार्यकरम्।<br />भज! सधु नरं परया दयया<br />सहितं स्वहितं यदि वाञ्छसि शम् ॥<br /></p>'
         },
         {
-          text_sans: '<h3>7. प्रमुदितवदना Pramuditavadanā</h3><p>द्वौ नगणौ, द्वौ रगणौ च स्याताम् तदा “प्रमुदितवदना” नाम छन्दो भवेत्। पादे यतिः। इयं काचित् “चञ्चलाक्षिका” क्वचित् “मन्दाकिनी” इत्युक्ता। </p><p>The arrangement of Gaṇas in each quarter of this metre is - two na groups, two ra groups. There is a pause at the end of each quarter.</p>',
-          ex_img: '/pramuditavadana.png'
+          text_sans: '<h3>7. प्रमुदितवदना Pramuditavadanā</h3><p>द्वौ नगणौ, द्वौ रगणौ च स्याताम् तदा “प्रमुदितवदना” नाम छन्दो भवेत्। पादे यतिः। इयं काचित् “चञ्चलाक्षिका” क्वचित् “मन्दाकिनी” इत्युक्ता। </p><p>The arrangement of Gaṇas in each quarter of this metre is - two na groups, two ra groups. There is a pause at the end of each quarter.</p>बलिदमनविधौ बभौ संगता<br />पदजलरुहि यस्यमन्दाकिनी ।<br />सुरनिहितसिताम्बुजस्रद्निभा<br />हरतु जगदघानि पीताम्बरः॥<br />'
         },
         {
-          text_sans: '<h3>8. कुसुमविचित्रा Kusumavicitrā</h3><p>नगणयगणसहितौ नगणयगणौ अर्थात् पूर्वे नगणः, ततो यगणः, पुनर्नगणः, पुनरेकः यगणः स्यात् सा “कुसुमविचित्रा” इत्युच्यते ।</p><p>The arrangement of Gaṇas in each quarter of this metre is - na, ya, na, ya. </p>',
-          ex_img: '/kusumavicitra.png'
+          text_sans: '<h3>8. कुसुमविचित्रा Kusumavicitrā</h3><p>नगणयगणसहितौ नगणयगणौ अर्थात् पूर्वे नगणः, ततो यगणः, पुनर्नगणः, पुनरेकः यगणः स्यात् सा “कुसुमविचित्रा” इत्युच्यते ।</p><p>The arrangement of Gaṇas in each quarter of this metre is - na, ya, na, ya. </p>विगलितहारासकुसुममाला<br>सचरणलाक्षाव्लयसुलक्षा ।<br>विरचितवेशं सुरतविशेषं<br>कथयति शय्या कुसुमविचित्रा ॥'
         },
         {
-          text_sans: '<h3>9. जलोद्धतगतिः Jaloddhatagatiḥ</h3><p>जगण-सगण-जगण-सगणा यत्र सा एवंभूता “जलोद्धतगतिः” नाम । षड्भिः षड्भिर्यतिमती ।</p><p>The arrangement of Gaṇas in each quarter of this metre is - ja, sa, ja, sa. There is a pause after 6th and last syllable of each quarter.</p>'
+          text_sans: '<h3>9. जलोद्धतगतिः Jaloddhatagatiḥ</h3><p>जगण-सगण-जगण-सगणा यत्र सा एवंभूता “जलोद्धतगतिः” नाम । षड्भिः षड्भिर्यतिमती ।</p><p>The arrangement of Gaṇas in each quarter of this metre is - ja, sa, ja, sa. There is a pause after 6th and last syllable of each quarter.</p>भनक्ति समरे बहूनापि रिपून्<br>हरिः प्रभुरसौ, भुजोर्जितबलः।<br>जलोद्धतगतिर्यथैव मकर-<br>स्तनरङ्गनिकरं करेण परितः॥'
         },
         {
-          text_sans: '<h3>10. भुजङ्गप्रयातं bhujaṅgaprayātaṃ</h3><p>चतुर्भिः यकारैः “भुजङ्गप्रयातं” नाम छन्दो भवेत्। अत्र पादान्ते यतिः। षड्भिः षड्भिश्च यतिरिति वदन् सम्प्रदायविरोधी । एकदेशी वा स्यात्।</p><p>The 1st, 4th, 7th and 10th syllables of each quarter of this metre are short and the others long. There should be a pause after the 6th and last syllables of each quarter.</p>'
+          text_sans: '<h3>10. भुजङ्गप्रयातं bhujaṅgaprayātaṃ</h3><p>चतुर्भिः यकारैः “भुजङ्गप्रयातं” नाम छन्दो भवेत्। अत्र पादान्ते यतिः। षड्भिः षड्भिश्च यतिरिति वदन् सम्प्रदायविरोधी । एकदेशी वा स्यात्।</p><p>The 1st, 4th, 7th and 10th syllables of each quarter of this metre are short and the others long. There should be a pause after the 6th and last syllables of each quarter.</p>पुरः साधुवद्भाति मिथ्याविनीतः<br>परोक्षे करोत्यर्थनाशं हताशः।<br>भुजङ्गप्रतापोपमं यस्य चित्तं<br>त्यजेत्तादृशं दुश्चरित्रं कुमित्रम्॥'
         },
         {
-          text_sans: '<h3>11. स्रग्विणी sragviṇī</h3><p>चतुर्भिः अर्थात् चत्वारो रगणा एव सन्ति सा “स्रग्विणी” नाम सम्मता । इह शास्त्र इति शेषः। पादे यतिः।</p><p>The arrangement of Gaṇas in each quarter of this metre is -4 ra groups. There is a pause after last syllable of each quarter.</p>'
+          text_sans: '<h3>11. स्रग्विणी sragviṇī</h3><p>चतुर्भिः अर्थात् चत्वारो रगणा एव सन्ति सा “स्रग्विणी” नाम सम्मता । इह शास्त्र इति शेषः। पादे यतिः।</p><p>The arrangement of Gaṇas in each quarter of this metre is -4 ra groups. There is a pause after last syllable of each quarter.</p>यो रणे युध्यते निर्भर निर्मय-<br>स्त्यागिता यस्य सर्वस्वदानावधिः।<br>तं नरं वीक्ष लक्ष्मीर्यशः स्रग्विणी<br>ननमभ्येति सत्कीर्त्तिशुक्लांशुक्का॥'
         },
         {
-          text_sans: '<h3>12. प्रियंवदा priyaṃvadā</h3><p>नगण- भगण- जगण- रगणैः लोके “प्रियंवदा” नाम छन्दो भवेत्। पादे यतिः।</p><p>The arrangement of Gaṇas in each quarter of this metre is - na, bha, ja, ra. There is a pause at the end of each quarter.</p>'
+          text_sans: '<h3>12. प्रियंवदा priyaṃvadā</h3><p>नगण- भगण- जगण- रगणैः लोके “प्रियंवदा” नाम छन्दो भवेत्। पादे यतिः।</p><p>The arrangement of Gaṇas in each quarter of this metre is - na, bha, ja, ra. There is a pause at the end of each quarter.</p>भवति यस्य भवने प्रियंवदा<br>सकलकृत्यकरणे कुशाग्रधीः।<br>रतिषु चाटुवचसां विलासिनी<br>फलति जन्म ननु तस्य हासिनी॥'
         },
         {
-          text_sans: '<h3>13. मणिमाला maṇimālā</h3><p>अर्थात् तगण-यगण-तगणयगणाश्चेत् स्युः सा “मणिमाला” नाम उच्यते। षड्भिः षड्भिश्च यतिः।</p><p>The arrangement of Gaṇas in each quarter of this metre is - ta, ya, ta, ya. There is a pause after 6th and last syllable of each quarter.</p>'
+          text_sans: '<h3>13. मणिमाला maṇimālā</h3><p>अर्थात् तगण-यगण-तगणयगणाश्चेत् स्युः सा “मणिमाला” नाम उच्यते। षड्भिः षड्भिश्च यतिः।</p><p>The arrangement of Gaṇas in each quarter of this metre is - ta, ya, ta, ya. There is a pause after 6th and last syllable of each quarter.</p><p>प्रह्वामरमौलै,  रत्नोपरुक्लृप्ते<br>जातप्रतिबिम्बा शोणा मणिमाला ।<br>गोविन्दपादाब्जे, राजी नखराणा-<br>मास्तां मम चित्ते, ध्वान्तं शमयन्ती॥</p>'
         },
         {
-          text_sans: '<h3>14. ललिता Lalitā</h3><p>तगण- भगणौ, जगण- रगणौ च स्याताम्, सा पण्डितैः “ललिता” नाम कथिता । पादान्ते यति ।</p><p>The arrangement of Gaṇas in each quarter of this metre is - ta, bha, ja, ra. There is a pause at the end of each quarter.</p>'
+          text_sans: '<h3>14. ललिता Lalitā</h3><p>तगण- भगणौ, जगण- रगणौ च स्याताम्, सा पण्डितैः “ललिता” नाम कथिता । पादान्ते यति ।</p><p>The arrangement of Gaṇas in each quarter of this metre is - ta, bha, ja, ra. There is a pause at the end of each quarter.</p>नेत्रे विशालसुषमा कुचे घना<br>पाणौ सरोजरुचिरङ्घ्रियुग्मके।<br>मध्येसुसाम्यमतु बिभर्ति या<br>धीरैरभाणि ललिता नितम्बिनी॥'
         },
         {
-          text_sans: '<h3>15. मौक्तिकदाम Mouktikadāma</h3><p>यदि पादे चत्वारो जगणाः तदा इह “मौक्तिकदाम” चन्दो भवति । पादे यतिः।</p><p>The arrangement of Gaṇas in each quarter of this metre is - 4 ja groups. There is a pause at the end of each quarter.</p>'
+          text_sans: '<h3>15. मौक्तिकदाम Mouktikadāma</h3><p>यदि पादे चत्वारो जगणाः तदा इह “मौक्तिकदाम” चन्दो भवति । पादे यतिः।</p><p>The arrangement of Gaṇas in each quarter of this metre is - 4 ja groups. There is a pause at the end of each quarter.</p>न यस्य भवेदिह मौक्तिकदाम<br>न रजति तस्य भवे ननु नाम<br>अये ! कुरु यत्नकमर्थधाम<br>मुधैव कुतो रटसि प्रभुनाम॥'
         },
         {
-          text_sans: '<h3>16. विभावरी Vibhāvarī</h3><p>यत्र जगणरगणौ पुनः जगणरगणौ स्याताम्, सा “विभावरी” नाम छन्दः। पादे यतिः। षट्सु २ वेति केचित् । अस्यैव “स्वमोचचामरम्” इति “सञ्ज्ञान्तरम्”।</p><p>The arrangement of Gaṇas in each quarter of this metre is - ja, ra, ja, ra. There is a pause at the end of each quarter.</p>'
+          text_sans: '<h3>16. विभावरी Vibhāvarī</h3><p>यत्र जगणरगणौ पुनः जगणरगणौ स्याताम्, सा “विभावरी” नाम छन्दः। पादे यतिः। षट्सु २ वेति केचित् । अस्यैव “स्वमोचचामरम्” इति “सञ्ज्ञान्तरम्”।</p><p>The arrangement of Gaṇas in each quarter of this metre is - ja, ra, ja, ra. There is a pause at the end of each quarter.</p>अशेषपापशोधकाग्र्यगण्यकं<br>श्रुतिस्मृतिप्रसिद्धिसिद्धिधन्यकम्।<br>शिवेति नाम तारकं विभावरी<br>विनास्य कीर्त्तनं सृतिर्महाभया॥'
         },
         {
-          text_sans: '<h3>17. प्रमिताक्षरा pramitākṣarā</h3><p>सगण- जगण -सगण- सगणैः “प्रमिताक्षरा” कथिता । पादे यतिः।</p><p>The arrangement of Gaṇas in each quarter of this metre is - sa, ja, sa, ja. There is a pause at the end of each quarter.</p>'
+          text_sans: '<h3>17. प्रमिताक्षरा pramitākṣarā</h3><p>सगण- जगण -सगण- सगणैः “प्रमिताक्षरा” कथिता । पादे यतिः।</p><p>The arrangement of Gaṇas in each quarter of this metre is - sa, ja, sa, ja. There is a pause at the end of each quarter.</p>प्रमिताक्षरा सुनयना रुचिरा<br>पतिभावपूर्ण-हृदया विशदा ।<br>गृहनित्यकृत्यकरणे चतुरा<br>चतुराननोपि विजितोस्ति तया॥'
         },
         {
-          text_sans: '<h3>18. उज्ज्वला Ujjvalā</h3><p>नगण- नगण- भगण- रगणयुता “उज्ज्वला” नाम कथिता । पादे यतिः।</p><p>The arrangement of Gaṇas in each quarter of this metre is - na, na, bha, ra. There is a pause at the end of each quarter.</p>'
+          text_sans: '<h3>18. उज्ज्वला Ujjvalā</h3><p>नगण- नगण- भगण- रगणयुता “उज्ज्वला” नाम कथिता । पादे यतिः।</p><p>The arrangement of Gaṇas in each quarter of this metre is - na, na, bha, ra. There is a pause at the end of each quarter.</p>अयि ! निजहितवर्त्तनकामिनः।<br>श्रृणुत मम नराः! वचनं महत्।<br>परिणयत महाकुलसृतिका<br>वरतनुमिह शान्तिमहोज्वलाम्॥'
         },
         {
-          text_sans: '<h3>19. वैश्वदेवी vaiśvadevī</h3><p>द्वौ मगणौ, द्वौ च यगणौ स्याताम् तदा पञ्चभिः यतिमति “वैश्वदेवी’ नाम छन्दः। </p><p>The arrangement of Gaṇas in each quarter of this metre is - 2 ma groups and 2 ya groups. </p>'
+          text_sans: '<h3>19. वैश्वदेवी vaiśvadevī</h3><p>द्वौ मगणौ, द्वौ च यगणौ स्याताम् तदा पञ्चभिः यतिमति “वैश्वदेवी’ नाम छन्दः। </p><p>The arrangement of Gaṇas in each quarter of this metre is - 2 ma groups and 2 ya groups. </p>अर्चामन्येषां, त्वं विहायामराणा-<br>मद्वैतेनैक,विष्णुमभ्यर्च्य भक्त्या।<br>तत्राशेषात्म, न्यर्चिते भाविनी <br>ते भ्रातः! सम्पन्नाराधना वैश्वदेवी॥'
         },
         {
-          text_sans: '<h3>20. जलधरमाला Jaladharamālā</h3><p>मगण-भगणौ, सगण-मगणौ च चेत् स्याताम् सा “जलधरमाला” नाम । चतुर्भिः, अष्टभिश्च पदयतिः। इयमेव “कान्तोत्पीडा” इति ज्ञेयम्</p><p>The arrangement of Gaṇas in each quarter of this metre is - ma, bha, sa, ma. There is a pause after 4th and 8th syllable of each quarter.</p>'
+          text_sans: '<h3>20. जलधरमाला Jaladharamālā</h3><p>मगण-भगणौ, सगण-मगणौ च चेत् स्याताम् सा “जलधरमाला” नाम । चतुर्भिः, अष्टभिश्च पदयतिः। इयमेव “कान्तोत्पीडा” इति ज्ञेयम्</p><p>The arrangement of Gaṇas in each quarter of this metre is - ma, bha, sa, ma. There is a pause after 4th and 8th syllable of each quarter.</p>या भक्तानां, कलिदुरितोत्तप्तानां<br>तापच्छेदं जलधरमाला नव्या ।<br>भव्याकारा, दिनकरपुत्रीकृले<br>केलीलोला, हरितनुरव्यात्सा वः॥'
         },
         {
-          text_sans: '<h3>21. नवमालिनी Navamālinī</h3><p>नगणजगणाभ्यां परवर्त्तिनौ भगणयगणौ स्याताम् तदा छन्दःशास्त्रे “नवमालिनी” स्यात्। अष्टाभिः, चतुर्भिश्च यतिरिति वृद्धाः। “नवमालिका” इत्यपि नाम ।</p><p>The arrangement of Gaṇas in each quarter of this metre is - na, ja, bha, ya. There is a pause after 8th and last syllable of each quarter.</p>'
+          text_sans: '<h3>21. नवमालिनी Navamālinī</h3><p>नगणजगणाभ्यां परवर्त्तिनौ भगणयगणौ स्याताम् तदा छन्दःशास्त्रे “नवमालिनी” स्यात्। अष्टाभिः, चतुर्भिश्च यतिरिति वृद्धाः। “नवमालिका” इत्यपि नाम ।</p><p>The arrangement of Gaṇas in each quarter of this metre is - na, ja, bha, ya. There is a pause after 8th and last syllable of each quarter.</p>नववरसङ्गमार्थनयनद्धा<br>चतुरतरालिलोकरसवद्धा ।<br>वद बुध! कीदृशी भवति रामा<br>श्रृणु नवमालिनीयमधिरासा॥'
         },
         {
-          text_sans: '<h3>22. प्रभा Prabhā</h3><p>द्वौ नगणौ, द्वौ रगणौ चेत् स्याताम् “प्रभा” नाम सा । सप्तभिः पञ्चभिश्च विरतिर्यत्र सा तादृशी ।</p><p>The arrangement of Gaṇas in each quarter of this metre is - na, na, ra, ra. There is a pause after 7th and last syllable of each quarter.</p>'
+          text_sans: '<h3>22. प्रभा Prabhā</h3><p>द्वौ नगणौ, द्वौ रगणौ चेत् स्याताम् “प्रभा” नाम सा । सप्तभिः पञ्चभिश्च विरतिर्यत्र सा तादृशी ।</p><p>The arrangement of Gaṇas in each quarter of this metre is - na, na, ra, ra. There is a pause after 7th and last syllable of each quarter.</p>रणधरधिगतस्य भीमाकृते-<br>र्भजजकलमणोः प्रतापप्रभोः।<br>यवनवनविदाहवविदाहवह्नेरहो ।<br>कथमित्र कथिता भवेसा प्रभा॥'
         },
         {
-          text_sans: '<h3>23. मालती Mālatī</h3><p>नगणजगणौ अथ जगणरगणौ स्यतां चेत् सा “मालती” भवति । पञ्चभिः सप्तभिश्च यतिरित्याम्नायः।</p><p>The arrangement of Gaṇas in each quarter of this metre is - na, ja, ja, ra. There is a pause after 5th and last syllable of each quarter.</p>'
+          text_sans: '<h3>23. मालती Mālatī</h3><p>नगणजगणौ अथ जगणरगणौ स्यतां चेत् सा “मालती” भवति । पञ्चभिः सप्तभिश्च यतिरित्याम्नायः।</p><p>The arrangement of Gaṇas in each quarter of this metre is - na, ja, ja, ra. There is a pause after 5th and last syllable of each quarter.</p>इह कथयाच्युत ! कठकानन<br>मधुरससरैमसारलालुप ।<br>कुसुमकृतस्मितचरुविभ्रमा-<br>मलिरपि चुम्बति मालतीं मुहुः॥'
         },
         {
-          text_sans: '<h3>24. तामरसम् Tāmarasam</h3><p>नगण- जगण- जगणात् तत् “तामरसम्” इति । पादे यतिः।</p><p>The arrangement of Gaṇas in each quarter of this metre is - na, ja, ja, ya. There is a pause at the end of each quarter.</p>'
+          text_sans: '<h3>24. तामरसम् Tāmarasam</h3><p>नगण- जगण- जगणात् तत् “तामरसम्” इति । पादे यतिः।</p><p>The arrangement of Gaṇas in each quarter of this metre is - na, ja, ja, ya. There is a pause at the end of each quarter.</p>स्फुटसुषममकरन्दमनोजं<br>व्रजललनानयनालिनिपीतम्<br>तव मुखतामरसं मुरशत्रो !<br>हृदय-तडागविकाशि ममास्तु॥इति॥'
         }
       ]
     },
@@ -394,19 +377,19 @@ export const state = () => ({
       types: 6,
       type: [
         {
-          text_sans: '<h3>1. क्षमा kṣamā</h3><p>द्वौ नगणौ, द्वौ तगणौ, एको गुरुश्चेत् सा “क्षमा” नामोच्यते। सप्तभिः षड्भिश्च यतिर्यत्र। इमामेव “चन्द्रिका” माहुः। “उत्पलिनी” इत्यपरे।</p><p>The arrangement of Gaṇas in each quarter of this metre is - na, na, ta, ta and one ga. There is a pause after 7th and last syllable of each quarter.</p>'
+          text_sans: '<h3>1. क्षमा kṣamā</h3><p>द्वौ नगणौ, द्वौ तगणौ, एको गुरुश्चेत् सा “क्षमा” नामोच्यते। सप्तभिः षड्भिश्च यतिर्यत्र। इमामेव “चन्द्रिका” माहुः। “उत्पलिनी” इत्यपरे।</p><p>The arrangement of Gaṇas in each quarter of this metre is - na, na, ta, ta and one ga. There is a pause after 7th and last syllable of each quarter.</p>इह दूरधिगमे किञ्चवागमैः<br>सततमसतरं वर्णयन्त्यन्तरम्।<br>अममतिविपिन वेददिग्व्यापिन<br>पुरुषमिव परं पद्मयोनिः परम॥ '
         },
         {
-          text_sans: '<h3>2. प्रहर्षिणी praharṣiṇī</h3><p>मगणनगणौ, जगणरगणौ, एकश्चेद गुरुः तदा इयम् “प्रहर्षिणी” नाम। त्रिभिर्दशभिश्च यतिर्यत्र सा ।</p><p>The 1st, 2nd, 3rd, 8th, 10th, 12th and 13th syllables of each quarter of this metre are long and others short. There should be a pause after the 3rd and last syllables of each quarter.</p>'
+          text_sans: '<h3>2. प्रहर्षिणी praharṣiṇī</h3><p>मगणनगणौ, जगणरगणौ, एकश्चेद गुरुः तदा इयम् “प्रहर्षिणी” नाम। त्रिभिर्दशभिश्च यतिर्यत्र सा ।</p><p>The 1st, 2nd, 3rd, 8th, 10th, 12th and 13th syllables of each quarter of this metre are long and others short. There should be a pause after the 3rd and last syllables of each quarter.</p>विद्वांसो, यदि मम दोषमुद्गिरेयु-<br>र्यदि वा, गुणगणमव कीर्त्तयेयुः।<br>तत्तुल्यं वत! मनुत मनो मदीयं<br>तत्कष्टं, यदि पुनरेवमाह मन्दः॥'
         },
         {
           text_sans: '<h3>3. रुचिरा Rucirā</h3><p>जगणभगणौ, सगणरगणौ, एको गुरुश्चेत् छन्दःशास्त्रे “रुचिरा” नाम सा ज्ञेया। चतुर्भिः नवभिश्च यतिर्ज्ञेया।</p><p>The arrangement of Gaṇas in each quarter of this metre is - ja, bha, sa, ra, ga. There is a pause after 4th and last syllable of each quarter.</p>'
         },
         {
-          text_sans: '<h3>4. मत्तमयूरम् mattamayūram</h3><p>मगणतगणौ, यगण-सगण-गुरवः ”मत्तमयूरं” नाम छन्द उच्यते। चतुर्भिः नवभिश्च यतिः।</p><p>The arrangement of Gaṇas in each quarter of this metre is - ma, ta, ya, sa, ga. There is a pause after 4th and last syllable of each quarter.</p>'
+          text_sans: '<h3>4. मत्तमयूरम् mattamayūram</h3><p>मगणतगणौ, यगण-सगण-गुरवः ”मत्तमयूरं” नाम छन्द उच्यते। चतुर्भिः नवभिश्च यतिः।</p><p>The arrangement of Gaṇas in each quarter of this metre is - ma, ta, ya, sa, ga. There is a pause after 4th and last syllable of each quarter.</p>लीलानृत्य-न्मतामयूरध्वनिकान्तं<br>नृत्यन्नीपा-मोदिपयोदानीलरम्यम्।<br>रासक्रीडाकृष्टमना गोपबधूभिः<br>कंशध्वंसी निर्जनवृन्दावनमाप॥ '
         },
         {
-          text_sans: '<h3>5. मञ्जुभाषिणी mañjubhāṣiṇī</h3><p>सगण,जगण,सगणाः, ततः जगणः एको गुरुश्चेत्स्यात्, “मञ्जुभाषिणी” नाम छन्दो ज्ञेयम्। “सुनन्दिनी” ति नामान्तरम् । पञ्चभिः अष्टभिश्चात्र यतिरिति सम्प्रदायः। पादान्तमेव यतिरित्यस्मद्गुरवः।</p><p>The arrangement of Gaṇas in each quarter of this metre is - sa, ja, sa, ja, ga. There is a pause after 5th and last syllable of each quarter.</p>'
+          text_sans: '<h3>5. मञ्जुभाषिणी mañjubhāṣiṇī</h3><p>सगण,जगण,सगणाः, ततः जगणः एको गुरुश्चेत्स्यात्, “मञ्जुभाषिणी” नाम छन्दो ज्ञेयम्। “सुनन्दिनी” ति नामान्तरम् । पञ्चभिः अष्टभिश्चात्र यतिरिति सम्प्रदायः। पादान्तमेव यतिरित्यस्मद्गुरवः।</p><p>The arrangement of Gaṇas in each quarter of this metre is - sa, ja, sa, ja, ga. There is a pause after 5th and last syllable of each quarter.</p>अमृतोर्मीशीतलकरेण लालयं-<br>स्तनुकान्तिरोचितविलोचनो हरे ! <br>नियतं कलानिधिरसीति वल्लवी<br>मुदमच्युते व्यधित मञ्जुभाषिणी॥'
         },
         {
           text_sans: '<h3>6. चन्द्रिका Candrikā</h3><p>आदौ द्वौ नगणौ, ततः द्वौ तगणौ, ततः एको गुरुः एतैः कृत्वा “चन्द्रिका” नाम छन्दः। अत्र सप्तभिः षड्भिश्च यतिः।</p><p>The arrangement of Gaṇas in each quarter of this metre is - na, na, ta, ta, ga. There is a pause after 7th and last syllable of each quarter.</p>'
@@ -423,16 +406,16 @@ export const state = () => ({
       types: 4,
       type: [
         {
-          text_sans: '<h3>1. असम्बाधा Asambādhā</h3><p>मगण-तगणौ, नगण-सगणौ, द्वौ गुरु च एतैः क्रुत्वा “असम्बाधा” नाम छन्द उच्यते। पञ्चभिः नवभिश्च विरतिर्यत्र सा तादृशी।</p><p>The arrangement of Gaṇas in each quarter of this metre is - ma, ta, na, sa, two ga. There is a pause after 5th and last syllable of each quarter.</p>'
+          text_sans: '<h3>1. असम्बाधा Asambādhā</h3><p>मगण-तगणौ, नगण-सगणौ, द्वौ गुरु च एतैः क्रुत्वा “असम्बाधा” नाम छन्द उच्यते। पञ्चभिः नवभिश्च विरतिर्यत्र सा तादृशी।</p><p>The arrangement of Gaṇas in each quarter of this metre is - ma, ta, na, sa, two ga. There is a pause after 5th and last syllable of each quarter.</p>वीर्याग्नि येन ज्वलति रणवशात् क्षिप्ते<br>दैत्यन्द्रे जाता, धरणिरियमसम्बाधा।<br>धर्मस्थित्यर्थ, प्रकटिततनुसम्बन्धः<br>साधना बाधां, प्रशमयतु स कंसारिः॥'
         },
         {
-          text_sans: '<h3>2. अपराजिता Aparājitā</h3><p>नगण-नगण-रगण-सगण-लघु-गुरुभिश्च “अपराजिता’ भवति। सप्तभिः सप्तभिश्च क्रुत्वा यतिरित्यर्थः</p><p>The arrangement of Gaṇas in each quarter of this metre is - na, na, ra, sa, la and ga. There is a pause after 7th and last syllable of each quarter.</p>'
+          text_sans: '<h3>2. अपराजिता Aparājitā</h3><p>नगण-नगण-रगण-सगण-लघु-गुरुभिश्च “अपराजिता’ भवति। सप्तभिः सप्तभिश्च क्रुत्वा यतिरित्यर्थः</p><p>The arrangement of Gaṇas in each quarter of this metre is - na, na, ra, sa, la and ga. There is a pause after 7th and last syllable of each quarter.</p>यदनवधिभुज-प्रतापकृतास्पदा<br>यदुनिचयचमृः-परैरपराजिता।'
         },
         {
-          text_sans: '<h3>3. प्रहरणकलिका Praharaṇakalikā</h3><p>नगण-नगण-भगण-नगण-लघु-गुरवश्चेदित्यर्थः, तदा इयं “प्रहरणकलिका” नामोच्यते। यतिश्च पूर्ववत्।</p><p>The arrangement of Gaṇas in each quarter of this metre is - na, na, bha, na, la, ga. There is a pause after 7th and last syllable of each quarter.</p>'
+          text_sans: '<h3>3. प्रहरणकलिका Praharaṇakalikā</h3><p>नगण-नगण-भगण-नगण-लघु-गुरवश्चेदित्यर्थः, तदा इयं “प्रहरणकलिका” नामोच्यते। यतिश्च पूर्ववत्।</p><p>The arrangement of Gaṇas in each quarter of this metre is - na, na, bha, na, la, ga. There is a pause after 7th and last syllable of each quarter.</p>व्यथयति कुसुम-प्रहरणकलिका<br>प्रमदवनभवा तव धनुषि तता।<br>विरहविपदि मे शरणमिह ततो<br>मधुमथनगुण-स्मरणमविरतम्॥'
         },
         {
-          text_sans: '<h3>4. वसन्ततिलका Vasantatilakā</h3><p>तगण-भगण-जगणाः, जगणः गुरुश्च पुनरेको गुरुश्चेत् तदा “वसन्ततिलका” नाम कथिता। अस्यैव चन्दसो मतभेदेन सञ्ज्ञान्तरमाह-सिंहोन्नतेयमित्यादिना। स्पष्टम्।</p><p>The 1st, 2nd, 4th, 8th, 11th, 13th and 14th syllables are long and the others short. There should be a pause after the 8th and last syllables of each quarter.</p>'
+          text_sans: '<h3>4. वसन्ततिलका Vasantatilakā</h3><p>तगण-भगण-जगणाः, जगणः गुरुश्च पुनरेको गुरुश्चेत् तदा “वसन्ततिलका” नाम कथिता। अस्यैव चन्दसो मतभेदेन सञ्ज्ञान्तरमाह-सिंहोन्नतेयमित्यादिना। स्पष्टम्।</p><p>The 1st, 2nd, 4th, 8th, 11th, 13th and 14th syllables are long and the others short. There should be a pause after the 8th and last syllables of each quarter.</p>त्थं विशेषगुणशालिनि यादवेन्द्रे<br>सद्भक्तिरेव नुदति प्रबला बलान्माम्।<br>यच्चैत्रमासि मधुरं हि पिको विरैति<br>तच्चारुचृतकलिकानिकरहेतुः॥'
         }
       ]
     },
@@ -446,22 +429,22 @@ export const state = () => ({
       types: 7,
       type: [
         {
-          text_sans: '<h3>1. शशिकला śaśikalā</h3><p>पूर्वैः चतुर्दश लघवः अन्ते च एको गुरुः स्यात् सा “शशिकला” नामोक्ता। सप्तभिः अष्टभिश्च यतिरित्याम्नायः।</p><p>This metre contains 14 short syllables and one long syllable at the end of each quarter. There is a pause after 7th and last syllable of each quarter. </p>'
+          text_sans: '<h3>1. शशिकला śaśikalā</h3><p>पूर्वैः चतुर्दश लघवः अन्ते च एको गुरुः स्यात् सा “शशिकला” नामोक्ता। सप्तभिः अष्टभिश्च यतिरित्याम्नायः।</p><p>This metre contains 14 short syllables and one long syllable at the end of each quarter. There is a pause after 7th and last syllable of each quarter. </p>मलयजतिलकसमुदितशशिकला<br>व्रजयवतिलसदलिकगगनगता।<br>सरसिजनयनहृदयसलिलनिधिं<br>व्यतनुत विततरभसपरितरलम॥'
         },
         {
-          text_sans: '<h3>2. स्रक् Srak</h3><p>शशिकला एव षड्भिः नवभिश्च यतिर्यस्यां तादृशी चेत् तदा “स्रक्” इति नाम छन्दो ज्ञेयम्।</p><p>In Shashikala metre, if the pause is after 6th and last syllable, then it becomes Srak metre.</p>'
+          text_sans: '<h3>2. स्रक् Srak</h3><p>शशिकला एव षड्भिः नवभिश्च यतिर्यस्यां तादृशी चेत् तदा “स्रक्” इति नाम छन्दो ज्ञेयम्।</p><p>In Shashikala metre, if the pause is after 6th and last syllable, then it becomes Srak metre.</p>अयि! सहचरी! रुचिरतरगुनमयी<br>म्रदिमवसतिरनपगतपरिमला।<br>स्रगिव निवस विलसदनुपरमरसा<br>सुमुखि! मुदितदनुजदलनहृदये! ॥'
         },
         {
-          text_sans: '<h3>3. मणिगुणनिकर Maṇiguṇanikara</h3><p>यदि अष्टाभिः सप्तभिश्च यतिर्यस्याः एवंविधा शशिकला स्यात् तदा “मणिगुणनिकर” इति नाम छन्द उच्यते।</p><p>In Shashikala metre, if the pause is after 8th and last syllable, then it becomes Manigunanikara metre.</p>'
+          text_sans: '<h3>3. मणिगुणनिकर Maṇiguṇanikara</h3><p>यदि अष्टाभिः सप्तभिश्च यतिर्यस्याः एवंविधा शशिकला स्यात् तदा “मणिगुणनिकर” इति नाम छन्द उच्यते।</p><p>In Shashikala metre, if the pause is after 8th and last syllable, then it becomes Manigunanikara metre.</p>नरकरिपुरवतु-निखिलसुरगति-<br>रमितमहिमभर-सहजनिवसतिः।<br>अनवधिमणिगुण-निकरपरिचितः<br>सरिदधिपतिरिव-धृततनुविभवः॥'
         },
         {
-          text_sans: '<h3>4. कामक्रीडा Kāmakrīḍā</h3><p>यस्यां पञ्च मगणाः स्युः, सा “कामक्रीडा” ज्ञेया</p><p>This metre consists of 5 ma groups.</p>'
+          text_sans: '<h3>4. कामक्रीडा Kāmakrīḍā</h3><p>यस्यां पञ्च मगणाः स्युः, सा “कामक्रीडा” ज्ञेया</p><p>This metre consists of 5 ma groups.</p>मा कान्ते! पक्षस्यान्ते पर्याकाशे देशे स्वाप्सीः<br>कान्तं वक्त्रं वृत्त पूर्ण चन्द्रं मत्वात् रात्रौ चेत्।<br>क्षुत्क्षामःप्राटंश्चेतो राहुः क्रूरः प्राद्यात्<br>तस्माद् ध्वान्ते हर्म्यस्यान्ते शय्यैकान्ते कर्त्तव्या॥'
         },
         {
-          text_sans: '<h3>5. मालिनी Mālinī</h3><p>नगण-नगण-मगण-यगण-यगणयुक्ता इयं मालिनी भवति। अष्टभिः सप्तभिश्च यतौ ।</p><p>The 1st, 2nd, 3rd, 4th, 5th, 6th, 10th and 13th syllables of each quarter are short and the others long. There should be a pause after the 8th and last syllables of each quarter.</p>'
+          text_sans: '<h3>5. मालिनी Mālinī</h3><p>नगण-नगण-मगण-यगण-यगणयुक्ता इयं मालिनी भवति। अष्टभिः सप्तभिश्च यतौ ।</p><p>The 1st, 2nd, 3rd, 4th, 5th, 6th, 10th and 13th syllables of each quarter are short and the others long. There should be a pause after the 8th and last syllables of each quarter.</p>मृगमदकृतचर्चा पीतकौशेयवासा<br>रुचिरशिखिशिखण्डा बद्धमिल्लपाशा।<br>अनृजुनिहितमसे वंशमुत्काणुयन्ती<br>धृतमधुरिपुलीला मालिनी पातु राधा॥'
         },
         {
-          text_sans: '<h3>6. प्रभद्रकं Prabhadrakam</h3><p>नगणजगणौ, भगणजगणौ, अन्ते रगणविशिष्टौ स्यातां चेत् तत् प्रभद्रकं नाम छन्दो भवति। सप्तभिः अष्टभिश्च यतिः।</p><p>The arrangement of Gaṇas in each quarter of this metre is - na, ja, bha, ja, ra. There is a pause after 7th and last syllable of each quarter.</p>'
+          text_sans: '<h3>6. प्रभद्रकं Prabhadrakam</h3><p>नगणजगणौ, भगणजगणौ, अन्ते रगणविशिष्टौ स्यातां चेत् तत् प्रभद्रकं नाम छन्दो भवति। सप्तभिः अष्टभिश्च यतिः।</p><p>The arrangement of Gaṇas in each quarter of this metre is - na, ja, bha, ja, ra. There is a pause after 7th and last syllable of each quarter.</p>असितगिरिसमं स्यात् कज्जलं सिन्धुपात्रे<br>सुरतरुवरशाखा-लेखनी पत्रमूर्वी।<br>लिकित यदि गृहीत्वा शारदा सर्वकालं<br>तदपि तवगुणानामीश! पारं न याति॥'
         },
         {
           text_sans: '<h3>7. एला Elā</h3><p>यत्र सगण-जगण-नगणाः, नगण-यगणौ च स्याताम् सा “एला’ नाम। पञ्चभिः दशभिश्च यतिः</p><p>The arrangement of Gaṇas in each quarter of this metre is - sa, ja, na, na, ya. There is a pause after 5th and last syllable of each quarter.</p>'
@@ -481,13 +464,13 @@ export const state = () => ({
       types: 3,
       type: [
         {
-          text_sans: '<h3>1. ऋषभगजविलसितम् ṛṣabhagajavilasitam</h3><p>भगण, रगणौ, त्रयो नगणाः, एको गुरुश्चेत् “ऋषभगजविलसितम्” इति नाम ; सप्तमात्परं विरामो भवेत्।</p><p>The arrangement of Gaṇas in each quarter of this metre is - bha, ra, three na groups, and one ga group. There is a pause after 7th syllable of each quarter.</p>'
+          text_sans: '<h3>1. ऋषभगजविलसितम् ṛṣabhagajavilasitam</h3><p>भगण, रगणौ, त्रयो नगणाः, एको गुरुश्चेत् “ऋषभगजविलसितम्” इति नाम ; सप्तमात्परं विरामो भवेत्।</p><p>The arrangement of Gaṇas in each quarter of this metre is - bha, ra, three na groups, and one ga group. There is a pause after 7th syllable of each quarter.</p>यो हरिरुचखान-खरतरनखशिखरै-<br>दुर्जयदैत्यसिंह-सुविकटहृदयतटम्।<br>किमिह चित्रमेत-दखिलमपहृतवतः<br>कंशनिदेश दृष्य-दृषभगजविलसितम्॥'
         },
         {
-          text_sans: '<h3>2. वाणिनी vāṇinī</h3><p>यदा नगण-जगण-भगणजगण-रगणैः, अन्ते एकेन गुरुणोपेतैर्भवति "वाणिनी" नाम सा। पादे यतिः।</p><p>The arrangement of Gaṇas in each quarter of this metre is - na, ja, bha, ja, ra and ga. There is a pause at the end of each quarter.</p>'
+          text_sans: '<h3>2. वाणिनी vāṇinī</h3><p>यदा नगण-जगण-भगणजगण-रगणैः, अन्ते एकेन गुरुणोपेतैर्भवति "वाणिनी" नाम सा। पादे यतिः।</p><p>The arrangement of Gaṇas in each quarter of this metre is - na, ja, bha, ja, ra and ga. There is a pause at the end of each quarter.</p>स्फुरतु ममाननेद्य ननौ वाणि ! नीतिरम्यं<br>तव चरणप्रसादपरिपाकतः कवित्वम्।<br>भवजैअराशिपारकरणक्षमं मुकुन्दम्<br>सततमहं स्तवैः स्वरचितैः स्तवानि नित्यम्॥'
         },
         {
-          text_sans: '<h3>3. पञ्चचामरं pañcacāmaraṃ</h3><p>जगण-रगणौ, जगण-रगणौ, ततः जगण गुरुश्चेत् तदा इदं पञ्चचामरं नाम छन्दो वदन्ति। द्वाभ्यां यतिः। यथेष्टं वेति सम्प्रदायः।</p><p>The arrangement of syllabic groups in each quarter of this metre is: ja, ra, la, ga, ja, ra, la, ga. Here the 1st, 3rd, 5th, 7th, 9th, 11th, 13th and 15th syllables of each quarter are short and the others long. There should be a pause after the 4th, 8th, 12th and the last syllables of each quarter.</p>'
+          text_sans: '<h3>3. पञ्चचामरं pañcacāmaraṃ</h3><p>जगण-रगणौ, जगण-रगणौ, ततः जगण गुरुश्चेत् तदा इदं पञ्चचामरं नाम छन्दो वदन्ति। द्वाभ्यां यतिः। यथेष्टं वेति सम्प्रदायः।</p><p>The arrangement of syllabic groups in each quarter of this metre is: ja, ra, la, ga, ja, ra, la, ga. Here the 1st, 3rd, 5th, 7th, 9th, 11th, 13th and 15th syllables of each quarter are short and the others long. There should be a pause after the 4th, 8th, 12th and the last syllables of each quarter.</p>सुरद्रुमूलमण्डिते विचित्ररत्ननिर्मिते<br>लसद्वितानभूषिते सलीलविभ्रमालसम्।<br>सुराङ्गनाभवल्लवी-करप्रपञ्चचामरं<br>स्फुरत्समीर-वीजितं सदाच्युतं भजामि तम्॥'
         }
       ]
     },
@@ -501,22 +484,22 @@ export const state = () => ({
       types: 6,
       type: [
         {
-          text_sans: '<h3>1. शिखरिणी śikhariṇī</h3><p>यगण-मगणनगण-सगण-भगणाः एको लघुश्च, अन्ते एको गुरुश्चेत् सा “शिखरिणी” इत्युच्यते। षड्भिः एकादशभिः यतिमती।</p><p>The 1st, 7th, 8th, 9th, 10th, 11th, 14th, 15th and 16th syllables of each quarter of this metre are short and the others long. There should be a pause after the 6th and last syllables of each quarter.</p>'
+          text_sans: '<h3>1. शिखरिणी śikhariṇī</h3><p>यगण-मगणनगण-सगण-भगणाः एको लघुश्च, अन्ते एको गुरुश्चेत् सा “शिखरिणी” इत्युच्यते। षड्भिः एकादशभिः यतिमती।</p><p>The 1st, 7th, 8th, 9th, 10th, 11th, 14th, 15th and 16th syllables of each quarter of this metre are short and the others long. There should be a pause after the 6th and last syllables of each quarter.</p>त्वमर्कस्त्वं सोमस्त्वमसि पवनस्त्वं हुतवह-<br>स्त्वमापस्त्वं व्योम त्वमु धरणिरात्मा त्वमिति च।<br>परिच्छिन्नामेवं त्वयी परिणता विभ्रतु गिरं<br>न विद्मस्तत्तत्वं वयमिह तु यत्त्वं न भवसि॥'
         },
         {
-          text_sans: '<h3>2. पृथ्वी pṛthvī</h3><p>जगण-सगणौ, जगण-सगण-यगण-लघवः एको गुरुश्चेत् सा पृथ्वी नाम छन्दः। अष्टाभिः नवभिश्च यतिर्यत्र सेत्यर्थः।</p><p>Here the 1st, 3rd, 4th, 5th, 7th, 9th, 10th, 11th, 13th and 16th syllables of each quarter are short and the others long. There should be a pause after the 8th and last syllables of each quarter.</p>'
+          text_sans: '<h3>2. पृथ्वी pṛthvī</h3><p>जगण-सगणौ, जगण-सगण-यगण-लघवः एको गुरुश्चेत् सा पृथ्वी नाम छन्दः। अष्टाभिः नवभिश्च यतिर्यत्र सेत्यर्थः।</p><p>Here the 1st, 3rd, 4th, 5th, 7th, 9th, 10th, 11th, 13th and 16th syllables of each quarter are short and the others long. There should be a pause after the 8th and last syllables of each quarter.</p>दुरन्तदनुजेश्वर-प्रकरदुस्थपृथ्वी-भर<br>जहार निजलीलया-यदुकुलेवतीर्यांशु यः।<br>स एष जगतां गति-र्दुरितभारमस्मादृशा<br>हरिश्यति हरिः स्तुतिस्मरण वाटुभिस्तोषित॥'
         },
         {
-          text_sans: '<h3>3. वंशपत्रपतितं vaṃśapatrapatitaṃ</h3><p>भगण-रगण-नगण-भगण-नगण लघुगुरुभिः “वंशपत्रपतितं” नाम छन्दः।</p><p>दशभिः सप्तभिर्यतिर्यत्र तत्। “वंशपत्रपतिता” इति केचित्।</p><p>The arrangement of Gaṇas in each quarter of this metre is - bha, ra, na, bha, na, la, ga. There is a pause after 10th and last syllable of each quarter.</p>'
+          text_sans: '<h3>3. वंशपत्रपतितं vaṃśapatrapatitaṃ</h3><p>भगण-रगण-नगण-भगण-नगण लघुगुरुभिः “वंशपत्रपतितं” नाम छन्दः।</p><p>दशभिः सप्तभिर्यतिर्यत्र तत्। “वंशपत्रपतिता” इति केचित्।</p><p>The arrangement of Gaṇas in each quarter of this metre is - bha, ra, na, bha, na, la, ga. There is a pause after 10th and last syllable of each quarter.</p>सम्प्रति लब्धजन्म शनकैः, कथमपि लघुनि<br>क्षीणपयस्युपेयुषि भिदां जलधरपटले।<br>खण्डित-विग्रहं बलमिदं, धनुरिह विविधाः<br>पूरयितुं भवन्ति विभवः, शिखरमणिरुचः॥'
         },
         {
-          text_sans: '<h3>1. हरिणी hariṇī</h3><p>नगण-सगणौ, मगण-रगणौ, सगणो लघुश्च, एको गुरुश्चेत् तदा हरिणी नाम छन्दः। षड्भिः चतुर्भिः सप्तभिः यतौ सत्यामिति शेषः।</p><p>The arrangement of Gaṇas in each quarter of this metre is - na, sa, ma, ra, sa, la, ga. There is a pause after 6th, 4th and last syllable of each quarter.</p>'
+          text_sans: '<h3>1. हरिणी hariṇī</h3><p>नगण-सगणौ, मगण-रगणौ, सगणो लघुश्च, एको गुरुश्चेत् तदा हरिणी नाम छन्दः। षड्भिः चतुर्भिः सप्तभिः यतौ सत्यामिति शेषः।</p><p>The arrangement of Gaṇas in each quarter of this metre is - na, sa, ma, ra, sa, la, ga. There is a pause after 6th, 4th and last syllable of each quarter.</p>सुमुखि! लघवः-पञ्च प्राच्या-स्ततो दशमान्तिम-<br>स्तदनु ललिता-लापे वर्नौ-तृतीयचतुर्थकौ।<br>प्रभवति पुन-र्यत्रोपान्त्यः-स्फुरत्कनकप्रभे!<br>यतिरपि-रसैर्वेदैरश्वैः-स्म्रुता हरिणीति सा॥'
         },
         {
-          text_sans: '<h3>2. मन्दाक्रान्ता mandākrāntā</h3><p>यदि मगण-भगणौ, नगण-तगणौ पुनः अन्यस्मात तगणात परं द्वौ च गुरु स्याताम सा “मन्दाक्रान्ता”  नाम कथ्यते।  चतुर्भिः, षड्भिः, सप्तभिश्च यतौ । </p><p>The 1st, 2nd, 3rd, 4th, 10th, 11th, 13th, 14th, 16th and 17th syllables of each quarter of this metre are long and the others short. There should be a pause after the 4th, 10th and last syllables of each quarter.</p>'
+          text_sans: '<h3>2. मन्दाक्रान्ता mandākrāntā</h3><p>यदि मगण-भगणौ, नगण-तगणौ पुनः अन्यस्मात तगणात परं द्वौ च गुरु स्याताम सा “मन्दाक्रान्ता”  नाम कथ्यते।  चतुर्भिः, षड्भिः, सप्तभिश्च यतौ । </p><p>The 1st, 2nd, 3rd, 4th, 10th, 11th, 13th, 14th, 16th and 17th syllables of each quarter of this metre are long and the others short. There should be a pause after the 4th, 10th and last syllables of each quarter.</p>धाम्ना धाम-त्वमसि भगवन्-जाप्य इष्टौ द्विजाना<br>यस्य ध्याना-दमलतरतां बुद्धिराप्नोति सद्यः।<br>यस्मिन प्राप्ते-कुदरमुदयं-जाग्रति प्राणिसंधाः<br>रक्ष्यानस्मा-नयि! दिनमणे! पाहि देव प्रसीद॥'
         },
         {
-          text_sans: '<h3>3. नर्कुटकं Narkuṭakam</h3><p>नगण-जगणौ स्तः, ततः भगण-जगण-जगण-लघवः स्युः एकश्चान्ते गुरुवर्णः स्यात् तदा “नर्कुटकं” नाम छन्दः। सप्तभिः दशभिश्च यतिरिति सम्प्रदायः। अस्यैव “नर्दटकं”, मर्दटकं” इत्यपि च नामान्तरम्।</p><p>The arrangement of Gaṇas in each quarter of this metre is - na, ja, bha, ja, ja, la, ga. There is a pause after 7th and last syllable of each quarter.</p>'
+          text_sans: '<h3>3. नर्कुटकं Narkuṭakam</h3><p>नगण-जगणौ स्तः, ततः भगण-जगण-जगण-लघवः स्युः एकश्चान्ते गुरुवर्णः स्यात् तदा “नर्कुटकं” नाम छन्दः। सप्तभिः दशभिश्च यतिरिति सम्प्रदायः। अस्यैव “नर्दटकं”, मर्दटकं” इत्यपि च नामान्तरम्।</p><p>The arrangement of Gaṇas in each quarter of this metre is - na, ja, bha, ja, ja, la, ga. There is a pause after 7th and last syllable of each quarter.</p>जय जय जह्यजा-मजितदोषगृभीतगुणां<br>त्वमसि यदात्मना-समवरुद्ध-समस्तभगः।<br>अगजगदोकसा-मखिलशक्यवबोधक! ते<br>क्वचिदजयात्मना-च चरतोनुचरेन्निगमः॥'
         }
       ]
     },
@@ -525,7 +508,8 @@ export const state = () => ({
       title_eng: 'dhṛtiḥ',
       id: '4.1.i.XVIII',
       definition_sans: '<h3>कुसुमितलतावेल्लिता</h3><p>मगणतगणौ, नगणयगणौ, पुनः द्वौ यगणौ यदि स्युः पञ्चभिः, षड्भिः, सप्तभिश्च यतिर्भवेत् तदा सा “कुसुमितलतावेल्लिता” नाम छन्दः।</p>',
-      definition_eng: '<h3>kusumitalatāvellitā</h3><p>Eighteen syllables of one ma group, one ta group, one na group and three ya groups form each quarter of this metre. So, here the 6th, 7th, 8th, 9th, 10th, 13th and 16th syllables of each quarter are short and the others long. There should be a pause after the 5th, 11th and the last syllables of each quarter.</p>'
+      definition_eng: '<h3>kusumitalatāvellitā</h3><p>Eighteen syllables of one ma group, one ta group, one na group and three ya groups form each quarter of this metre. So, here the 6th, 7th, 8th, 9th, 10th, 13th and 16th syllables of each quarter are short and the others long. There should be a pause after the 5th, 11th and the last syllables of each quarter.</p>',
+      common: 'क्रीडत्कालिन्दी-ललितलहरी-वारिभिर्दाक्षिणात्यै-<br>र्वातैः खेलद्भिः-कुसुमितलता- वेल्लिता मन्दमन्दम्।<br>भृङ्गालिगीतैः-किसलयकरो-ल्लासितैर्लास्यलक्ष्मीं<br>तन्वाना चेतो-रभसतरलं-चक्रपाणेश्चकार॥'
     },
     {
       title_sans: 'अतिधृतिः',
@@ -537,10 +521,10 @@ export const state = () => ({
       types: 2,
       type: [
         {
-          text_sans: '<h3>1. मेधविस्फूर्जिता Medhavisphūrjitā</h3><p>यदि यगणमगणौ, नगणसगणौ,स्याताम् किन्तु तौ रगण-रगण-गुरुभिः सहितौ भवेताम् तदा सा “मेधविस्फूर्जिता” भवति। षड्भिः, षड्भिः सप्तभिश्च यतौ ।</p><p>The arrangement of Gaṇas in each quarter of this metre is - ya, ma, na, sa, ra, ra, ga. There is a pause after 6th, 12th and last syllable of each quarter.</p>'
+          text_sans: '<h3>1. मेधविस्फूर्जिता Medhavisphūrjitā</h3><p>यदि यगणमगणौ, नगणसगणौ,स्याताम् किन्तु तौ रगण-रगण-गुरुभिः सहितौ भवेताम् तदा सा “मेधविस्फूर्जिता” भवति। षड्भिः, षड्भिः सप्तभिश्च यतौ ।</p><p>The arrangement of Gaṇas in each quarter of this metre is - ya, ma, na, sa, ra, ra, ga. There is a pause after 6th, 12th and last syllable of each quarter.</p>कदम्बामोदाढ्या, विपिनपवनाः केफिन, कान्तकेकाः<br>विनिद्राः कन्दल्यो, दिशि दिशि मुदा दर्दुरा दृप्तनादाः।<br>निशानृत्यद्विद्य-द्विलसितलसन मेधविस्फूर्जिता चेत्<br>प्रियः स्वाधिनोसौ, दनुजदलनो, राज्यमस्माकिमन्यत्॥'
         },
         {
-          text_sans: '<h3>2. शार्दूलविक्रीडितम् śārdūlavikrīḍitam</h3><p>मगण-सगण-जगण-सगण-तगण-तगणाः एकेन गुरुणा युताः चेत् स्युः तत् “शार्दूलविक्रीडितं” नाम छन्दः। द्वादशभिः सप्तभिश्च यतौ ।</p><p>The 1st, 2nd, 3rd,, 6th, 8th, 12th, 13th, 14th, 16th, 17th and 19th syllables of each quarter are long and the others short. There should be a pause after the 12th and last syllables of each quarter.</p>'
+          text_sans: '<h3>2. शार्दूलविक्रीडितम् śārdūlavikrīḍitam</h3><p>मगण-सगण-जगण-सगण-तगण-तगणाः एकेन गुरुणा युताः चेत् स्युः तत् “शार्दूलविक्रीडितं” नाम छन्दः। द्वादशभिः सप्तभिश्च यतौ ।</p><p>The 1st, 2nd, 3rd,, 6th, 8th, 12th, 13th, 14th, 16th, 17th and 19th syllables of each quarter are long and the others short. There should be a pause after the 12th and last syllables of each quarter.</p>आद्यं यत्र गुरुत्रयं प्रियतमे! षष्ठं ततश्चाष्टमं<br>सन्त्येकादशतस्त्रयस्तदनु चेदष्टादशाद्यान्तिमाः।<br>मार्त्तण्डैमुनिभिश्च यत्र विरतिः पूर्णेन्दुबिम्बानने! <br>तद्वृत्तं प्रवदन्ति काव्यरसिकाः शार्दूलविक्रीडितम्॥'
         }
       ]
     },
@@ -554,10 +538,10 @@ export const state = () => ({
       types: 2,
       type: [
         {
-          text_sans: '<h3>1. सुवदना Suvadanā</h3><p>मगण-रगण-भगण-नगण-यगणैर्युता, अथ च यत्र भगणः लघुश्च, ततः एको गुरुरपि स्यात् तत् सुवदना नाम छन्दो ज्ञेयम्। सप्तभिः, सप्तभिः, षड्भिश्च यतौ ।</p><p>The arrangement of Gaṇas in each quarter of this metre is - ma, ra, bha, na, ya, bha, la and ga. There is a pause after 7th, 14th and last syllable of each quarter.</p>'
+          text_sans: '<h3>1. सुवदना Suvadanā</h3><p>मगण-रगण-भगण-नगण-यगणैर्युता, अथ च यत्र भगणः लघुश्च, ततः एको गुरुरपि स्यात् तत् सुवदना नाम छन्दो ज्ञेयम्। सप्तभिः, सप्तभिः, षड्भिश्च यतौ ।</p><p>The arrangement of Gaṇas in each quarter of this metre is - ma, ra, bha, na, ya, bha, la and ga. There is a pause after 7th, 14th and last syllable of each quarter.</p>प्रत्याहृत्येन्द्रियाणि त्वदितरविषयान्नासाग्रनयना<br>त्वां ध्यायन्ती निकुञ्जे परतरपुरुषं हर्षोत्थपुलका।<br>आनन्दाश्रुलुप्ताक्षी वसति सुवदना योगैकरसिका<br>कामार्तीं त्यक्तुकामा ननौ नरकरिपो! राधा मम सखी॥'
         },
         {
-          text_sans: '<h3>2. वृत्तं vṛttaṃ </h3></p>त्रिवारं रगणजगणौ, गुरुलघू च स्याताम्, ईदृशेन लक्षणेन “वृत्तं” नाम छन्दः पादान्ते यतिः।</p><p>The arrangement of Gaṇas in each quarter of this metre is - Three ra groups, three ja groups coming alternately one after another, one ga and one la. There is a pause after last syllable of each quarter.</p>'
+          text_sans: '<h3>2. वृत्तं vṛttaṃ </h3></p>त्रिवारं रगणजगणौ, गुरुलघू च स्याताम्, ईदृशेन लक्षणेन “वृत्तं” नाम छन्दः पादान्ते यतिः।</p><p>The arrangement of Gaṇas in each quarter of this metre is - Three ra groups, three ja groups coming alternately one after another, one ga and one la. There is a pause after last syllable of each quarter.</p>चित्तवृत्तिलीलया निसर्गरम्यदेहरुपविभवेन<br>राजमानसद्वयंविलम्भसमदाकलापहृतेन।<br>यः समं व्रजजनाजनैः सुराङ्गनानिभैः सखं समेत्य<br>विष्णुरुल्लास चित्तपद्मकोणपटपदः स मे सदास्तु॥'
         }
       ]
     },
@@ -566,21 +550,24 @@ export const state = () => ({
       title_eng: 'Prakṛtiḥ',
       id: '4.1.i.XXI',
       definition_sans: '<h3> स्रग्धरा </h3><p>मगण-रगण-भगण-नगणैः, त्रिभिर्यगणै सप्तभिः सप्तभिः सप्तभिश्च यति एवं लक्षणा इयं स्रग्धरा कथिता।</p>',
-      definition_eng: '<h3>Sragdharā</h3><p>This metre contains 21 syllables in each quarter. The 1st, 2nd, 3rd, 4th, 6th, 7th, 14th, 15th, 17th, 18th, 20th and 21st syllables of each quarter of this metre are long and the others short. There should be a pause after the 7th, 14th and 21st syllables of each quarter.</p>'
+      definition_eng: '<h3>Sragdharā</h3><p>This metre contains 21 syllables in each quarter. The 1st, 2nd, 3rd, 4th, 6th, 7th, 14th, 15th, 17th, 18th, 20th and 21st syllables of each quarter of this metre are long and the others short. There should be a pause after the 7th, 14th and 21st syllables of each quarter.</p>',
+      common: 'व्याकोपेन्दावरामा कनककषलसत्पीतवासाः सुहासा<br>बहैरुच्चन्द्रकान्तेर्वलीयतचिकरा चारुकर्णावतंसा।<br>अंसव्यामसक्तवंशी-ध्वनिसुखितजगद्वल्लवीभिर्लसन्ती<br>मृत्तिर्गोपस्य विष्णोरवतु जगति नः स्रग्धरा हारिहारा॥'
     },
     {
       title_sans: 'आकृतिः',
       title_eng: 'ākṛtiḥ',
       id: '4.1.i.XXII',
       definition_sans: '<h3>भद्रकम्</h3><p>भगणरगणौ, नगण-रगण-नगणाः, रगणनगणौ अथ एको गुरुश्चेत् “भद्रकम्” इति नाम छन्द उक्तम्। दशभिः, द्वादशभिश्च, विरतिर्यत्र तत्।</p>',
-      definition_eng: '<h3>Bhadrakam</h3><p>This metre contains 22 syllables in each quarter. The arrangement of Gaṇas in each quarter of this metre is - bha, ra, na, ra, na, ra, na, ga. There is a pause after 10th, 20th and last syllable of each quarter.</p>'
+      definition_eng: '<h3>Bhadrakam</h3><p>This metre contains 22 syllables in each quarter. The arrangement of Gaṇas in each quarter of this metre is - bha, ra, na, ra, na, ra, na, ga. There is a pause after 10th, 20th and last syllable of each quarter.</p>',
+      common: 'मा द्राक्षं क्षीणपुण्यान् क्षणमपि भवतो भक्तिहीनान्पदाब्जे<br>मा श्रौषं श्रव्यबद्धं तव वर! चरितादन्यदाख्यानजातम्।<br>मा स्प्राक्षं माधव! त्वमपि भुवनपते! चेतसापह्नुवानं<br>मा भुवं त्वत्सपर्याव्यतिकररहितो जन्मजन्मान्तरेपि॥'
     },
     {
       title_sans: 'विकृतिः',
       title_eng: 'vikṛtiḥ',
       id: '4.1.i.XXIII',
       definition_sans: '<h3>अश्वललितम्</h3><p>यदि नगण-जगणौ, भगणजगणौ, भगण-जगण-भगण-लघु-गुरवः स्युः तदा तत् “अश्वललितम्” नाम छन्दः। एकादशः द्वादश, एभिर्यतिरस्यातीति तादृशम्। इदमेवान्यत्र “अद्रितनया” इत्युक्तम्।</p>',
-      definition_eng: '<h3>Aśvalalitam</h3><p>This metre contains 23 syllables in each quarter. The arrangement of Gaṇas in each quarter of this metre is - na, ja, bha, ja, bha, ja, bha, la, ga. There is a pause after 11th, and last syllable of each quarter.</p>'
+      definition_eng: '<h3>Aśvalalitam</h3><p>This metre contains 23 syllables in each quarter. The arrangement of Gaṇas in each quarter of this metre is - na, ja, bha, ja, bha, ja, bha, la, ga. There is a pause after 11th, and last syllable of each quarter.</p>',
+      common: 'विलुलित-कपिशंरणुकपिशं प्रशान्तकलिकापलाशकुसुमं<br>कुसुमनिपातविचित्रवसुधां सशब्दनिपतद्द्रुमोत्कशनकम्।<br>शकुननिनाद-नादितककवनिलोलविपलायमानहरिणं<br>हरिण-विलोचनाध्इवसतिं बभञ्ज पवनात्मजो रिपुवन॥(भट्टिः)॥'
     },
     {
       title_sans: 'संकृतिः',
@@ -686,14 +673,16 @@ export const state = () => ({
       title_eng: 'ākhyānakī',
       id: '4.1.ii.VI',
       definition_sans: '<p>विषमे  पादे  द्वौ  तगणौ, जगणगुरू च स्त:, पुनरेको गुरुश्च भवेत्, समे पादे जगणतगणौ जगणगुरू च स्याताम् , अन्ते पुन: एको गुरुश्चेत् तदा सा ‘आख्यानकी’ नाम कथ्यते ।</p>',
-      definition_eng: '<p>The first and the third quarters have two ta groups, one ja group and one ga group.</p><p>Second and fourth quarters have one ja, one ta, one ja and one ga group.</p>'
+      definition_eng: '<p>The first and the third quarters have two ta groups, one ja group and one ga group.</p><p>Second and fourth quarters have one ja, one ta, one ja and one ga group.</p>',
+      common: 'आख्यानकी स्यात् प्रकटीकॄतार्थे यदीन्द्रवज्राचरण: पुरस्तात्।<br>उपेन्द्रवज्राचरणास्त्रयो अन्ये मनीषिणोक्ता विपरीत पूर्वा ॥'
     },
     {
       title_sans: 'विपरीताख्यानकी',
       title_eng: 'viparītākhyānakī',
       id: '4.1.ii.VII',
       definition_sans: '<p>प्रथमे तॄतीये च पादे जगणतगणौ जगणगुरू च स्याताम्, अथ एको गुरुश्च भवेत् । समे द्वितीये चतुर्थे पादे द्वौ तगणौ, जगणगुरू पुनरेको गुरुश्चेत् सा ‘विपरीताख्यानकी’ ।</p>',
-      definition_eng: '<p>The first and the third quarters have one ja, one ta, one ja and one ga group.</p><p>Second and fourth quarters have two ta groups, one ja and two ga groups.</p>'
+      definition_eng: '<p>The first and the third quarters have one ja, one ta, one ja and one ga group.</p><p>Second and fourth quarters have two ta groups, one ja and two ga groups.</p>',
+      common: 'स्फुटफेनचया हरिणप्लुता बलिमनिग्यतटा तरणे: सुता ।<br>कलहंसकुलारवशालिनी विहरतो हरति स्म हरेर्मन: ॥'
     },
     {
       title_sans: 'हरिणप्लुता',
@@ -737,35 +726,40 @@ export const state = () => ({
       title_eng: 'padacaturūrdhvam',
       id: '4.1.iii.I',
       definition_sans: '<p>यस्य-वृत्तस्य प्रथम:  पाद : अष्टभिर्वर्णै: स्यात् । मुखपादात् द्वितीयाद्या: पादा: चतुर्भि: क्रमाद् वृद्धै: अक्षरै: नैरन्तर्येण स्यु: तत् छ्न्द: पिंगलादिभिराचार्यै:  ‘पदचतुरूर्ध्वाभिधम्’  नाम कथितम् , विलक्षणै: पादै: जातं सौन्दर्यं यस्य तादृशम् । </p><p>प्रथमपादोष्टाक्षर:, द्वितीयो द्वादशाक्षर:, तॄतीय: षोडशाक्षर:, चतुर्थो विंशत्याक्षर इति निर्गलितोर्थ: ।</p>',
-      definition_eng: '<p>In this metre, the number of syllables in the successive quarters increases by 4. The first quarter contians 8 syllables, second - 12 syllables, third - 16 syllables and fourth - 20 syllables.'
+      definition_eng: '<p>In this metre, the number of syllables in the successive quarters increases by 4. The first quarter contians 8 syllables, second - 12 syllables, third - 16 syllables and fourth - 20 syllables.',
+      common: 'मुखपादोष्टभिर्वर्णै:<br>परेस्मान्मकरालयै: क्रमाद् वॄद्धा: ।<br>सततं यस्य विचित्रै: पादै: सम्पन्नसौन्दर्यं<br>तदभिहितममलधीभि: पदचतुरूर्ध्वाभिधं वृत्तम् ।'
     },
     {
       title_sans: 'आपीडम्',
       title_eng: 'āpīḍam',
       id: '4.1.iii.II',
       definition_sans: '<p>विरचितान् विषमसंख्यकान् चरणान् भजतीति तादृशे प्रथमोक्ते पदचतुरूर्ध्वाभिधे वृत्ते गुरुयुग्मं अवसाने यस्य तादृशे सति इत्थंप्रकारेण उपसर्गेण सहितः "आपीड" इत्याख्यं छन्दो भवति। कम्भूत आपीडः-विधृतरुचिरपदविततियतिः=विधृता सम्पादिता रुचिरा हृद्या पदानां वितत्या यतिर्यत्र स तथाविधः।</p>',
-      definition_eng: '<p>If the last two syllables in each quarter are long and all the remainig syllables are short, then the previously described padacaturūrdhva metre is āpīḍam.</p>'
+      definition_eng: '<p>If the last two syllables in each quarter are long and all the remainig syllables are short, then the previously described padacaturūrdhva metre is āpīḍam.</p>',
+      common: 'प्रथम मुदिते वृत्ते<br>विरचितविषमचरणभाजि ।<br>गुरुकुलयुगलनिधे इति कलित आङा<br>विधृतरुचिरपदवितति यतिरिति भवति पीडः॥'
     },
     {
       title_sans: 'कलिका',
       title_eng: 'kalikā',
       id: '4.1.iii.III',
       definition_sans: '<p>यदि प्रथमश्चरणः द्वितीयचरणगतं लक्षणं श्रयति द्वितीयमपि प्रथमपादोक्तं लक्षणं श्रयति, यदि च चरणद्वयं तृतीयचतुर्थरूपम् यथावस्थितमेव स्यात् अनया रीत्या स आपीड एव प्रसिद्धा कलिका नाम छन्दो भवति । अस्यायमाशयः-यदि प्रथमः पादो द्वादशाक्षरः, द्वितीयोष्टाक्षरः, तृतीयः षोडशाक्षरः, चतुर्थो विंशत्यक्षरः तदा कलिका नामेत्युच्यते। इमामेव मञ्जरी इति नाम्ना व्याहरन्ति।</p>',
-      definition_eng: '<p>Placing the first quarter of padacaturūrdhva metre at its second, second quarter of padacaturūrdhva metre at its first, third and fourth quarters  being unchanged, kalikā metre is formed. It is also known as mañjarī.</p><p>The first quarter has 12 syllables, second - 8 syllables, third - 16 syllables and fourth - 20 syllables.</p>'
+      definition_eng: '<p>Placing the first quarter of padacaturūrdhva metre at its second, second quarter of padacaturūrdhva metre at its first, third and fourth quarters  being unchanged, kalikā metre is formed. It is also known as mañjarī.</p><p>The first quarter has 12 syllables, second - 8 syllables, third - 16 syllables and fourth - 20 syllables.</p>',
+      common: 'प्रथममितरचरणसमुत्थं<br>श्रयति जगति लक्ष्म।<br>इतरदितरजनतिमपि यदि चतुर्थ<br>चरणयुगलकमधिकृतमपरमिति कलिका सा॥'
     },
     {
       title_sans: 'लवली',
       title_eng: 'lavalī',
       id: '4.1.iii.IV',
       definition_sans: '<p>यदि तृतीयः चरणः प्रथमपादोक्तम् अष्टाक्षरत्वरुपं लक्षणम् तद्युक्तो भवति, पादत्रयम् प्रस्तुतम् समग्रमपि आपीडलक्षणं श्रयते तदा हि इह शास्त्रे प्रसिद्धा "लवली" नाम छन्दः। द्वाभ्यां गुरुभ्यां युक्तः सकलचरणानाम् अन्तः अवसानं यस्याः सा तादृशी। अत्र-प्रथमः पादो १२ द्वादशाक्षरः, द्वितीयः १६ षोडशाक्षरः, तृतीयः ८ अष्टाक्षरः, चतुर्थो २० विंशत्याक्षर इति सारः।</p>',
-      definition_eng: '<p>Placing the first quarter of padacaturūrdhva metre at its third, lavalī metre is formed.</p><p>The first quarter has 12 syllables, second - 16 syllables, third - 8 syllables and fourth - 20 syllables.</p>'
+      definition_eng: '<p>Placing the first quarter of padacaturūrdhva metre at its third, lavalī metre is formed.</p><p>The first quarter has 12 syllables, second - 16 syllables, third - 8 syllables and fourth - 20 syllables.</p>',
+      common: 'द्विगुरुयुतसकलचरणान्ता<br>मुखचरणरचितमनुभवतितृतीयः<br>चरण इह हि लक्ष्म<br>प्रकृतमपरमखिलमपि यदि भजति लवली सा॥'
     },
     {
       title_sans: 'अमृतधारा',
       title_eng: 'amṛtadhārā',
       id: '4.1.iii.V',
       definition_sans: '<p>यदि प्रथमपादोष्टाक्षरात्मकः, चतुर्थपादरूपेण भवति, चतुर्थः पादोष्टाक्षरात्मको भवतीति यावत्, समग्रम् पादत्रयम् आपीदस्थद्वितीयपादादितुल्यं स्यात् तदा अवसाने गुरुयुग्मं यस्याः सा तादृशी हृद्यपदरचितपादा छन्दःशास्त्रे ‘अमृतधारा’ सेति सारः।</p>',
-      definition_eng: '<p>Placing the first quarter of padacaturūrdhva metre at its fourth, amṛtadhārā metre is formed.</p><p>The first quarter has 12 syllables, second - 16 syllables, third - 20 syllables and fourth - 8 syllables.</p><p>There is no restriction on the occurence of short and long syllables.</p>'
+      definition_eng: '<p>Placing the first quarter of padacaturūrdhva metre at its fourth, amṛtadhārā metre is formed.</p><p>The first quarter has 12 syllables, second - 16 syllables, third - 20 syllables and fourth - 8 syllables.</p><p>There is no restriction on the occurence of short and long syllables.</p>',
+      common: 'प्रथममधिवसति यदि तुर्य<br>चरमचरणपदमवसितगुरुयुग्मा।<br>निखिलमपरमुपरितनसममिह ललितपादा <br>त्रितयममृतधारा॥'
     },
     {
       title_sans: 'उद्गता',
@@ -780,35 +774,40 @@ export const state = () => ({
       title_eng: 'saurabhakam',
       id: '4.1.iii.VII',
       definition_sans: '<p>यदि इह तृतीये पादे रगणनगणौ, भगण गुरु च स्याताम्, अपरं तृतीयवर्जे समग्रं प्रथम-द्वितीय-चतुर्थरुपम् उद्गतास्थितं समग्रं लक्षणम् प्रप्नोति तदा सौरभकं नाम वृत्तमुच्यते।</p>',
-      definition_eng: '<p>This metre is same as udgatā with its third quarter replaced by the arrangement - ra, bha, and one long syllables (10 syllables in all)</p>'
+      definition_eng: '<p>This metre is same as udgatā with its third quarter replaced by the arrangement - ra, bha, and one long syllables (10 syllables in all)</p>',
+      common: 'चरणत्रयं भजति लक्ष्म यदि सकलमुद्गतागतम् ।<br>र्नौ भगौ भवति सौरभकं चरणे यदीह भवस्तृतीयके॥'
     },
     {
       title_sans: 'ललितम्',
       title_eng: 'Lalitam',
       id: '4.1.iii.VIII',
       definition_sans: '<p>यदि तृतीयः पादः नगणद्वयम्, सकारद्वयञ्च आश्रयते, अपरञ्च पादत्रयम् प्रथम द्वितीय चतुर्थात्मकं निश्चयेन उद्गतावत् स्यात् तदा तत् छन्दः “ललितम्” नाम कथितम्।</p>',
-      definition_eng: '<p>This metre is same as udgatā with its third quarter replaced by the arrangement - 2 na groups, and 2 sa groups (12 syllables in all)</p>'
+      definition_eng: '<p>This metre is same as udgatā with its third quarter replaced by the arrangement - 2 na groups, and 2 sa groups (12 syllables in all)</p>',
+      common: ''
     },
     {
       title_sans: 'उपस्थितप्रचुपितं',
       title_eng: 'upasthitapracupitam',
       id: '4.1.iii.IX',
       definition_sans: '<p>मगणसगणौ, जगणभगणौ, द्वौ गुरु च एकः प्रथमचरणः द्वितीयादिपादात् पृथक्कृत्य पठनीय इत्यर्थः। अतः अन्यत् पादत्रयं द्वितीयादि एकीकृत्यैव पठनीयम् न तु तत्र विरामो विधेयः। सगण-नगण-जगण-रगण-गुरवः द्वितीये पादे कार्या। नगणौ, सगणश्च एते त्रुतीये पादे देयाः। जगणयगणौ तौ चतुर्थे पादे कार्यौ, एवं कृते ”उपस्थितप्रचुपितं” नाम छन्द उक्तमित्यर्थः।</p>',
-      definition_eng: '<p> This is an uneven metre with its 4 quarters having arrangements: </p><p>1. ma, sa, ja, bha and two ga - 14 syllables</p><p>2. sa, na, ra and one long - 13 syllables</p><p>2 na groups, sa - 9 syllables</p><p>3. 3 na, one ja and ya</p>'
+      definition_eng: '<p> This is an uneven metre with its 4 quarters having arrangements: </p><p>1. ma, sa, ja, bha and two ga - 14 syllables</p><p>2. sa, na, ra and one long - 13 syllables</p><p>2 na groups, sa - 9 syllables</p><p>3. 3 na, one ja and ya</p>',
+      common: 'म्सौ ज्गौ गौ प्रथमाङ्घ्रिरेकतः पृथगन्यत्<br>त्रितयं सनजरगास्तथा ननौ सः<br>त्रिनपरिकलितजयौ<br>प्रचुपितमिदमुदितमुपस्थितपूर्वम्॥'
     },
     {
       title_sans: 'वर्धमानम्',
       title_eng: 'vardhamānam',
       id: '4.1.iii.X',
       definition_sans: 'तृतीये पादे द्वौ नगणौ ततः सगणनगणौ परन्तु तौ नगणसगणाभ्यां सहितौ स्याताम् प्रथम-द्वितीय-चतुर्थात्मकम् उपस्थितप्रचुपिततुल्यमेव भवति तत् वृत्तम् ‘वर्धमान’ नाम कथितम्। ',
-      definition_eng: '<p>This metre is same as upasthitapracupitam with its third quarter replaced by the arrangement - 2 na, sa, 2 na, sa - 18 syllables.</p>'
+      definition_eng: '<p>This metre is same as upasthitapracupitam with its third quarter replaced by the arrangement - 2 na, sa, 2 na, sa - 18 syllables.</p>',
+      common: 'नौ पादेथ तृतीयके सनौ नसयुक्तौ। प्रथमाङ्घ्रिकृतयतिस्तुवर्धमानम्<br>त्रितयमपरमपि पूर्वसदृशमिह भवति प्रततमतिभिरितिगदितं खलु वृत्तम्'
     },
     {
       title_sans: 'शुद्धविराडार्षभम्',
       title_eng: 'śuddhavirāḍārṣabham',
       id: '4.1.iii.XI',
       definition_sans: 'अस्मिन् एव वर्धमाननामके छन्दसि तृतीये पादे तगण-रगण-जगणाः स्युः। प्रथमे च पादे यतिः स्यात् यदि अपरञ्च पादत्रयम् उपस्थितप्रचुपितवत् भवेत् तदा तत् शुद्धविराडार्षभम् नाम छन्दो भवति।',
-      definition_eng: '<p>śuddhavirāḍārṣabham is an upasthitapracupita with its third quarter replaced by the arrangement - ta, ja, ra</p>'
+      definition_eng: '<p>śuddhavirāḍārṣabham is an upasthitapracupita with its third quarter replaced by the arrangement - ta, ja, ra</p>',
+      common: ''
     },
     {
       title_sans: 'गाथा',
@@ -1152,6 +1151,78 @@ export const state = () => ({
       id: '',
       definition_sans: '<a href="/">Home</a>',
       definition_eng: ''
+    }
+  ],
+  exercises: [
+    {
+      id: '1',
+      title: 'Level 1 - लघु & गुरु',
+      question: 'Identify the short syllable:',
+      options: ['क', 'क्ष', 'त्र', 'अः'],
+      ans: 'क'
+    },
+    {
+      id: '2',
+      title: 'Level 1 - लघु & गुरु',
+      question: 'Pick the odd one out:',
+      options: ['टम्', 'क्ष', 'ज्ञ', 'र'],
+      ans: 'र'
+    },
+    {
+      id: '3',
+      title: 'Level 2 - गणाः',
+      question: 'Number of syllabic instants in one Gaṇa of Mātrā Chandas',
+      options: ['1', '4', '2', '8'],
+      ans: '4'
+    },
+    {
+      id: '4',
+      title: 'Level 2 - गणाः',
+      question: 'Which  Gaṇa in Varṇa chandas contains all short syllables?',
+      options: ['मगण', 'ल', 'नगण', 'जगण'],
+      ans: 'नगण'
+    },
+    {
+      id: '5',
+      title: 'Level 3 - Identify the metre',
+      question: 'This metre which contains 11 syllables in each quarter has long syllables in its 1st, 2nd, 4th, 5th, 8th, 10th and 11th syllables of each quarter.',
+      options: ['Indravajrā', 'Upendravajrā', 'Pankti', 'Candravartma'],
+      ans: 'Indravajrā'
+    },
+    {
+      id: '6',
+      title: 'Level 3 - Identify the metre',
+      question: 'The metre which contains 30 syllables in each quarter is:',
+      options: ['Anuṣṭup', 'Āryā ', 'kṣamā', 'Rucirā'],
+      ans: 'Āryā '
+    },
+    {
+      id: '7',
+      title: 'Level 3 - Identify the meter:',
+      question: '<br>सौम्यां दृष्टि देहि स्नेहा हे हेऽस्माकं मानं मुक्त्वा<br>शशधरमुखिमुखमपनय मम हृदि मनसिजरुजमपहर लघुतरमिह॥',
+      options: ['अनङ्गक्रीडावृत्तम्', 'रुचिरावृत्तम्', 'शिखावृत्तम्', 'वैतालीयछन्दस्'],
+      ans: 'अनङ्गक्रीडावृत्तम्'
+    },
+    {
+      id: '8',
+      title: 'Level 4 - Identify',
+      question: 'How many short and long syllables are there in the following verse?<br>रघुकुलनलिनविकसनशशभृति दशमुखरिपुकुलतिमिर हरे।<br>विषधरविषमविषयविषहरमहसि कुरु रतिमिह दशरथतनये॥',
+      options: ['27 long syllables and one short syllable', '27 short syllables and one long syllable', '14 long and 14 short syllables', '20 short and 8 long syllables'],
+      ans: '27 short syllables and one long syllable'
+    },
+    {
+      id: '9',
+      title: 'Level 4 - Identify the meter:',
+      question: 'A mixed variety of several varieties of Mātrāsamaka metre gives rise to :',
+      options: ['śikhāvṛttam', 'khañjāvṛttam', 'Pādākulaka', 'bhadravirāṭ'],
+      ans: 'Pādākulaka'
+    },
+    {
+      id: '10',
+      title: 'Level 5 - Identify the meter:',
+      question: 'Verses in which all the quarters are dissimilar from the point of view of number and placement of syllables, are called :',
+      options: ['mātrāsamavṛtta', 'Ardhasamavṛtta', 'khañjāvṛtta', 'Viṣamavṛtta'],
+      ans: 'Viṣamavṛtta'
     }
   ]
 })

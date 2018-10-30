@@ -4,7 +4,7 @@
     <v-card-title primary-title>
       <h3 class="papyrus myheader">Vrittaratnakara Exercises</h3>
       </v-card-title>
-      Under construction
+      <v-btn to="/exercises/1" large color="secondary" class="text-capitalize font-weight-bold" round> Start exercises</v-btn>
   </v-card>
   </v-container>
 </template>

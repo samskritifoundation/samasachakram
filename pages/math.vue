@@ -9,7 +9,7 @@
         <v-card-actions>
           <v-btn round color="accent" class="font-weight-bold text-capitalize" nuxt to="/" large>Binomial Theorem</v-btn>
            <v-spacer></v-spacer>
-          <v-btn round color="accent" class="font-weight-bold text-capitalize" nuxt to="/" large>Pascal's Triangle</v-btn>
+          <v-btn round color="accent" class="font-weight-bold text-capitalize" nuxt to="/" large>Meru Triangle</v-btn>
           <v-spacer></v-spacer>
           <v-btn round color="accent" class="font-weight-bold text-capitalize" nuxt to="/" large>Computer Applications</v-btn>
         </v-card-actions>
