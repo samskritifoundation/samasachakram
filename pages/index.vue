@@ -8,7 +8,7 @@
         <v-card-title class="myheader2 devanagari text-xs-center">वृत्तरत्नाकर-शिक्षकः - परस्परव्यवहारपूर्वकशिक्षणम्</v-card-title>
         <v-card-title class="myheader2 papyrus text-xs-center">Interactive tutorial for Vrittaratnakara</v-card-title>
         <v-card-text>
-          <p>Interactive self learning software for learning Sanskrit prosody, various types of meters used in poetry.</p>
+          <p>Interactive self learning software for learning Sanskrit prosody, various types of meters used in poetry.<v-btn color="accent" class="font-weight-bold text-capitalize" href="/print">Download PDF of the website</v-btn></p>
           <hr class="my-3">
         </v-card-text>
         <v-card-actions>

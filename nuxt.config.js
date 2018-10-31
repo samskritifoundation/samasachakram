@@ -23,7 +23,8 @@ module.exports = {
     ]
   },
   plugins: ['~/plugins/vuetify.js',
-  { src: '~/plugins/vued3.js', ssr: false }
+  { src: '~/plugins/vued3.js', ssr: false },
+  { src: '~/plugins/vuepdf.js', ssr: false }
   ],
   css: [
     '~/assets/style/app.styl'
