@@ -8,13 +8,13 @@
 <v-card color="accent lighten-4" class="mt-0 pt-0 bordered">
     <v-card-title primary-title>
         <h3 class="papyrus myheader">{{exercise.id}}. <span class="devanagari">{{exercise.title}}</span> <br>{{exercise.title_eng}}</h3>
-        </v-card-title>
-
-      <v-layout row class="myheader3">
-        <v-chip :color="color" text-color="white" class ="title devanagari">
+         <v-chip :color="color" text-color="white" class ="title devanagari">
       <v-avatar class="green darken-4">{{score}}</v-avatar>
       Score
     </v-chip>
+        </v-card-title>
+
+      <v-layout row class="myheader3">
             <v-flex>
             <div class="devanagari px-1" v-html=exercise.question></div>
             </v-flex>
