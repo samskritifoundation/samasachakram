@@ -11,6 +11,10 @@
         </v-card-title>
 
       <v-layout row class="myheader3">
+        <v-chip :color="color" text-color="white" class ="title devanagari">
+      <v-avatar class="green darken-4">{{score}}</v-avatar>
+      Score
+    </v-chip>
             <v-flex>
             <div class="devanagari px-1" v-html=exercise.question></div>
             </v-flex>
@@ -59,7 +63,9 @@ export default {
       next: '/',
       chosen: null,
       success_alert: false,
-      fail_alert: false
+      fail_alert: false,
+      score: 0,
+      color: 'red'
     }
   },
   layout: 'lessons',
@@ -92,9 +98,13 @@ export default {
       if (this.chosen === correct) {
         this.success_alert = true
         this.fail_alert = false
+        this.score = 1
+        this.color = 'green'
       } else {
         this.success_alert = false
         this.fail_alert = true
+        this.score = 0
+        this.color = 'red'
       }
     }
   }
