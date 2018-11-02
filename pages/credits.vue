@@ -6,7 +6,8 @@
     </div>
     <v-card color="transparent" flat>
       <v-card-text class="subheading font-weight-black text-xs-center">
-      Credits section</p>
+      <h3>Credits</h3>
+      <p>English translations are based on the book: Chandovallari, a Handbook on Sanskrit Prosody, by Dr Sampadananda Mishra
     </v-card-text>
     </v-card>
     </v-flex>
