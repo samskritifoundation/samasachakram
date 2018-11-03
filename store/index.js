@@ -36,18 +36,680 @@ export const state = () => ({
         name: 'Classification of Chandas',
         children: [{
           name: 'वर्णछन्दः Varṇa Chandas',
-          children: [
-            { name: 'समम् Samam' },
-            { name: 'अर्धसमम् Ardhasamam' },
-            { name: 'विषमम् Viṣamam' }
+          children: [{
+            name: 'समम् Samam',
+            children: [
+              {
+                name: 'Uktā',
+                children: [
+                  { name: 'śrīḥ' }
+                ]
+              },
+              {
+                name: 'Atyuktā',
+                children: [
+                  {
+                    name: 'Strī'
+                  }
+                ]
+              },
+              {
+                name: 'Madhyā',
+                children: [
+                  {
+                    name: 'Nārī'
+                  },
+                  {
+                    name: 'Mṛgī'
+                  }
+                ]
+              },
+              {
+                name: 'Pratiṣṭā',
+                children: [
+                  {
+                    name: 'Kanyā'
+                  }
+                ]
+              },
+              {
+                name: 'Supratiṣṭā',
+                children: [
+                  {
+                    name: 'Paṅkti'
+                  }
+                ]
+              },
+              {
+                name: 'Gāyatrī',
+                children: [
+                  {
+                    name: 'Tanumadhyā'
+                  },
+                  {
+                    name: 'śaśivadanā'
+                  },
+                  {
+                    name: 'Vidyullekhā'
+                  },
+                  {
+                    name: 'Vasumatī'
+                  }
+                ]
+              },
+              {
+                name: 'Uṣṇik',
+                children: [
+                  {
+                    name: 'Madalekhā'
+                  }
+                ]
+              },
+              {
+                name: 'Anuṣṭup',
+                children: [
+                  {
+                    name: 'Citrapadā'
+                  },
+                  {
+                    name: 'Vidyunmālā'
+                  },
+                  {
+                    name: 'Māṇavakam'
+                  },
+                  {
+                    name: 'Hamsarutam'
+                  },
+                  {
+                    name: 'Samānikā'
+                  },
+                  {
+                    name: 'Pramāṇikā'
+                  }
+                ]
+              },
+              {
+                name: 'Bṛhatī',
+                children: [
+                  {
+                    name: 'Halamukhī'
+                  },
+                  {
+                    name: 'bhujagaśiśubhṛtā'
+                  }
+                ]
+              },
+              {
+                name: 'Paṅkti',
+                children: [
+                  {
+                    name: 'śuddhavirāṭ'
+                  },
+                  {
+                    name: 'paṇavanāmakam'
+                  },
+                  {
+                    name: 'mayūrasāriṇī'
+                  },
+                  {
+                    name: 'Rukmavatī'
+                  },
+                  {
+                    name: 'Mattā'
+                  },
+                  {
+                    name: 'Manoramā'
+                  },
+                  {
+                    name: 'Upasthitā'
+                  }
+                ]
+              },
+              {
+                name: 'Triṣṭup',
+                children: [
+                  {
+                    name: 'Indravajrā'
+                  },
+                  {
+                    name: 'Upendravajrā'
+                  },
+                  {
+                    name: 'Upajāti'
+                  },
+                  {
+                    name: 'Sumukhī'
+                  },
+                  {
+                    name: 'Dodhakavṛttam'
+                  },
+                  {
+                    name: 'śālinī'
+                  },
+                  {
+                    name: 'Vātormī'
+                  },
+                  {
+                    name: 'śrīḥ'
+                  },
+                  {
+                    name: 'Bhramaravilasitā'
+                  },
+                  {
+                    name: 'Rathoddhatā'
+                  },
+                  {
+                    name: 'Svāgatā'
+                  },
+                  {
+                    name: 'Vṛttā'
+                  },
+                  {
+                    name: 'Bhadrikā'
+                  },
+                  {
+                    name: 'śyenikā'
+                  },
+                  {
+                    name: 'Mouktikamālā'
+                  },
+                  {
+                    name: 'Upasthitam'
+                  }
+                ]
+              },
+              {
+                name: 'Jagatī',
+                children: [
+                  {
+                    name: 'Candravartma'
+                  },
+                  {
+                    name: 'vaṃśasthaṃ'
+                  },
+                  {
+                    name: 'indravaṃśāḥ'
+                  },
+                  {
+                    name: 'Toṭakam'
+                  },
+                  {
+                    name: 'Drutavilambitam'
+                  },
+                  {
+                    name: 'Puṭaḥ'
+                  },
+                  {
+                    name: 'Pramuditavadanā'
+                  },
+                  {
+                    name: 'Kusumavicitrā'
+                  },
+                  {
+                    name: 'Jaloddhatagatiḥ'
+                  },
+                  {
+                    name: 'bhujaṅgaprayātaṃ'
+                  },
+                  {
+                    name: 'sragviṇī'
+                  },
+                  {
+                    name: 'priyaṃvadā'
+                  },
+                  {
+                    name: 'maṇimālā'
+                  },
+                  {
+                    name: 'Lalitā'
+                  },
+                  {
+                    name: 'Mouktikadāma'
+                  },
+                  {
+                    name: 'Vibhāvarī'
+                  },
+                  {
+                    name: 'pramitākṣarā'
+                  },
+                  {
+                    name: 'Ujjvalā'
+                  },
+                  {
+                    name: 'vaiśvadevī'
+                  },
+                  {
+                    name: 'Jaladharamālā'
+                  },
+                  {
+                    name: 'Navamālinī'
+                  },
+                  {
+                    name: 'Prabhā'
+                  },
+                  {
+                    name: 'Mālatī'
+                  },
+                  {
+                    name: 'Tāmarasam'
+                  }
+                ]
+              },
+              {
+                name: 'Atijagatī',
+                children: [
+                  {
+                    name: 'kṣamā'
+                  },
+                  {
+                    name: 'praharṣiṇī'
+                  },
+                  {
+                    name: 'Rucirā'
+                  },
+                  {
+                    name: 'mattamayūram'
+                  },
+                  {
+                    name: 'mañjubhāṣiṇī'
+                  },
+                  {
+                    name: 'Candrikā'
+                  }
+                ]
+              },
+              {
+                name: 'śakkarī',
+                children: [
+                  {
+                    name: 'Asambādhā'
+                  },
+                  {
+                    name: 'Aparājitā'
+                  },
+                  {
+                    name: 'Praharaṇakalikā'
+                  },
+                  {
+                    name: 'Vasantatilakā'
+                  }
+                ]
+              },
+              {
+                name: 'atiśakkarī',
+                children: [
+                  {
+                    name: 'śaśikalā'
+                  },
+                  {
+                    name: 'Srak'
+                  },
+                  {
+                    name: 'Maṇiguṇanikara'
+                  },
+                  {
+                    name: 'Kāmakrīḍā'
+                  },
+                  {
+                    name: 'Mālinī'
+                  },
+                  {
+                    name: 'Prabhadrakam'
+                  },
+                  {
+                    name: 'Elā'
+                  }
+                ]
+              },
+              {
+                name: 'aṣṭiḥ',
+                children: [
+                  {
+                    name: 'ṛṣabhagajavilasitam'
+                  },
+                  {
+                    name: 'vāṇinī'
+                  },
+                  {
+                    name: 'pañcacāmaraṃ'
+                  }
+                ]
+              },
+              {
+                name: 'atyaṣṭiḥ',
+                children: [
+                  {
+                    name: 'śikhariṇī'
+                  },
+                  {
+                    name: 'pṛthvī'
+                  },
+                  {
+                    name: 'vaṃśapatrapatitaṃ'
+                  },
+                  {
+                    name: 'hariṇī'
+                  },
+                  {
+                    name: 'mandākrāntā'
+                  },
+                  {
+                    name: 'Narkuṭakam'
+                  }
+                ]
+              },
+              {
+                name: 'dhṛtiḥ',
+                children: [
+                  {
+                    name: 'kusumitalatāvellitā'
+                  }
+                ]
+              },
+              {
+                name: 'atidhṛtiḥ',
+                children: [
+                  {
+                    name: 'Medhavisphūrjitā'
+                  },
+                  {
+                    name: 'śārdūlavikrīḍitam'
+                  }
+                ]
+              },
+              {
+                name: 'kṛtiḥ',
+                children: [
+                  {
+                    name: 'Suvadanā'
+                  },
+                  {
+                    name: 'vṛttaṃ'
+                  }
+                ]
+              },
+              {
+                name: 'Prakṛtiḥ',
+                children: [
+                  {
+                    name: 'Sragdharā'
+                  }
+                ]
+              },
+              {
+                name: 'ākṛtiḥ',
+                children: [
+                  {
+                    name: 'Bhadrakam'
+                  }
+                ]
+              },
+              {
+                name: 'vikṛtiḥ',
+                children: [
+                  {
+                    name: 'Aśvalalitam'
+                  }
+                ]
+              },
+              {
+                name: 'saṃkṛtiḥ',
+                children: [
+                  {
+                    name: 'Tanvī'
+                  }
+                ]
+              },
+              {
+                name: 'atikṛtiḥ',
+                children: [
+                  {
+                    name: 'Krauñcapadā'
+                  }
+                ]
+              },
+              {
+                name: 'utkṛtiḥ',
+                children: [
+                  {
+                    name: 'bhujaṅgavilasitam'
+                  },
+                  {
+                    name: 'Apavāha'
+                  }
+                ]
+              },
+              {
+                name: 'Daṇḍaka',
+                children: [
+                  {
+                    name: 'caṇḍavṛṣṭiprapātaḥ'
+                  },
+                  {
+                    name: 'arṇa-arṇava-vyāla-jīmūta-līlākara-uddāma-śaṅkhā-etc'
+                  },
+                  {
+                    name: 'pracitakasamabhidhaḥ'
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            name: 'अर्धसमम् Ardhasamam',
+            children: [
+              {
+                name: 'Upacitram'
+              },
+              {
+                name: 'drutamadhyā'
+              },
+              {
+                name: 'vegavatī'
+              },
+              {
+                name: 'bhadravirāṭ'
+              },
+              {
+                name: 'ketumatī'
+              },
+              {
+                name: 'ākhyānakī'
+              },
+              {
+                name: 'viparītākhyānakī'
+              },
+              {
+                name: 'hariṇaplutā'
+              },
+              {
+                name: 'aparavaktram'
+              },
+              {
+                name: 'puṣpitāgrā'
+              },
+              {
+                name: 'yavamatī'
+              }
+            ]
+          },
+          {
+            name: 'विषमम् Viṣamam',
+            children: [
+              {
+                name: 'padacaturūrdhvam'
+              },
+              {
+                name: 'āpīḍam'
+              },
+              {
+                name: 'kalikā'
+              },
+              {
+                name: 'lavalī'
+              },
+              {
+                name: 'amṛtadhārā'
+              },
+              {
+                name: 'udgatā'
+              },
+              {
+                name: 'saurabhakam'
+              },
+              {
+                name: 'Lalitam'
+              },
+              {
+                name: 'upasthitapracupitam'
+              },
+              {
+                name: 'vardhamānam'
+              },
+              {
+                name: 'śuddhavirāḍārṣabham'
+              },
+              {
+                name: 'Gāthā'
+              }
+            ]
+          }
           ]
         }, {
           name: 'मात्राछन्दः Mātrā Chandas',
           children: [
-            { name: 'आर्या āryā' },
-            { name: 'गीतिः Gīti' },
-            { name: 'वैतालीयः Vaitālīya' },
-            { name: 'वक्त्रम् Vaktram' }
+            {
+              name: 'आर्या āryā',
+              children: [
+                {
+                  name: 'Pathyā'
+                },
+                {
+                  name: 'Vipulā'
+                },
+                {
+                  name: 'Capalā',
+                  children: [
+                    {
+                      name: 'Mukhacapalā'
+                    },
+                    {
+                      name: 'Jaghanacapalā'
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              name: 'Gīti',
+              children: [
+                {
+                  name: 'Upagīti'
+                },
+                {
+                  name: 'Udgīti'
+                },
+                {
+                  name: 'āryāgīti'
+                }
+              ]
+            },
+            {
+              name: 'वैतालीयः Vaitālīya',
+              children: [
+                {
+                  name: 'Aupacchandasikam'
+                },
+                {
+                  name: 'āpātalika'
+                },
+                {
+                  name: 'Dakṣiṇāntikā'
+                },
+                {
+                  name: 'Udicyavṛtti'
+                },
+                {
+                  name: 'Prācyavṛtti'
+                },
+                {
+                  name: 'Pravṛttakam'
+                },
+                {
+                  name: 'Aparāntikā'
+                },
+                {
+                  name: 'Cāruhāsinī'
+                }
+              ]
+            },
+            {
+              name: 'वक्त्रम् Vaktram',
+              children: [
+                {
+                  name: 'Pathyāvaktram'
+                },
+                {
+                  name: 'Viparītapathyāvaktram'
+                },
+                {
+                  name: 'capalāvaktram'
+                },
+                {
+                  name: 'yugmavipulā'
+                },
+                {
+                  name: 'bhavipulā'
+                },
+                {
+                  name: 'ravipulā'
+                },
+                {
+                  name: 'navipulā'
+                },
+                {
+                  name: 'tavipulā'
+                }
+              ]
+            },
+            {
+              name: 'mātrāsamavṛttam',
+              children: [
+                {
+                  name: 'acaladhṛtivṛttam'
+                },
+                {
+                  name: 'mātrāsamakam'
+                },
+                {
+                  name: 'viślokavṛttam'
+                },
+                {
+                  name: 'vānavāsikāvṛttam'
+                },
+                {
+                  name: 'citrāvṛttam'
+                },
+                {
+                  name: 'upacitrāvṛttam'
+                },
+                {
+                  name: 'pādākulakavṛttam'
+                },
+                {
+                  name: 'śikhāvṛttam'
+                },
+                {
+                  name: 'khañjāvṛttam'
+                },
+                {
+                  name: 'anaṅgakrīḍāvṛttam'
+                },
+                {
+                  name: 'rucirāvṛttam'
+                }
+              ]
+            }
           ]
         }]
       }
@@ -850,7 +1512,7 @@ export const state = () => ({
     },
     {
       title_sans: 'विपुला',
-      title_eng: 'Vipula',
+      title_eng: 'Vipulā',
       id: '4.2.i.II',
       definition_sans: 'यस्याः आर्यायाः पूर्वार्धोत्तरार्धयोः व्यस्तयोः समस्तयोर्वा आदिमं प्रारम्भस्थितं गणत्रयं संलङ्घ्य लंघयित्वा पादो भवति, ताम् आर्यां विपुलामिति कथयति',
       definition_eng: 'Āryā metre in which the first three gaṇas (in either all 4 quarters or the first 2 quarters) together form one quarter, it is called Vipulā.  ',

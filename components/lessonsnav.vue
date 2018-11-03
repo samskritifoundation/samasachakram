@@ -160,17 +160,17 @@
                     to: '/lessons/4.1.i',
                     vrittas: [
                       {
-                        title: 'Ukta',
+                        title: 'Uktā',
                         sl_num: 'I',
                         to: '/lessons/4.1.i.I'
                       },
                       {
-                        title: 'Atyukta',
+                        title: 'Atyuktā',
                         sl_num: 'II',
                         to: '/lessons/4.1.i.II'
                       },
                       {
-                        title: 'Madhya',
+                        title: 'Madhyā',
                         sl_num: 'III',
                         to: '/lessons/4.1.i.III'
                       },

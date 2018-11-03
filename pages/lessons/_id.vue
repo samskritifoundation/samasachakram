@@ -21,7 +21,7 @@
           <v-layout xs12 class="myheader3 devanagari px-1" v-html=lesson.common></v-layout>
 
           <div v-if='lesson.treeData'>
-            <tree type="cluster" class="tree" zoomable=true :data="treeData" node-text="name" layoutType="euclidean" :radius=4> 
+            <tree type="tree" class="tree" zoomable=true :data="treeData" node-text="name" layoutType="euclidean" :radius=4> 
             </tree>
           </div>
 
@@ -130,7 +130,7 @@ export default {
 }
 
 .tree {
-  height: 800px;
+  height: 2200px;
   width: 100%;
 }
 </style>
