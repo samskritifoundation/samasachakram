@@ -94,8 +94,8 @@ export default {
     check (ans) {
       let correct = this.exercise.ans
       // let correctAudio = new Audio('correct.mp3')
-      const sound = new Audio('correct.mp3')
-      let wrongAudio = new Audio('wrong.mp3')
+      const sound = new Audio('./correct.mp3')
+      let wrongAudio = new Audio('./wrong.mp3')
       console.log(correct + ',' + this.chosen)
       if (this.chosen === correct) {
         sound.play()

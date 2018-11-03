@@ -23,8 +23,7 @@ module.exports = {
     ]
   },
   plugins: ['~/plugins/vuetify.js',
-  { src: '~/plugins/vued3.js', ssr: false },
-  { src: '~/plugins/vuepdf.js', ssr: false }
+  { src: '~/plugins/vued3.js', ssr: false }
   ],
   css: [
     '~/assets/style/app.styl'
@@ -58,6 +57,11 @@ module.exports = {
           loader: 'eslint-loader',
           exclude: /(node_modules)/
         })
+      }
+      const vueLoader = config.module.rules.find((loader) => loader.loader === 'vue-loader')
+      vueLoader.options.transformToRequire = {
+        audio: 'src',
+        source: 'src'
       }
     }
   }
