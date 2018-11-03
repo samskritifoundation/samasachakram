@@ -113,6 +113,7 @@
             <v-divider></v-divider>
             <v-card-text class="subheading papyrus font-weight-bold">
             <p>Ancient Indians used Mathematics extensively and relied on it so heavily that Indian Logic, Philosophy,Hindu Rituals and the Sanskrit Language have strong Mathematical base. Meters, called Chandas are used in Prayers, literary works have a strict Mathematical base. Pingala, younger brother of Panini, the Sanskrit grammarian, has devised Chanda Shastra that deals with these Meters.</p>
+            <img src='~assets/img/PascalTriangleAnimated2.gif' />
             <p>The Chandaḥśāstra presents the first known description of a binary numeral system in connection with the systematic enumeration of meters with fixed patterns of short and long syllables.The discussion of the combinatorics of meter corresponds to the binomial theorem. Halāyudha’s commentary includes a presentation of the Pascal’s triangle(called meruprastāra). Pingala’s work also contains the Fibonacci numbers, called mātrāmeru.</p><p>Use of zero is sometimes mistakenly ascribed to Pingala due to his discussion of binary numbers, usually represented using 0 and 1 in modern discussion, while Pingala used short and long syllables. As Pingala’s system ranks binary patterns starting at one (four short syllables—binary “0000”—is the first pattern), the nth pattern corresponds to the binary representation of n-1, written backwards. Positional use of zero dates from later centuries and would have been known to Halāyudha but not to Pingala.</p><p><b>The Importance given to 2 by Pingala:</b> Pingala in his rules to Sanskrit prosody has given undue importance to the number 2. Typically, he lays down that, Any power of two throughout divisible by two is equal to two raised to the power of two representing the number of twos the first power is divisible by two, i.e, 2<sup>16</sup> = 2<sup>2<sup>4</sup></sup>, 2<sup>32</sup> = 2<sup>2<sup>5</sup></sup>, 2<sup>64</sup> = 2<sup>2<sup>6</sup></sup> and so on.</p><p>In grouping heavies and lights, Pingala adopts a unique method.If we take Heavy = H and Light = L, for two syllables, we get the combination, as follows:</p>
             <ul>
             <li>1 H</li>
@@ -199,7 +200,7 @@ export default {
 }
 
 .bg1 {
-  background:linear-gradient(0deg,rgba(241, 241, 171, 0.5),rgba(255, 255, 255, 0.2)),url(~/assets/img/bg3.jpg) no-repeat;
+  background:linear-gradient(0deg,rgba(241, 241, 171, 0.5),rgba(255, 255, 255, 0.5)),url(~/assets/img/bg3.jpg) no-repeat;
   background-size: cover;
   color: darkred;
 }
