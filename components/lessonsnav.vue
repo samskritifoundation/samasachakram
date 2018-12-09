@@ -130,19 +130,19 @@
             to: '/lessons/1'
           },
           {
-            title: 'Identifying a Guru',
+            title: 'Classification of Samāsa - 1',
             sl_num: '2',
             group: false,
             to: '/lessons/2'
           },
           {
-            title: 'Identifying a Laghu',
+            title: 'Classification of Samāsa - 2',
             sl_num: '3',
             group: false,
             to: '/lessons/3'
           },
           {
-            title: 'Classification of Chandas',
+            title: 'Classification of Samāsa - 3',
             sl_num: '4',
             group: true,
             to: '/lessons/4',
