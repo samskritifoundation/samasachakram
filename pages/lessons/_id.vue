@@ -21,8 +21,19 @@
           <v-layout xs12 class="myheader3 devanagari px-1" v-html=lesson.common></v-layout>
 
           <div v-if='lesson.treeData'>
-            <tree type="tree" class="tree" zoomable=true :data="treeData" node-text="name" layoutType="euclidean" :radius=4> 
-            </tree>
+            <v-treeview 
+              :items="treeData" 
+              :open="open"
+              expand-icon="subdirectory_arrow_right"
+              loading-icon="all_inclusive"
+              hoverable
+              multiple-active
+              transition
+              > 
+              <template slot="append" slot-scope="{ item, open, leaf }" class="ma-5">
+                <v-btn color="primary lighten-3" small class="ma-3" v-if="item.link" nuxt :to="item.link"><b>View</b></v-btn>
+              </template>
+            </v-treeview>
           </div>
 
       <div v-if="lesson.types" class="myheader3">
@@ -72,6 +83,7 @@ export default {
   data () {
     return {
       active: null,
+      open: ['public'],
       id: String(this.$route.params.id),
       lesson: '',
       index: '',
@@ -89,7 +101,7 @@ export default {
     // console.log(this.id)
     this.lesson = this.$store.state.lessons.find(less => String(less.id) === this.id)
     this.treeData = this.lesson.treeData
-    console.log(this.treeData)
+    // console.log(this.treeData)
   },
   created () {
     // console.log(this.$store.state.lessons.find(lesson => lesson.id === '4.1'))
