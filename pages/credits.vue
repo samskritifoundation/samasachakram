@@ -7,7 +7,7 @@
     <v-card color="transparent" flat>
       <v-card-text class="subheading font-weight-black text-xs-center">
       <h3>Credits</h3>
-      <p>English translations are based on the book: Chandovallari, a Handbook on Sanskrit Prosody, by Dr Sampadananda Mishra</p>
+      <p>English translations are based on the translation available <a href="https://www.sanskritworld.in/pages/detail/pagename/samasa">here</a></p>
     </v-card-text>
     </v-card>
     </v-flex>
