@@ -473,31 +473,97 @@ export const state = () => ({
       type: [
         {
           name: '1. द्विपदः (dvipadaḥ) ',
-          link: '/4'
+          description: 'having two words',
+          ex: [
+            {
+              text: 'चित्राः गावो यस्य सः चित्रगुः गोपः। 
+              प्राप्तम् उदकं यं सः प्राप्तोदको ग्रामः । 
+              भुक्तम् ओदनं येन सः भुक्तोदनो भृपः । 
+              निर्जितः कामो येन सः निर्जितकामः शिवः । 
+              विभक्तं धनं यैस्ते विभक्तधना बन्धव । 
+              दत्तः सूपो यस्मै सः दत्तसूपो ब्राह्मणः । 
+              उद्धृतं धनं यस्मात्तत् उद्धृतधनं कुण्डलम्। 
+              चक्रं पाणौ यस्य सः चक्रपाणिः हरिः । 
+              करे स्थितं धनं यस्य सः करस्थितधनो वणिक् । 
+              पुष्पिताः द्रुमाः यस्मिन् सः पुष्पितद्रुम आरामः । 
+              बहवो यज्वानो यस्यां सा बहुयज्वा शाला । 
+              पुष्पिताः द्रुमाः यस्मिन् तत् पुष्पितद्रुमं वनम् । 
+              खरस्य मुखं यस्य सः खरमुखस्तुरगः । 
+              उष्ट्रस्य मुखमिव मुखं यस्य सः उष्ट्रमुखो यक्षः । 
+              उच्चैर्घटो यस्याः सा उच्चैर्घटा नारी ।'
+            },
+            {              
+              text: 'अङ्ग – गात्रोदर – स्तन-कण्ठोष्ठ- दन्त – मुखा - ऽक्षि- केशाः स्त्रियां बहुव्रीहौ ईबन्ता भवन्ति । In feminine, the bahuvrIhis ending with the following words take ‘Ip’ as ending.
+              ते च यथा – 
+              सुन्दरं अङ्गं यस्याः सा सुन्दराङ्गी । 
+              शोभनं गात्रं यस्याः सा  सुगात्री । 
+              कृशम् उदरम् यस्याः सा कृशोदरी । 
+              चारू स्तनौ यस्याः सा चारुस्तनी । 
+              इन्दीवरे इव अक्षिणी यस्याः सा इन्दोवराक्षी । 
+              कम्बुरिव कण्ठो यस्या सा कम्बुकण्ठी । 
+              कुटिलाः केशा यस्याः सा कुटिलकेशी ।'
+            },
+            {
+              text: 'इतरेषाम्‌ अङ्गादिवाचकानाम्‌ स्त्रीत्वेऽपि आबन्त्वमेव। यथा -  चारूदेहा, विस्तृतालका, आवृतकुचा, कुन्ददशना इत्यादि। In other words showing parts of body, it takes ‘Ap’'
+            },
+            {
+              text: 'उरु- पृथु- लघु- बहु- पटु- ऋजु- स्वादु- चारु- मृदुशब्दानां स्त्रीलिङ्ग- विशेषणत्वे ईबन्तत्वमपि । यथा- मृद्वी शाटी, लघ्वी भाषेत्यादि । The adjectives listed would be used with (feminine suffix) ई also when used to qualify a noun in feminine gender (or otherwise they would be used as any feminine word ending in short vowel उ), This makes in their declinations two fold forms, one with ending ई and the other ending उ.'
+            }
+          ]
         },
         {
           name: '2. बहुपदः (bahupadaḥ) ',
-          link: '/4'
+          description: 'having more than 2 words',
+          ex: [
+            {
+              text: 'अधिकः उन्नतः अंसो यस्यः सः अधिकोन्नतांसः ।'
+            }
+          ]
         },
         {
           name: '3. सहपूर्वपदः (sahapūrvapadaḥ) ',
-          link: '/4'
+          description: 'having ‘sa’ or ‘saha’ as first word (showing nearness or togetherness)',
+          ex: [
+            {
+              text: 'सह कृष्णेन वर्तत इति सकृष्णः । सह पुत्रेणेति सपुत्रः । रामेण सह वर्तत इति सरामः ।'
+            }
+          ]
         },
         {
           name: '4. संख्योत्तरपदः (saṃkhyottarapadaḥ) ',
-          link: '/4'
+          description: 'having numerals as uttarapada',
+          ex: [
+            {
+              text: 'दशानां समीपे ये सन्ति ते उपदशाः ।'
+            }
+          ]
         },
         {
           name: '5. संख्योभयपदाः (saṃkhyobhayapadāḥ) ',
-          link: '/4'
+          description: 'having numerals as both words',
+          ex: [
+            {
+              text: 'द्वौ वा त्रयो वा द्वित्राः ।'
+            }
+          ]
         },
         {
           name: '6. व्यतिहारलक्षणः (vyatihāralakṣaṇaḥ) ',
-          link: '/4'
+          description: 'showing reciprocity or repitition',
+          ex: [
+            {
+              text: 'केशेषु केशेषु गृहीत्वा इदं युद्धं प्रवर्तत इति केशाकेशि युद्धम् । दण्डै दण्डैः कृत्वा इदं युद्धं प्रवर्तत इति दण्डादण्डि ।'
+            }
+          ]
         },
         {
           name: '7. दिगन्तराललक्षणः (digantarālalakṣaṇaḥ) ',
-          link: '/4'
+          description: 'showing the quarters of directions',
+          ex: [
+            {
+              text: 'दक्षिणस्याः पूर्वस्याश्च दिशो यदन्तरालं सा दक्षिणपूर्वा ।'
+            }
+          ]
         }
       ]
     },
