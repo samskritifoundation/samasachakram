@@ -23,7 +23,7 @@ export const state = () => ({
           children: [
             {
               name: '1. तत्पुरुषः (tatpuruṣaḥ) - 8 types',
-              link: '/2',
+              link: '/lessons/2',
               children: [
                 {
                   name: '1. प्रथमातत्पुरुषः (prathamātatpuruṣaḥ)',
@@ -241,7 +241,7 @@ export const state = () => ({
       type: [
         {
           name: '1. प्रथमातत्पुरुषः (prathamātatpuruṣaḥ)',
-          sans: '',
+          explanation: '',
           ex: [
             {
               text: 'अर्ध पिप्पल्ल्याः अर्धपिप्पली । '
@@ -473,47 +473,67 @@ export const state = () => ({
       type: [
         {
           name: '1. द्विपदः (dvipadaḥ) ',
-          description: 'having two words',
+          explanation: 'having two words',
           ex: [
             {
-              text: 'चित्राः गावो यस्य सः चित्रगुः गोपः। 
-              प्राप्तम् उदकं यं सः प्राप्तोदको ग्रामः । 
-              भुक्तम् ओदनं येन सः भुक्तोदनो भृपः । 
-              निर्जितः कामो येन सः निर्जितकामः शिवः । 
-              विभक्तं धनं यैस्ते विभक्तधना बन्धव । 
-              दत्तः सूपो यस्मै सः दत्तसूपो ब्राह्मणः । 
-              उद्धृतं धनं यस्मात्तत् उद्धृतधनं कुण्डलम्। 
-              चक्रं पाणौ यस्य सः चक्रपाणिः हरिः । 
-              करे स्थितं धनं यस्य सः करस्थितधनो वणिक् । 
-              पुष्पिताः द्रुमाः यस्मिन् सः पुष्पितद्रुम आरामः । 
-              बहवो यज्वानो यस्यां सा बहुयज्वा शाला । 
-              पुष्पिताः द्रुमाः यस्मिन् तत् पुष्पितद्रुमं वनम् । 
-              खरस्य मुखं यस्य सः खरमुखस्तुरगः । 
-              उष्ट्रस्य मुखमिव मुखं यस्य सः उष्ट्रमुखो यक्षः । 
-              उच्चैर्घटो यस्याः सा उच्चैर्घटा नारी ।'
-            },
-            {              
-              text: 'अङ्ग – गात्रोदर – स्तन-कण्ठोष्ठ- दन्त – मुखा - ऽक्षि- केशाः स्त्रियां बहुव्रीहौ ईबन्ता भवन्ति । In feminine, the bahuvrIhis ending with the following words take ‘Ip’ as ending.
-              ते च यथा – 
-              सुन्दरं अङ्गं यस्याः सा सुन्दराङ्गी । 
-              शोभनं गात्रं यस्याः सा  सुगात्री । 
-              कृशम् उदरम् यस्याः सा कृशोदरी । 
-              चारू स्तनौ यस्याः सा चारुस्तनी । 
-              इन्दीवरे इव अक्षिणी यस्याः सा इन्दोवराक्षी । 
-              कम्बुरिव कण्ठो यस्या सा कम्बुकण्ठी । 
-              कुटिलाः केशा यस्याः सा कुटिलकेशी ।'
+              text: 'चित्राः गावो यस्य सः चित्रगुः गोपः।'
             },
             {
-              text: 'इतरेषाम्‌ अङ्गादिवाचकानाम्‌ स्त्रीत्वेऽपि आबन्त्वमेव। यथा -  चारूदेहा, विस्तृतालका, आवृतकुचा, कुन्ददशना इत्यादि। In other words showing parts of body, it takes ‘Ap’'
+              text: 'प्राप्तम् उदकं यं सः प्राप्तोदको ग्रामः ।'
             },
             {
-              text: 'उरु- पृथु- लघु- बहु- पटु- ऋजु- स्वादु- चारु- मृदुशब्दानां स्त्रीलिङ्ग- विशेषणत्वे ईबन्तत्वमपि । यथा- मृद्वी शाटी, लघ्वी भाषेत्यादि । The adjectives listed would be used with (feminine suffix) ई also when used to qualify a noun in feminine gender (or otherwise they would be used as any feminine word ending in short vowel उ), This makes in their declinations two fold forms, one with ending ई and the other ending उ.'
+              text: 'भुक्तम् ओदनं येन सः भुक्तोदनो भृपः ।'
+            },
+            {
+              text: 'निर्जितः कामो येन सः निर्जितकामः शिवः ।'
+            },
+            {
+              text: 'विभक्तं धनं यैस्ते विभक्तधना बन्धव ।'
+            },
+            {
+              text: 'दत्तः सूपो यस्मै सः दत्तसूपो ब्राह्मणः ।'
+            },
+            {
+              text: 'उद्धृतं धनं यस्मात्तत् उद्धृतधनं कुण्डलम्।'
+            },
+            {
+              text: 'चक्रं पाणौ यस्य सः चक्रपाणिः हरिः ।'
+            },
+            {
+              text: 'करे स्थितं धनं यस्य सः करस्थितधनो वणिक् ।'
+            },
+            {
+              text: 'पुष्पिताः द्रुमाः यस्मिन् सः पुष्पितद्रुम आरामः ।'
+            },
+            {
+              text: 'बहवो यज्वानो यस्यां सा बहुयज्वा शाला ।'
+            },
+            {
+              text: 'पुष्पिताः द्रुमाः यस्मिन् तत् पुष्पितद्रुमं वनम् ।'
+            },
+            {
+              text: 'खरस्य मुखं यस्य सः खरमुखस्तुरगः ।'
+            },
+            {
+              text: 'उष्ट्रस्य मुखमिव मुखं यस्य सः उष्ट्रमुखो यक्षः ।'
+            },
+            {
+              text: 'उच्चैर्घटो यस्याः सा उच्चैर्घटा नारी ।'
+            },
+            {
+              text: '<p>अङ्ग – गात्रोदर – स्तन-कण्ठोष्ठ- दन्त – मुखा - अक्षि- केशाः स्त्रियां बहुव्रीहौ ईबन्ता भवन्ति । </p><p>In feminine, the bahuvrIhis ending with the following words take ‘Ip’ as ending.</p><p>ते च यथा – </p><ul><li>सुन्दरं अङ्गं यस्याः सा सुन्दराङ्गी । </li><li>शोभनं गात्रं यस्याः सा  सुगात्री । </li><li>कृशम् उदरम् यस्याः सा कृशोदरी । </li><li>चारू स्तनौ यस्याः सा चारुस्तनी । </li><li>इन्दीवरे इव अक्षिणी यस्याः सा इन्दोवराक्षी । </li><li>कम्बुरिव कण्ठो यस्या सा कम्बुकण्ठी । </li><li>कुटिलाः केशा यस्याः सा कुटिलकेशी ।</li></ul>'
+            },
+            {
+              text: '<p>इतरेषाम्‌ अङ्गादिवाचकानाम्‌ स्त्रीत्वेऽपि आबन्त्वमेव। </p><p> यथा -  चारूदेहा, विस्तृतालका, आवृतकुचा, कुन्ददशना इत्यादि। </p><p>In other words showing parts of body, it takes ‘Ap’</p>'
+            },
+            {
+              text: '<p>उरु- पृथु- लघु- बहु- पटु- ऋजु- स्वादु- चारु- मृदुशब्दानां स्त्रीलिङ्ग- विशेषणत्वे ईबन्तत्वमपि ।</p><p> यथा- मृद्वी शाटी, लघ्वी भाषेत्यादि । </p><p>The adjectives listed would be used with (feminine suffix) ई also when used to qualify a noun in feminine gender (or otherwise they would be used as any feminine word ending in short vowel उ), This makes in their declinations two fold forms, one with ending ई and the other ending उ.</p>'
             }
           ]
         },
         {
           name: '2. बहुपदः (bahupadaḥ) ',
-          description: 'having more than 2 words',
+          explanation: 'having more than 2 words',
           ex: [
             {
               text: 'अधिकः उन्नतः अंसो यस्यः सः अधिकोन्नतांसः ।'
@@ -522,7 +542,7 @@ export const state = () => ({
         },
         {
           name: '3. सहपूर्वपदः (sahapūrvapadaḥ) ',
-          description: 'having ‘sa’ or ‘saha’ as first word (showing nearness or togetherness)',
+          explanation: 'having ‘sa’ or ‘saha’ as first word (showing nearness or togetherness)',
           ex: [
             {
               text: 'सह कृष्णेन वर्तत इति सकृष्णः । सह पुत्रेणेति सपुत्रः । रामेण सह वर्तत इति सरामः ।'
@@ -531,7 +551,7 @@ export const state = () => ({
         },
         {
           name: '4. संख्योत्तरपदः (saṃkhyottarapadaḥ) ',
-          description: 'having numerals as uttarapada',
+          explanation: 'having numerals as uttarapada',
           ex: [
             {
               text: 'दशानां समीपे ये सन्ति ते उपदशाः ।'
@@ -540,7 +560,7 @@ export const state = () => ({
         },
         {
           name: '5. संख्योभयपदाः (saṃkhyobhayapadāḥ) ',
-          description: 'having numerals as both words',
+          explanation: 'having numerals as both words',
           ex: [
             {
               text: 'द्वौ वा त्रयो वा द्वित्राः ।'
@@ -549,16 +569,19 @@ export const state = () => ({
         },
         {
           name: '6. व्यतिहारलक्षणः (vyatihāralakṣaṇaḥ) ',
-          description: 'showing reciprocity or repitition',
+          explanation: 'showing reciprocity or repitition',
           ex: [
             {
-              text: 'केशेषु केशेषु गृहीत्वा इदं युद्धं प्रवर्तत इति केशाकेशि युद्धम् । दण्डै दण्डैः कृत्वा इदं युद्धं प्रवर्तत इति दण्डादण्डि ।'
+              text: 'केशेषु केशेषु गृहीत्वा इदं युद्धं प्रवर्तत इति केशाकेशि युद्धम् ।'
+            },
+            {
+              text: ' दण्डै दण्डैः कृत्वा इदं युद्धं प्रवर्तत इति दण्डादण्डि ।'
             }
           ]
         },
         {
           name: '7. दिगन्तराललक्षणः (digantarālalakṣaṇaḥ) ',
-          description: 'showing the quarters of directions',
+          explanation: 'showing the quarters of directions',
           ex: [
             {
               text: 'दक्षिणस्याः पूर्वस्याश्च दिशो यदन्तरालं सा दक्षिणपूर्वा ।'
@@ -573,42 +596,113 @@ export const state = () => ({
       id: 8,
       definition_sans: '',
       definition_eng: '',
-      common: '',
-      example_sans: ''
+      types: 2,
+      type: [
+        {
+          name: '1. एकवद्भावी द्विगुः (ekavadbhāvī dviguḥ) ',
+          link: '/5',
+          explanation: '',
+          ex: [
+            {
+              text: 'त्रयाणां शृङ्गाणां समाहारस्त्रिशृङ्गम् । '
+            },
+            {
+              text: 'पञ्चानां फलानां समाहारः पञ्चफली ।'
+            }
+          ]
+        },
+        {
+          name: '2. अनेकवद्भावी द्विगुः (anekavadbhāvī dviguḥ) ',
+          link: '/5',
+          explanation: '',
+          ex: [
+            {
+              text: 'सप्त च ते ऋषयश्च सप्तर्षयः ।'
+            }
+          ]
+        }
+      ]
     },
     {
       title_sans: 'द्वन्द्वः',
       title_eng: 'Dvandva',
       id: 9,
-      definition_sans: '',
+      definition_sans: 'उभयपदार्थप्रधानो द्वन्द्वः ।',
       definition_eng: '',
-      common: '',
-      example_sans: ''
+      types: 2,
+      type: [
+        {
+          name: '1. इतरेतरद्वन्द्वः (itaretaradvandvaḥ)',
+          link: '/6',
+          ex: [
+            {
+              text: 'प्लक्षश्च न्यग्रोधश्च प्लक्षन्यग्रौधौ ।'
+            },
+            {
+              text: ' रामश्च कृष्णश्च रामकृष्णौ ।'
+            }
+          ]
+        },
+        {
+          name: '2. समाहारद्वन्द्वः (samāhāradvandvaḥ)',
+          link: '/7',
+          ex: [
+            {
+              text: 'हरिश्च हरश्च गुरुश्च एषां समाहारः हरिहर गुरुः ।'
+            },
+            {
+              text: '<p>प्राणितूर्यसेनाङ्गानां द्वन्द्वैकवद्भावः । </p><p>प्राण्यङ्गे यथा – </p><ul><li>पाणी च पादौ च मुखं च पाणिपादमुखम् ।</li><li>तूर्याङ्गे यथा- मार्दङ्गिकश्च वैणविकश्च मार्दङ्गिकवैणविकम् । </li><li>शंखश्च पटहश्च शंखपटहम् ।</li><li>सेनाङ्गे यथा- राजन्याश्च रथाश्च अश्वाश्च राजन्यरथाश्वम् ।</li></ul>'
+            }
+          ]
+        }
+      ]
     },
     {
       title_sans: 'अव्ययीभावः',
       title_eng: 'Avyayībhāva',
       id: 10,
-      definition_sans: '',
+      definition_sans: 'पूर्वपदार्थप्रधानोऽव्ययीभावः । अव्ययीभावस्याऽव्ययत्वात् त्रिषु लिङ्गेषु समानं रूपम् ।',
       definition_eng: '',
       common: '',
-      example_sans: ''
+      ex: [
+        {
+          text: 'तटं तटं प्रत्यनुतटम् ।'
+        },
+        {
+          text: ' गिरिं गिरिं प्रत्यनुगिरिम् ।'
+        },
+        {
+          text: 'क्रममनतिक्रम्य वर्तत इति यथाक्रमम् ।'
+        },
+        {
+          text: ' वेलायामित्यधिवेलम् ।'
+        },
+        {
+          text: ' कुम्भस्य समीपे वर्तत इत्युपकुम्भम् ।'
+        },
+        {
+          text: ' मक्षिकाणामभावो निर्मक्षिकम् ।'
+        },
+        {
+          text: ' हिमस्य अत्ययः अतिहिमम् ।'
+        }
+      ]
     },
     {
-      title_sans: '',
-      title_eng: ' ',
+      title_sans: 'लुक् समासो ',
+      title_eng: 'Luk Samasa',
       id: 11,
-      definition_sans: '',
-      definition_eng: '',
+      definition_sans: '(१) लुक् समासो यथा- तनुरेव लता तनुलता । कृष्णा एव मेघाः कृष्णमेघाः ।',
+      definition_eng: 'here there is elision of the case markers',
       common: '',
       example_sans: ''
     },
     {
-      title_sans: '',
+      title_sans: 'अलुक् समासो',
       title_eng: ' ',
       id: 12,
-      definition_sans: '',
-      definition_eng: '',
+      definition_sans: '(२) अलुक् समासो यथा- वने चरतीति वनेचरः । पङ्के रुहतीति पङ्केरुहम् । मत्वर्थो यथा – बुद्धिरस्यास्तीति बुद्धिमान् । धनमस्यास्तीति धनवान् । धीरस्य भावो धीरता । जनानां समूहो जनता । घटस्य भावो घटत्वम् ।',
+      definition_eng: 'there is no elision of the case markers.',
       common: '',
       example_sans: ''
     }
