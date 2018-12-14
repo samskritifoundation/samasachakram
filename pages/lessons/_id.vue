@@ -7,7 +7,7 @@
   </v-layout>
 <v-card color="accent lighten-4" class="mt-0 pt-0 bordered">
     <v-card-title primary-title>
-        <h3 class="papyrus myheader">{{lesson.id}}. <span class="devanagari">{{lesson.title_sans}}</span> <br>{{lesson.title_eng}}</h3>
+        <h3 class="myheader">{{lesson.id}}. <span class="devanagari">{{lesson.title_sans}}</span> <br>{{lesson.title_eng}}</h3>
         </v-card-title>
 
       <v-layout row class="myheader3">
@@ -20,7 +20,7 @@
           </v-layout>
           <v-layout xs12 class="myheader3 devanagari px-1" v-html=lesson.common></v-layout>
 
-          <div v-if='lesson.treeData'>
+          <div v-if='lesson.treeData' class="myheader2">
             <v-treeview 
               :items="treeData" 
               :open="open"
@@ -37,34 +37,25 @@
           </div>
 
       <div v-if="lesson.types" class="myheader3">
-        <div class="text-xs-center mt-3">
-      <v-btn @click="nexttab">next tab</v-btn>
-    </div>
-    <v-tabs
-      v-model="active"
-      color="accent"
-      dark
-      slider-color="yellow"
+        <v-expansion-panel focusable inset>
+    <v-expansion-panel-content
+       v-for="t in lesson.type" :key="t"
     >
-      <v-tab
-        v-for="n in lesson.types"
-        :key="n"
-        ripple
-        class="font-weight-bold"
-      >
-        {{ n }}
-
-      </v-tab>
-      <v-tab-item
-        v-for="n in lesson.type"
-        :key="n"
-      >
-        <v-card flat>
-          <v-card-text class="devanagari" v-html="n.text_sans"></v-card-text>
-        </v-card>
-      </v-tab-item>
-    </v-tabs>
-
+      <div slot="header">{{t.name}}</div>
+      <v-card>
+        <v-card-text>
+          <p>{{t.explanation}}</p>
+          <div v-if="t.ex">
+            <h3>Examples:</h3>
+            <ul>
+              <li v-for="example in t.ex" :key="example" v-html="example.text">
+              </li>
+            </ul>
+          </div>
+        </v-card-text>
+      </v-card>
+    </v-expansion-panel-content>
+  </v-expansion-panel>
   </div>
   </v-card>
 </v-container>
