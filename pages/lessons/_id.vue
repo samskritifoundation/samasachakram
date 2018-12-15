@@ -7,19 +7,28 @@
   </v-layout>
 <v-card color="accent lighten-4" class="mt-0 pt-0 bordered">
     <v-card-title primary-title>
-        <h3 class="myheader">{{lesson.id}}. <span class="devanagari">{{lesson.title_sans}}</span> <br>{{lesson.title_eng}}</h3>
+        <h3 class="myheader">{{lesson.id}}. <span class="devanagari" v-if="lesson.title_sans">{{lesson.title_sans}} <br></span>{{lesson.title_eng}}</h3>
         </v-card-title>
 
       <v-layout row class="myheader3">
-            <v-flex xs6>
-            <div class="devanagari px-1" v-html=lesson.definition_sans></div>
+            <v-flex xs6 v-show="lesson.definition_sans">
+            <div class="devanagari px-1" v-html="lesson.definition_sans"></div>
             </v-flex>
-            <v-flex xs6>
-            <div class="font-weight-bold px-1" v-html=lesson.definition_eng></div>
+            <v-flex xs6 v-show="lesson.definition_eng">
+            <div class="font-weight-bold px-1" v-html="lesson.definition_eng"></div>
             </v-flex>
           </v-layout>
-          <v-layout xs12 class="myheader3 devanagari px-1" v-html=lesson.common></v-layout>
-
+          <v-flex xs12>
+          <v-layout class="myheader3 devanagari px-1" v-html="lesson.common"></v-layout>
+          </v-flex>
+          <v-flex xs12 v-if="lesson.examples">
+          <v-layout class="myheader3 devanagari px-1" >
+            <h3>Examples:</h3>
+          <ul>
+            <li v-for="ex in lesson.examples" v-html="ex.text" :key="ex"></li>
+          </ul>
+          </v-layout>
+          </v-flex>
           <div v-if='lesson.treeData' class="myheader2">
             <v-treeview 
               :items="treeData" 
