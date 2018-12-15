@@ -3,11 +3,9 @@ export const state = () => ({
   lessons: [
     {
       title_sans: 'समासानां परिचयः',
-      title_eng: '',
+      title_eng: 'Introduction to Compounds in Sanskrit',
       id: 1,
-      definition_sans: '',
-      definition_eng: '',
-      common: '',
+      common: '<p>Combination of two or more nouns to create a new noun is called the compound. In English, a typical compound involves two or three words; "wallpaper," for instance, is just "wall" and "paper." Sanskrit compounds can be made of as many as 30 different words.<br><br>Sanskrit has an extremely rich system of compounds. Partly for that reason, compounds are a vital part of Sanskrit grammar. Compounds were analyzed extensively by the ancient Indian grammarians, most of whom worked about 2500 years ago; as a carry-over from that tradition.<br><br>All of the words in the compound are taken as a single unit. Even though many words may be in a compound, only the last one is inflected. All other words appear as ordinary stems, with the rare exception. Between words in the compound, external sandhi applies.</p>',
       example_sans: ''
     },
     {
@@ -23,141 +21,141 @@ export const state = () => ({
           children: [
             {
               name: '1. तत्पुरुषः (tatpuruṣaḥ) - 8 types',
-              link: '/lessons/2',
+              link: '/lessons/5',
               children: [
                 {
                   name: '1. प्रथमातत्पुरुषः (prathamātatpuruṣaḥ)',
-                  link: '/2'
+                  link: '/lessons/5'
                 },
                 {
                   name: '2. द्वितीयातत्पुरुषः (dvitīyātatpuruṣaḥ)',
-                  link: '/2'
+                  link: '/lessons/5'
                 },
                 {
                   name: '3. तृतीयातत्पुरुषः (tṛtīyātatpuruṣaḥ)',
-                  link: '/2'
+                  link: '/lessons/5'
                 },
                 {
                   name: '4. चतुर्थीतत्पुरुषः (caturthītatpuruṣaḥ)',
-                  link: '/2'
+                  link: '/lessons/5'
                 },
                 {
                   name: '5. पञ्चमीतत्पुरुषः (pañcamītatpuruṣaḥ)',
-                  link: '/2'
+                  link: '/lessons/5'
                 },
                 {
                   name: '6. षष्ठीतत्पुरुषः (ṣaṣṭhītatpuruṣaḥ)',
-                  link: '/2'
+                  link: '/lessons/5'
                 },
                 {
                   name: '7. सप्तमीतत्पुरुषः (saptamītatpuruṣaḥ)',
-                  link: '/2'
+                  link: '/lessons/5'
                 },
                 {
                   name: '8. नञ् तत्पुरुषः (nañ tatpuruṣaḥ)',
-                  link: '/2'
+                  link: '/lessons/5'
                 }
               ]
             },
             {
               name: '2. कर्मधारयः (karmadhārayaḥ) - 7 types',
-              link: '/3',
+              link: '/lessons/6',
               children: [
                 {
                   name: '1. विशेषणपूर्वपदः (viśeṣaṇapūrvapadaḥ)',
-                  link: '/3'
+                  link: '/lessons/6'
                 },
                 {
                   name: '2. विशेष्यपूर्वपदः (viśeṣyapūrvapadaḥ) ',
-                  link: '/3'
+                  link: '/lessons/6'
                 },
                 {
                   name: '3. विशेषणोभयपदः (viśeṣaṇobhayapadaḥ) ',
-                  link: '/3'
+                  link: '/lessons/6'
                 },
                 {
                   name: '4. उपमानपूर्वपदः (upamānapūrvapadaḥ) ',
-                  link: '/3'
+                  link: '/lessons/6'
                 },
                 {
                   name: '5. उपमानोत्तरपदः (upamānottarapadaḥ) ',
-                  link: '/3'
+                  link: '/lessons/6'
                 },
                 {
                   name: '6. सम्भावनापूर्वपदः (sambhāvanāpūrvapadaḥ)',
-                  link: '/3'
+                  link: '/lessons/6'
                 },
                 {
                   name: '7. अवधारणापूर्वपदः (avadhāraṇāpūrvapadaḥ) ',
-                  link: '/3'
+                  link: '/lessons/6'
                 }
               ]
             },
             {
               name: '3. बहुव्रीहिः (bahuvrīhi) - 7 types',
-              link: '/4',
+              link: '/lessons/7',
               children: [
                 {
                   name: '1. द्विपदः (dvipadaḥ) ',
-                  link: '/4'
+                  link: '/lessons/7'
                 },
                 {
                   name: '2. बहुपदः (bahupadaḥ) ',
-                  link: '/4'
+                  link: '/lessons/7'
                 },
                 {
                   name: '3. सहपूर्वपदः (sahapūrvapadaḥ) ',
-                  link: '/4'
+                  link: '/lessons/7'
                 },
                 {
                   name: '4. संख्योत्तरपदः (saṃkhyottarapadaḥ) ',
-                  link: '/4'
+                  link: '/lessons/7'
                 },
                 {
                   name: '5. संख्योभयपदाः (saṃkhyobhayapadāḥ) ',
-                  link: '/4'
+                  link: '/lessons/7'
                 },
                 {
                   name: '6. व्यतिहारलक्षणः (vyatihāralakṣaṇaḥ) ',
-                  link: '/4'
+                  link: '/lessons/7'
                 },
                 {
                   name: '7. दिगन्तराललक्षणः (digantarālalakṣaṇaḥ) ',
-                  link: '/4'
+                  link: '/lessons/7'
                 }
               ]
             },
             {
               name: '4. द्विगुः (dvigu) - 2 types',
-              link: '/5',
+              link: '/lessons/8',
               children: [
                 {
                   name: '1. एकवद्भावी द्विगुः (ekavadbhāvī dviguḥ) ',
-                  link: '/5'
+                  link: '/lessons/8'
                 },
                 {
                   name: '2. अनेकवद्भावी द्विगुः (anekavadbhāvī dviguḥ) ',
-                  link: '/5'
+                  link: '/lessons/8'
                 }
               ]
             },
             {
               name: '5. द्वन्द्वः (dvandva) - 2 types',
-              link: '/6',
+              link: '/lessons/9',
               children: [
                 {
                   name: '1. इतरेतरद्वन्द्वः (itaretaradvandvaḥ)',
-                  link: '/6'
+                  link: '/lessons/9'
                 },
                 {
                   name: '2. समाहारद्वन्द्वः (samāhāradvandvaḥ)',
-                  link: '/7'
+                  link: '/lessons/9'
                 }
               ]
             },
             {
-              name: '6. अव्ययीभावः (avyayībhāva) - 2 types',
-              link: '/7'
+              name: '6. अव्ययीभावः (avyayībhāva)',
+              link: '/lessons/10'
             }
           ]
         }
@@ -173,11 +171,11 @@ export const state = () => ({
       treeData: [
         {
           name: 'Nityayoga / luk',
-          link: '/'
+          link: '/lessons/11'
         },
         {
           name: 'Anityayoga / aluk',
-          link: '/'
+          link: '/lessons/12'
         }
       ],
       example_sans: ''
@@ -192,7 +190,7 @@ export const state = () => ({
       treeData: [
         {
           name: 'Dvandva',
-          link: '/',
+          link: '/lessons/9',
           children: [
             {
               name: 'The Samāsas having preponderance of च (and) is called dvandva.'
@@ -201,7 +199,7 @@ export const state = () => ({
         },
         {
           name: 'Karmadhāraya',
-          link: '/',
+          link: '/lessons/6',
           children: [
             {
               name: 'Samāsas showing ‘that and this’ is karmadhāraya.'
@@ -210,16 +208,16 @@ export const state = () => ({
         },
         {
           name: 'Bahuvrīhi',
-          link: '/',
+          link: '/lessons/7',
           children: [
             {
-              name: '>Samāsa having यस्य or येषां (whose) in anvaya is called bahuvrīhi.'
+              name: 'Samāsa having यस्य or येषां (whose) in anvaya is called bahuvrīhi.'
             }
           ]
         },
         {
           name: 'Tatpuruṣa',
-          link: '/',
+          link: '/lessons/5',
           children: [
             {
               name: 'The rest are Tatpuruṣa.'
@@ -241,7 +239,7 @@ export const state = () => ({
       type: [
         {
           name: '1. प्रथमातत्पुरुषः (prathamātatpuruṣaḥ)',
-          explanation: '',
+          explanation: 'Nominative case suffix',
           ex: [
             {
               text: 'अर्ध पिप्पल्ल्याः अर्धपिप्पली । '
@@ -253,6 +251,7 @@ export const state = () => ({
         },
         {
           name: '2. द्वितीयातत्पुरुषः (dvitīyātatpuruṣaḥ)',
+          explanation: 'Accusative case suffix',
           ex: [
             {
               text: 'कृष्णं श्रितः कृष्णश्रितः ।'
@@ -267,6 +266,7 @@ export const state = () => ({
         },
         {
           name: '3. तृतीयातत्पुरुषः (tṛtīyātatpuruṣaḥ)',
+          explanation: 'Instrumental case suffix',
           ex: [
             {
               text: 'शङ्कुलया खण्डः शङ्कुलाखंडः।'
@@ -281,6 +281,7 @@ export const state = () => ({
         },
         {
           name: '4. चतुर्थीतत्पुरुषः (caturthītatpuruṣaḥ)',
+          explanation: 'Dative case suffix',
           ex: [
             {
               text: 'यूपाय दारु यूपदारु ।'
@@ -295,6 +296,7 @@ export const state = () => ({
         },
         {
           name: '5. पञ्चमीतत्पुरुषः (pañcamītatpuruṣaḥ)',
+          explanation: 'Ablative case suffix',
           ex: [
             {
               text: 'अर्थात् अपेतः अर्थापेतः । '
@@ -309,6 +311,7 @@ export const state = () => ({
         },
         {
           name: '6. षष्ठीतत्पुरुषः (ṣaṣṭhītatpuruṣaḥ)',
+          explanation: 'Relative case suffix',
           ex: [
             {
               text: 'कृष्णस्य भक्तः कृष्णभक्तः ।'
@@ -323,6 +326,7 @@ export const state = () => ({
         },
         {
           name: '7. सप्तमीतत्पुरुषः (saptamītatpuruṣaḥ)',
+          explanation: 'Locative case suffix',
           ex: [
             {
               text: 'अक्षेषु शौण्डः अक्षशौण्डः ।'
@@ -361,12 +365,12 @@ export const state = () => ({
       id: 6,
       definition_sans: '',
       definition_eng: '',
-      common: '',
+      common: 'The relation of the first member to the last is appositional, attributive or adverbial',
       types: 7,
       type: [
         {
           name: '1. विशेषणपूर्वपदः (viśeṣaṇapūrvapadaḥ)',
-          explanation: 'the first word is adjective',
+          explanation: 'The first word is adjective',
           ex: [
             {
               text: 'कृष्णश्चाऽसौ सर्पश्च कृष्णसर्पः । <br>कृष्णौ च तौ सर्पौ च कृष्णसर्पौ ।<br> कृष्णाश्च ते सर्पाश्च कृष्णसर्पाः ।'
@@ -381,7 +385,7 @@ export const state = () => ({
         },
         {
           name: '2. विशेष्यपूर्वपदः (viśeṣyapūrvapadaḥ) ',
-          explanation: 'the first word is viśeṣya – the one to which adjective is to be appended',
+          explanation: 'The first word is viśeṣya – the one to which adjective is to be appended',
           ex: [
             {
               text: 'वैयाकरणश्चासौ खसूचिश्च वैयाकरणखसूचिः ॥'
@@ -393,7 +397,7 @@ export const state = () => ({
         },
         {
           name: '3. विशेषणोभयपदः (viśeṣaṇobhayapadaḥ) ',
-          explanation: 'both the words are adjectives',
+          explanation: 'Both the words are adjectives',
           ex: [
             {
               text: 'शीतं च तत्  उष्णं च शीतोष्णम् ।'
@@ -438,7 +442,7 @@ export const state = () => ({
         },
         {
           name: '7. अवधारणापूर्वपदः (avadhāraṇāpūrvapadaḥ) ',
-          explanation: 'the first word is avadhāraṇā, joined by eva',
+          explanation: 'The first word is avadhāraṇā, joined by eva',
           ex: [
             {
               text: 'विद्यैव धनं विद्याधनम् ॥'
@@ -468,12 +472,12 @@ export const state = () => ({
       id: 7,
       definition_sans: '',
       definition_eng: '',
-      common: '',
+      common: 'Bahuvrīhi compounds refer (by example) to a compound noun with no head—a compound noun that refers to a thing which is itself not part of the compound. It is a compound which is an adjective for a third word which is not a part of the compound. ',
       types: 7,
       type: [
         {
           name: '1. द्विपदः (dvipadaḥ) ',
-          explanation: 'having two words',
+          explanation: 'It is a compound having two words.',
           ex: [
             {
               text: 'चित्राः गावो यस्य सः चित्रगुः गोपः।'
@@ -521,7 +525,7 @@ export const state = () => ({
               text: 'उच्चैर्घटो यस्याः सा उच्चैर्घटा नारी ।'
             },
             {
-              text: '<p>अङ्ग – गात्रोदर – स्तन-कण्ठोष्ठ- दन्त – मुखा - अक्षि- केशाः स्त्रियां बहुव्रीहौ ईबन्ता भवन्ति । </p><p>In feminine, the bahuvrIhis ending with the following words take ‘Ip’ as ending.</p><p>ते च यथा – </p><ul><li>सुन्दरं अङ्गं यस्याः सा सुन्दराङ्गी । </li><li>शोभनं गात्रं यस्याः सा  सुगात्री । </li><li>कृशम् उदरम् यस्याः सा कृशोदरी । </li><li>चारू स्तनौ यस्याः सा चारुस्तनी । </li><li>इन्दीवरे इव अक्षिणी यस्याः सा इन्दोवराक्षी । </li><li>कम्बुरिव कण्ठो यस्या सा कम्बुकण्ठी । </li><li>कुटिलाः केशा यस्याः सा कुटिलकेशी ।</li></ul>'
+              text: '<p>अङ्ग – गात्रोदर – स्तन-कण्ठोष्ठ- दन्त – मुखा - अक्षि- केशाः स्त्रियां बहुव्रीहौ ईबन्ता भवन्ति । </p><p>In feminine, the Bahuvrīhi ending with the following words take ‘Ip’ as ending.</p><p>ते च यथा – </p><ul><li>सुन्दरं अङ्गं यस्याः सा सुन्दराङ्गी । </li><li>शोभनं गात्रं यस्याः सा  सुगात्री । </li><li>कृशम् उदरम् यस्याः सा कृशोदरी । </li><li>चारू स्तनौ यस्याः सा चारुस्तनी । </li><li>इन्दीवरे इव अक्षिणी यस्याः सा इन्दोवराक्षी । </li><li>कम्बुरिव कण्ठो यस्या सा कम्बुकण्ठी । </li><li>कुटिलाः केशा यस्याः सा कुटिलकेशी ।</li></ul>'
             },
             {
               text: '<p>इतरेषाम्‌ अङ्गादिवाचकानाम्‌ स्त्रीत्वेऽपि आबन्त्वमेव। </p><p> यथा -  चारूदेहा, विस्तृतालका, आवृतकुचा, कुन्ददशना इत्यादि। </p><p>In other words showing parts of body, it takes ‘Ap’</p>'
@@ -533,7 +537,7 @@ export const state = () => ({
         },
         {
           name: '2. बहुपदः (bahupadaḥ) ',
-          explanation: 'having more than 2 words',
+          explanation: 'It is a compound having more than 2 words.',
           ex: [
             {
               text: 'अधिकः उन्नतः अंसो यस्यः सः अधिकोन्नतांसः ।'
@@ -542,7 +546,7 @@ export const state = () => ({
         },
         {
           name: '3. सहपूर्वपदः (sahapūrvapadaḥ) ',
-          explanation: 'having ‘sa’ or ‘saha’ as first word (showing nearness or togetherness)',
+          explanation: 'It is a compound having ‘sa’ or ‘saha’ as first word (showing nearness or togetherness).',
           ex: [
             {
               text: 'सह कृष्णेन वर्तत इति सकृष्णः । सह पुत्रेणेति सपुत्रः । रामेण सह वर्तत इति सरामः ।'
@@ -551,7 +555,7 @@ export const state = () => ({
         },
         {
           name: '4. संख्योत्तरपदः (saṃkhyottarapadaḥ) ',
-          explanation: 'having numerals as uttarapada',
+          explanation: 'It is a compound having numerals as uttarapada.',
           ex: [
             {
               text: 'दशानां समीपे ये सन्ति ते उपदशाः ।'
@@ -560,7 +564,7 @@ export const state = () => ({
         },
         {
           name: '5. संख्योभयपदाः (saṃkhyobhayapadāḥ) ',
-          explanation: 'having numerals as both words',
+          explanation: 'It is a compound having numerals as both words.',
           ex: [
             {
               text: 'द्वौ वा त्रयो वा द्वित्राः ।'
@@ -569,7 +573,7 @@ export const state = () => ({
         },
         {
           name: '6. व्यतिहारलक्षणः (vyatihāralakṣaṇaḥ) ',
-          explanation: 'showing reciprocity or repitition',
+          explanation: 'It is a compound showing reciprocity or repitition.',
           ex: [
             {
               text: 'केशेषु केशेषु गृहीत्वा इदं युद्धं प्रवर्तत इति केशाकेशि युद्धम् ।'
@@ -581,7 +585,7 @@ export const state = () => ({
         },
         {
           name: '7. दिगन्तराललक्षणः (digantarālalakṣaṇaḥ) ',
-          explanation: 'showing the quarters of directions',
+          explanation: 'It is a compound showing the quarters of directions.',
           ex: [
             {
               text: 'दक्षिणस्याः पूर्वस्याश्च दिशो यदन्तरालं सा दक्षिणपूर्वा ।'
@@ -594,14 +598,13 @@ export const state = () => ({
       title_sans: 'द्विगुः',
       title_eng: 'Dvigu',
       id: 8,
-      definition_sans: '',
-      definition_eng: '',
+      common: 'Dvigu is a subtype of tatpuruṣa in which the modifying member is a number. Dvigu (one who has two cows) itself is a compound : dvau+gāvau. ',
       types: 2,
       type: [
         {
           name: '1. एकवद्भावी द्विगुः (ekavadbhāvī dviguḥ) ',
           link: '/5',
-          explanation: '',
+          explanation: 'This compound refers to the group as a unit and takes singular tense only.',
           ex: [
             {
               text: 'त्रयाणां शृङ्गाणां समाहारस्त्रिशृङ्गम् । '
@@ -614,7 +617,7 @@ export const state = () => ({
         {
           name: '2. अनेकवद्भावी द्विगुः (anekavadbhāvī dviguḥ) ',
           link: '/5',
-          explanation: '',
+          explanation: 'This compound refers to the group individually and it takes plural tense.',
           ex: [
             {
               text: 'सप्त च ते ऋषयश्च सप्तर्षयः ।'
@@ -628,12 +631,13 @@ export const state = () => ({
       title_eng: 'Dvandva',
       id: 9,
       definition_sans: 'उभयपदार्थप्रधानो द्वन्द्वः ।',
-      definition_eng: '',
+      definition_eng: 'These consist of two or more noun stems, connected in sense with and (copulative or coordinative). ',
       types: 2,
       type: [
         {
           name: '1. इतरेतरद्वन्द्वः (itaretaradvandvaḥ)',
           link: '/6',
+          explanation: 'The result of इतरेतर द्वन्द्व (itaretara dvandva "enumerative dvandva") is an enumerative word, the meaning of which refers to all its constituent members. The resultant compound word is in the dual or plural number and takes the gender of the final member in the compound construction. ',
           ex: [
             {
               text: 'प्लक्षश्च न्यग्रोधश्च प्लक्षन्यग्रौधौ ।'
@@ -646,6 +650,7 @@ export const state = () => ({
         {
           name: '2. समाहारद्वन्द्वः (samāhāradvandvaḥ)',
           link: '/7',
+          explanation: 'Words may be organised in a compound to form a metonym, and sometimes the words may comprise all the constituent parts of the whole. The resultant compound word exhibits समाहार द्वन्द्व (samāhāra dvandva - collective dvandva), and is always neuter and in the singular number.',
           ex: [
             {
               text: 'हरिश्च हरश्च गुरुश्च एषां समाहारः हरिहर गुरुः ।'
@@ -662,9 +667,9 @@ export const state = () => ({
       title_eng: 'Avyayībhāva',
       id: 10,
       definition_sans: 'पूर्वपदार्थप्रधानोऽव्ययीभावः । अव्ययीभावस्याऽव्ययत्वात् त्रिषु लिङ्गेषु समानं रूपम् ।',
-      definition_eng: '',
+      definition_eng: 'The first member of this type of nominal compound is an indeclinable, to which another word is added so that the new compound also becomes indeclinable (i.e., avyaya).<br><br>In avyayībhāva compounds, the first member has primacy (pūrva-pada-pradhāna), i.e., the whole compound behaves like an indeclinable due to the nature of the first part which is indeclinable. ',
       common: '',
-      ex: [
+      examples: [
         {
           text: 'तटं तटं प्रत्यनुतटम् ।'
         },
@@ -692,19 +697,52 @@ export const state = () => ({
       title_sans: 'लुक् समासो ',
       title_eng: 'Luk Samasa',
       id: 11,
-      definition_sans: '(१) लुक् समासो यथा- तनुरेव लता तनुलता । कृष्णा एव मेघाः कृष्णमेघाः ।',
-      definition_eng: 'here there is elision of the case markers',
-      common: '',
-      example_sans: ''
+      common: 'In this compound, here there is elision of the case markers',
+      examples: [
+        {
+          text: 'तनुरेव लता तनुलता । '
+        },
+        {
+          text: 'कृष्णा एव मेघाः कृष्णमेघाः ।'
+        }
+      ]
     },
     {
       title_sans: 'अलुक् समासो',
       title_eng: ' ',
       id: 12,
-      definition_sans: '(२) अलुक् समासो यथा- वने चरतीति वनेचरः । पङ्के रुहतीति पङ्केरुहम् । मत्वर्थो यथा – बुद्धिरस्यास्तीति बुद्धिमान् । धनमस्यास्तीति धनवान् । धीरस्य भावो धीरता । जनानां समूहो जनता । घटस्य भावो घटत्वम् ।',
-      definition_eng: 'there is no elision of the case markers.',
-      common: '',
-      example_sans: ''
+      common: 'In this compound, there is no elision of the case markers.',
+      examples: [
+        {
+          text: 'वने चरतीति वनेचरः । '
+        },
+        {
+          text: 'पङ्के रुहतीति पङ्केरुहम् । '
+        }
+      ],
+      types: 1,
+      type: [
+        {
+          name: 'मत्वर्थो यथा – ',
+          ex: [
+            {
+              text: 'बुद्धिरस्यास्तीति बुद्धिमान् ।'
+            },
+            {
+              text: ' धनमस्यास्तीति धनवान् ।'
+            },
+            {
+              text: ' धीरस्य भावो धीरता ।'
+            },
+            {
+              text: ' जनानां समूहो जनता ।'
+            },
+            {
+              text: ' घटस्य भावो घटत्वम् ।'
+            }
+          ]
+        }
+      ]
     }
   ]
 })
