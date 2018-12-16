@@ -695,7 +695,7 @@ export const state = () => ({
     },
     {
       title_sans: 'लुक् समासो ',
-      title_eng: 'Luk Samasa',
+      title_eng: 'Luk Samāsa',
       id: 11,
       common: 'In this compound, here there is elision of the case markers',
       examples: [
@@ -709,7 +709,7 @@ export const state = () => ({
     },
     {
       title_sans: 'अलुक् समासो',
-      title_eng: 'Aluk Samasa',
+      title_eng: 'Aluk Samāsa',
       id: 12,
       common: 'In this compound, there is no elision of the case markers.',
       examples: [
@@ -743,6 +743,78 @@ export const state = () => ({
           ]
         }
       ]
+    }
+  ],
+  exercises: [
+    {
+      id: '1',
+      title: 'Level 1 - Introduction',
+      question: 'समासार्थावबोधकं वाक्यं ___ ',
+      options: ['विग्रहः', 'समासः', 'सिन्धिः', 'तद्धितः'],
+      ans: 'विग्रहः'
+    },
+    {
+      id: '2',
+      title: 'Level 2 - Complete the Vigrahavākya',
+      question: 'तटं तटं प्रति ___',
+      options: ['अनुतटम्', 'प्रतितटम्', 'तटौ', 'अनुतटौ'],
+      ans: ''
+    },
+    {
+      id: '3',
+      title: 'Level 2 - Complete the Vigrahavākya',
+      question: 'शीतं च तत् उष्णं च ',
+      options: ['उष्णशीतम्', 'उष्णशीतौ', 'शीतोष्णम्', 'शीतोष्णौ'],
+      ans: ''
+    },
+    {
+      id: '4',
+      title: 'Level 2 - Complete the Vigrahavākya',
+      question: 'वने चरतीति ',
+      options: ['वनेचरः ', 'वनचरः ', 'वनचरी', 'वनेचरी'],
+      ans: 'वनेचरः '
+    },
+    {
+      id: '5',
+      title: 'Level 2 - Complete the Vigrahavākya',
+      question: 'धनमस्यास्तीति',
+      options: ['धनी', 'धनमान्', 'धनवान्', 'धनवती'],
+      ans: 'धनवान्'
+    },
+    {
+      id: '6',
+      title: 'Level 3 - Types of Samāsa',
+      question: 'उभयपदार्थप्रधानो ___।',
+      options: ['कर्मधारयः', 'तत्पुरुषः', 'बहुव्रीहिः', 'द्वन्द्वः'],
+      ans: 'द्वन्द्वः'
+    },
+    {
+      id: '7',
+      title: 'Level 3 - Types of Samāsa',
+      question: 'उत्तरपदार्थप्रधानः ___',
+      options: ['कर्मधारयः', 'तत्पुरुषः', 'बहुव्रीहिः', 'द्वन्द्वः'],
+      ans: 'तत्पुरुषः'
+    },
+    {
+      id: '8',
+      title: 'Level 3 - Types of Samāsa',
+      question: 'त्रिषु लिङ्गेषु समानं रूपम् ____',
+      options: ['द्विगुः', 'अव्ययीभावः', 'कर्मधारयः', 'तत्पुरुषः'],
+      ans: 'अव्ययीभावः'
+    },
+    {
+      id: '9',
+      title: 'Level 4 - Identify the Type of Samāsa',
+      question: 'तनुरेव लता तनुलता ',
+      options: ['द्विगुः', 'लुक्', 'अव्ययीभावः', 'कर्मधारयः'],
+      ans: 'लुक्'
+    },
+    {
+      id: '10',
+      title: 'Level 4 - Identify the Type of Samāsa',
+      question: 'पञ्चानां फलानां समाहारः पञ्चफली ',
+      options: ['द्विगुः', 'लुक्', 'अव्ययीभावः', 'कर्मधारयः'],
+      ans: 'द्विगुः'
     }
   ]
 })
