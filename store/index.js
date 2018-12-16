@@ -709,7 +709,7 @@ export const state = () => ({
     },
     {
       title_sans: 'अलुक् समासो',
-      title_eng: ' ',
+      title_eng: 'Aluk Samasa',
       id: 12,
       common: 'In this compound, there is no elision of the case markers.',
       examples: [
