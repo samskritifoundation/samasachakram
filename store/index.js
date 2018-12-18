@@ -57,7 +57,7 @@ export const state = () => ({
     },
     {
       title_sans: '',
-      title_eng: 'subcategories of types',
+      title_eng: 'Subcategories of types',
       id: 4,
       definition_sans: 'समासाष्षट्सु संक्षिप्ता अष्टाविंशतिधा पुनः ।<br>     तत्राष्टधा तत्पुरुषस्सप्तधा कर्मधारयः ॥<br>सप्तधा च बहुव्रीहिर्द्विगुर्द्वन्द्वो द्विधा द्विधा ।<br>द्विविधश्चाव्ययीभाव इत्यष्टाविंशतिः क्रमात् ॥',
       definition_eng: '<p>The six Samāsas are further divided into 28 types as follows:</p>',
@@ -496,7 +496,7 @@ export const state = () => ({
           explanation: 'This compound refers to the group as a unit and takes singular tense only.',
           ex: [
             {
-              text: 'तिस्रस्समाहृतास्संध्यास्त्रिसंध्यं त्रिपुरं यथा'
+              text: 'तिस्रस्समाहृतास्संध्यास्त्रिसंध्यं त्रिपुरं'
             }
           ]
         },
@@ -523,7 +523,7 @@ export const state = () => ({
         {
           name: '1. इतरेतरद्वन्द्वः (itaretaradvandvaḥ)',
           link: '/6',
-          explanation: 'The result of इतरेतर द्वन्द्व (itaretara dvandva "enumerative dvandva") is an enumerative word, the meaning of which refers to all its constituent members. The resultant compound word is in the dual or plural number and takes the gender of the final member in the compound construction. ',
+          explanation: '<p>अन्वाचयस्समाहार इतरेतरयोगकः ।</p>The result of इतरेतर द्वन्द्व (itaretara dvandva "enumerative dvandva") is an enumerative word, the meaning of which refers to all its constituent members. The resultant compound word is in the dual or plural number and takes the gender of the final member in the compound construction. ',
           ex: [
             {
               text: 'प्लक्षश्च न्यग्रोधश्च प्लक्षन्यग्रौधौ ।'
@@ -536,13 +536,16 @@ export const state = () => ({
         {
           name: '2. समाहारद्वन्द्वः (samāhāradvandvaḥ)',
           link: '/7',
-          explanation: 'Words may be organised in a compound to form a metonym, and sometimes the words may comprise all the constituent parts of the whole. The resultant compound word exhibits समाहार द्वन्द्व (samāhāra dvandva - collective dvandva), and is always neuter and in the singular number.',
+          explanation: '<p>समाहारः क्वचिर्त्तत्र स्यादेकवचनं यथा।</p>Words may be organised in a compound to form a metonym, and sometimes the words may comprise all the constituent parts of the whole. The resultant compound word exhibits समाहार द्वन्द्व (samāhāra dvandva - collective dvandva), and is always neuter and in the singular number.',
           ex: [
             {
-              text: 'हरिश्च हरश्च गुरुश्च एषां समाहारः हरिहर गुरुः ।'
+              text: 'हस्ती चाश्वश्च हस्त्यश्वं'
             },
             {
-              text: '<p>प्राणितूर्यसेनाङ्गानां द्वन्द्वैकवद्भावः । </p><p>प्राण्यङ्गे यथा – </p><ul><li>पाणी च पादौ च मुखं च पाणिपादमुखम् ।</li><li>तूर्याङ्गे यथा- मार्दङ्गिकश्च वैणविकश्च मार्दङ्गिकवैणविकम् । </li><li>शंखश्च पटहश्च शंखपटहम् ।</li><li>सेनाङ्गे यथा- राजन्याश्च रथाश्च अश्वाश्च राजन्यरथाश्वम् ।</li></ul>'
+              text: 'शंखश्चदुंदुभिश्चैव मर्दळश्चेति शंखदुंदुभिमर्दळम्'
+            },
+            {
+              text: 'वासुदेवश्चार्जुनश्च वासुदेवार्जुनौ '
             }
           ]
         }
@@ -552,79 +555,59 @@ export const state = () => ({
       title_sans: 'अव्ययीभावः',
       title_eng: 'Avyayībhāva',
       id: 10,
-      definition_sans: 'पूर्वपदार्थप्रधानोऽव्ययीभावः । अव्ययीभावस्याऽव्ययत्वात् त्रिषु लिङ्गेषु समानं रूपम् ।',
+      definition_sans: 'द्विधा प्रोक्तोऽव्ययीभावोऽव्ययपूर्वपदस्तथा ।<br>नामपूर्वपदश्चापि सर्वोऽप्यव्ययसंज्ञकः ॥',
       definition_eng: 'The first member of this type of nominal compound is an indeclinable, to which another word is added so that the new compound also becomes indeclinable (i.e., avyaya).<br><br>In avyayībhāva compounds, the first member has primacy (pūrva-pada-pradhāna), i.e., the whole compound behaves like an indeclinable due to the nature of the first part which is indeclinable. ',
       common: '',
-      examples: [
-        {
-          text: 'तटं तटं प्रत्यनुतटम् ।'
-        },
-        {
-          text: ' गिरिं गिरिं प्रत्यनुगिरिम् ।'
-        },
-        {
-          text: 'क्रममनतिक्रम्य वर्तत इति यथाक्रमम् ।'
-        },
-        {
-          text: ' वेलायामित्यधिवेलम् ।'
-        },
-        {
-          text: ' कुम्भस्य समीपे वर्तत इत्युपकुम्भम् ।'
-        },
-        {
-          text: ' मक्षिकाणामभावो निर्मक्षिकम् ।'
-        },
-        {
-          text: ' हिमस्य अत्ययः अतिहिमम् ।'
-        }
-      ]
-    },
-    {
-      title_sans: 'लुक् समासो ',
-      title_eng: 'Luk Samāsa',
-      id: 11,
-      common: 'In this compound, here there is elision of the case markers',
-      examples: [
-        {
-          text: 'तनुरेव लता तनुलता । '
-        },
-        {
-          text: 'कृष्णा एव मेघाः कृष्णमेघाः ।'
-        }
-      ]
-    },
-    {
-      title_sans: 'अलुक् समासो',
-      title_eng: 'Aluk Samāsa',
-      id: 12,
-      common: 'In this compound, there is no elision of the case markers.',
-      examples: [
-        {
-          text: 'वने चरतीति वनेचरः । '
-        },
-        {
-          text: 'पङ्के रुहतीति पङ्केरुहम् । '
-        }
-      ],
-      types: 1,
+      types: 2,
       type: [
         {
-          name: 'मत्वर्थो यथा – ',
+          name: 'अव्ययपूर्वपदः',
           ex: [
             {
-              text: 'बुद्धिरस्यास्तीति बुद्धिमान् ।'
+              text: 'कुंभस्य समीपे उपकुंभम्'
+            }
+          ]
+        },
+        {
+          name: 'नामपूर्वपदः',
+          ex: [
+            {
+              text: 'रिपुं प्रति रिपोर्मात्रा '
+            }
+          ]
+        }
+      ]
+    },
+    {
+      title_sans: 'लुक् & अलुक् समासाः',
+      title_eng: 'Luk Samāsa and Aluk Samāsa',
+      id: 11,
+      definition_sans: 'लुक्समासोऽलुक्समास इति तौ प्रब्रवीम्यहम् ।',
+      common: 'In this compound, here there is elision of the case markers. In this compound, there is no elision of the case markers.',
+      types: 2,
+      type: [
+        {
+          name: 'लुक्',
+          ex: [
+            {
+              text: 'शाकप्रियः पार्थिवो यस्स चायं शाक पार्थिवः । '
             },
             {
-              text: 'धनमस्यास्तीति धनवान् ।'
+              text: 'छाया प्रधानास्तरवो ये च्छायातरवो वने ॥'
+            }
+          ]
+        },
+        {
+          name: 'अलुक्',
+          ex: [
+            {
+              text: 'खे गच्छति तु यःप्राणी स खगोऽलुक्प्रकीर्ततः ॥'
             },
             {
-              text: 'धीरस्य भावो धीरता ।'
+              text: 'वने चरति यःप्राणी सततं स वनेचरः '
             },
             {
-              text: ' जनानां समूहो जनता ।'
-            },
-            {
-              text: ' घटस्य भावो घटत्वम् ।'
+              text: 'पंके रोहति यत्पुष्पं तत्पंकेरुहम् '
             }
           ]
         }

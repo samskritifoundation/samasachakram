@@ -48,10 +48,10 @@
       <div v-if="lesson.types" class="myheader3">
         <v-expansion-panel focusable inset>
     <v-expansion-panel-content
-       v-for="t in lesson.type" :key="t"
+       v-for="t in lesson.type" :key="t" 
     >
       <div slot="header">{{t.name}}</div>
-      <v-card>
+      <v-card  color="accent lighten-2">
         <v-card-text>
           <p>{{t.explanation}}</p>
           <div v-if="t.ex">
