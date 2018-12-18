@@ -10,10 +10,57 @@ export const state = () => ({
     },
     {
       title_sans: '',
-      title_eng: 'Classification of Samāsa - 1',
+      title_eng: 'Prayer',
       id: 2,
-      definition_sans: 'षोढा समासः संक्षेपाद्‌ अष्टाविंशतिधा पुनः ।<br>तत्राष्टधा तत्पुरूषः सप्तधा कर्मधारयः ।।<br>सप्तधा च बहुव्रीहिर्द्विगुराभाषितो द्विधा ।<br>द्वन्द्वोऽपि द्विविधो ज्ञेयोऽव्ययीभावो द्विधा मतः ।।',
-      definition_eng: '<p>There are six types of Samāsas in brief. But in detail they are 28 in total. </p><p>The above Classification is represented below:</p>',
+      definition_sans: 'शेषाचलशिरोभूषा तोषाय भवतान्महः । <br>  यन्निरस्तनतस्तोमतमस्ततिनमस्कृति ॥',
+      definition_eng: '',
+      common: ''
+    },
+    {
+      title_sans: '',
+      title_eng: 'Classification of Samāsa',
+      id: 3,
+      definition_sans: 'वक्ष्ये तत्पुरुषं कर्मधारयं बालबुद्धये ।<br>बहुव्रीहिं द्विगुं द्वंद्वमव्ययीभावमेव च ॥',
+      definition_eng: ' ',
+      common: 'Samāsas are also divided into 6 types:',
+      treeData: [
+        {
+          name: 'Samāsa',
+          children: [
+            {
+              name: '1. तत्पुरुषः (tatpuruṣaḥ)',
+              link: '/lessons/5'
+            },
+            {
+              name: '2. कर्मधारयः (karmadhārayaḥ)',
+              link: '/lessons/6'
+            },
+            {
+              name: '3. बहुव्रीहिः (bahuvrīhi)',
+              link: '/lessons/7'
+            },
+            {
+              name: '4. द्विगुः (dvigu)',
+              link: '/lessons/8'
+            },
+            {
+              name: '5. द्वन्द्वः (dvandva)',
+              link: '/lessons/9'
+            },
+            {
+              name: '6. अव्ययीभावः (avyayībhāva)',
+              link: '/lessons/10'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      title_sans: '',
+      title_eng: 'subcategories of types',
+      id: 4,
+      definition_sans: 'समासाष्षट्सु संक्षिप्ता अष्टाविंशतिधा पुनः ।<br>     तत्राष्टधा तत्पुरुषस्सप्तधा कर्मधारयः ॥<br>सप्तधा च बहुव्रीहिर्द्विगुर्द्वन्द्वो द्विधा द्विधा ।<br>द्विविधश्चाव्ययीभाव इत्यष्टाविंशतिः क्रमात् ॥',
+      definition_eng: '<p>The six Samāsas are further divided into 28 types as follows:</p>',
       common: '',
       treeData: [
         {
@@ -154,7 +201,7 @@ export const state = () => ({
               ]
             },
             {
-              name: '6. अव्ययीभावः (avyayībhāva)',
+              name: '6. अव्ययीभावः (avyayībhāva) - 2 types',
               link: '/lessons/10'
             }
           ]
@@ -162,77 +209,11 @@ export const state = () => ({
       ]
     },
     {
-      title_sans: '',
-      title_eng: 'Classification of Samāsa - 2',
-      id: 3,
-      definition_sans: 'नित्यानित्यत्वयोगेन लुगलुक्त्वेन च द्विधा ॥',
-      definition_eng: ' ',
-      common: 'Samāsas are also divided into 2 types:',
-      treeData: [
-        {
-          name: 'Nityayoga / luk',
-          link: '/lessons/11'
-        },
-        {
-          name: 'Anityayoga / aluk',
-          link: '/lessons/12'
-        }
-      ],
-      example_sans: ''
-    },
-    {
-      title_sans: '',
-      title_eng: 'Classification of Samāsa - 3',
-      id: 4,
-      definition_sans: 'तेषां पुनः समासानां प्राधान्यं स्याच्चतुर्विधम्‌ <br>      चकारबहुलो द्वन्द्वः स चासौ कर्मधारयः ।<br>यस्य येषां बहुव्रीहिः शेषस्तत्पुरुषः स्मृतः ॥',
-      definition_eng: '<p>The Samāsas are also sometimes classified into 4 types according to the weightage of its constituents:</p>',
-      common: '',
-      treeData: [
-        {
-          name: 'Dvandva',
-          link: '/lessons/9',
-          children: [
-            {
-              name: 'The Samāsas having preponderance of च (and) is called dvandva.'
-            }
-          ]
-        },
-        {
-          name: 'Karmadhāraya',
-          link: '/lessons/6',
-          children: [
-            {
-              name: 'Samāsas showing ‘that and this’ is karmadhāraya.'
-            }
-          ]
-        },
-        {
-          name: 'Bahuvrīhi',
-          link: '/lessons/7',
-          children: [
-            {
-              name: 'Samāsa having यस्य or येषां (whose) in anvaya is called bahuvrīhi.'
-            }
-          ]
-        },
-        {
-          name: 'Tatpuruṣa',
-          link: '/lessons/5',
-          children: [
-            {
-              name: 'The rest are Tatpuruṣa.'
-            }
-          ]
-        }
-      ],
-      example_sans: ''
-    },
-    {
       title_sans: 'तत्पुरुषः',
       title_eng: 'Tatpuruṣaḥ',
       id: 5,
-      definition_sans: 'उत्तरपदार्थप्रधानस्तत्पुरुषः ।',
-      definition_eng: 'This is the compound in which second object is more important.',
+      definition_sans: ' तत्र तत्पुरुषस्याष्टौ प्रकारान् प्रब्रवीम्यहम् । <br>प्रथमाद्यास्तत्पुरुषा स्सप्तधास्युर्नञष्टमः ॥<br>एतेषां विग्रहं वक्ष्ये समासानां यथाक्रमम् । <br> विभज्य गृह्यते यस्स विग्रहः परिकीर्तितः ॥ <br> अनेकशब्दसन्धिस्तु समासः कथ्यते यथा । <br> अर्धं गुडस्यार्धगुडोऽब्धिं गताऽब्धिगता नदी॥ <br> वाचा श्लक्ष्णस्तु वाक्श्लक्ष्णो <br> दिग्बलिस्तु दिशे बलिः॥ <br>सिंहाद्भयं सिंहभयं भूपतिस्तु भुवः पतिः॥ <br> विष्णौ भक्तिर्विष्णुभक्तिर्नाश्वोऽनश्वो न गौरगौः॥',
+      definition_eng: 'This is the compound in which second object is more important. Examples of the 8 types of Tatpuruṣa are stated as follows:',
       common: 'The type of Tatpuruṣa depends on the case suffix you have to append to the purvapada. ',
       example_sans: '',
       types: 8,
@@ -242,10 +223,7 @@ export const state = () => ({
           explanation: 'Nominative case suffix',
           ex: [
             {
-              text: 'अर्ध पिप्पल्ल्याः अर्धपिप्पली । '
-            },
-            {
-              text: 'पूर्वं कायस्येति पूर्वकायः ।'
+              text: 'अर्धं गुडस्य अर्धगुडः '
             }
           ]
         },
@@ -254,13 +232,7 @@ export const state = () => ({
           explanation: 'Accusative case suffix',
           ex: [
             {
-              text: 'कृष्णं श्रितः कृष्णश्रितः ।'
-            },
-            {
-              text: ' ग्रामं गतो ग्रामगतः ।'
-            },
-            {
-              text: ' कान्तारमतीतः कान्तारातीतः ।'
+              text: 'अब्धिं गता अब्धिगता नदी'
             }
           ]
         },
@@ -269,13 +241,7 @@ export const state = () => ({
           explanation: 'Instrumental case suffix',
           ex: [
             {
-              text: 'शङ्कुलया खण्डः शङ्कुलाखंडः।'
-            },
-            {
-              text: ' धान्येनार्थो धान्यार्थः ।'
-            },
-            {
-              text: ' मासेन पूर्वो मासपूर्वः ।'
+              text: 'वाचा श्लक्ष्णः वाक्श्लक्ष्णः'
             }
           ]
         },
@@ -284,13 +250,7 @@ export const state = () => ({
           explanation: 'Dative case suffix',
           ex: [
             {
-              text: 'यूपाय दारु यूपदारु ।'
-            },
-            {
-              text: ' कुण्डलाय हिरण्यं कुण्डलहिरण्यम् ।'
-            },
-            {
-              text: ' गुरवे दक्षिणा गुरुदक्षिणा ।'
+              text: 'दिशे बलिः दिग्बलिः '
             }
           ]
         },
@@ -299,13 +259,7 @@ export const state = () => ({
           explanation: 'Ablative case suffix',
           ex: [
             {
-              text: 'अर्थात् अपेतः अर्थापेतः । '
-            },
-            {
-              text: 'सिंहात्‌ भयम्‌ सिंहभयम्‌।'
-            },
-            {
-              text: ' वृश्चिकात्‌ भीः वृश्चिकभीः ।'
+              text: 'सिंहात् भयं सिंहभयं '
             }
           ]
         },
@@ -314,13 +268,7 @@ export const state = () => ({
           explanation: 'Relative case suffix',
           ex: [
             {
-              text: 'कृष्णस्य भक्तः कृष्णभक्तः ।'
-            },
-            {
-              text: ' आम्रस्य फलम् आम्रफलम् ।'
-            },
-            {
-              text: ' राज्ञः पुरुषो राजपुरुषः ।'
+              text: 'भुवः पतिः भूपतिः '
             }
           ]
         },
@@ -329,13 +277,7 @@ export const state = () => ({
           explanation: 'Locative case suffix',
           ex: [
             {
-              text: 'अक्षेषु शौण्डः अक्षशौण्डः ।'
-            },
-            {
-              text: ' कर्मणि कुशलः कर्मकुशलः ।'
-            },
-            {
-              text: ' विद्यायां निपुणः विद्यानिपुणः ।'
+              text: 'विष्णौ भक्तिः विष्णुभक्तिः '
             }
           ]
         },
@@ -344,16 +286,10 @@ export const state = () => ({
           explanation: 'The words having prefixes अ and अन्‌ in negation are called nañ tatpuruṣaḥ',
           ex: [
             {
-              text: 'न ब्राह्मणः अब्राह्मणः ।'
+              text: 'न अश्वः अनश्वः '
             },
             {
-              text: ' न वृषभः अवृषभः ।'
-            },
-            {
-              text: ' पापाभावः अपापम्  ।'
-            },
-            {
-              text: 'धर्मविरुद्धोऽधर्मः ।'
+              text: 'न गौः अगौः ।'
             }
           ]
         }
@@ -363,8 +299,8 @@ export const state = () => ({
       title_sans: 'कर्मधारयः',
       title_eng: 'Karmadhārayaḥ',
       id: 6,
-      definition_sans: '',
-      definition_eng: '',
+      definition_sans: 'प्रकारांत्सप्त वै कर्मधारयस्य ब्रवीम्यहम्॥',
+      definition_eng: 'The seven types of Karmadhāraya are explained as follows:',
       common: 'The relation of the first member to the last is appositional, attributive or adverbial',
       types: 7,
       type: [
@@ -373,13 +309,7 @@ export const state = () => ({
           explanation: 'The first word is adjective',
           ex: [
             {
-              text: 'कृष्णश्चाऽसौ सर्पश्च कृष्णसर्पः । <br>कृष्णौ च तौ सर्पौ च कृष्णसर्पौ ।<br> कृष्णाश्च ते सर्पाश्च कृष्णसर्पाः ।'
-            },
-            {
-              text: ' रक्ता चासौ लता च रक्तलिता । <br>रक्ते च ते लते च रक्तलते । <br>रक्ताश्च ताः लताश्च रक्तलताः । '
-            },
-            {
-              text: 'नीलं च तत् उत्पलं च नीलोत्पलम् । <br>नीले च ते उत्पले च नीलोत्पले । <br>नीलानि च तानि उत्पलानि च नीलोत्पलानि ।'
+              text: 'कृष्णश्चासौ कंबळश्च कृष्णकंबळ उत्तमः।'
             }
           ]
         },
@@ -388,10 +318,7 @@ export const state = () => ({
           explanation: 'The first word is viśeṣya – the one to which adjective is to be appended',
           ex: [
             {
-              text: 'वैयाकरणश्चासौ खसूचिश्च वैयाकरणखसूचिः ॥'
-            },
-            {
-              text: ' गोपालश्चासौ बालश्च गोपालबालः ।'
+              text: 'द्विजश्चासौ कुंजरश्च दिजकुंजरम् आगतः ॥'
             }
           ]
         },
@@ -400,7 +327,7 @@ export const state = () => ({
           explanation: 'Both the words are adjectives',
           ex: [
             {
-              text: 'शीतं च तत्  उष्णं च शीतोष्णम् ।'
+              text: 'मधुरं च तथाम्लं च मधुराम्लं च जांबवम्। '
             }
           ]
         },
@@ -409,13 +336,7 @@ export const state = () => ({
           explanation: 'The first word is upamāna – the thing to which comparision is made',
           ex: [
             {
-              text: 'मेघ इव स्यामो मेघश्यामः ।'
-            },
-            {
-              text: ' कम्बुवत् ग्रीवा कम्बुग्रीवा ।'
-            },
-            {
-              text: 'चन्द्रवत् मुखं चन्द्रमुखम् ।'
+              text: 'मुक्तेव धवळा मुक्ता धवळा दिवि तारका॥'
             }
           ]
         },
@@ -424,10 +345,7 @@ export const state = () => ({
           explanation: 'The second word is upamāna',
           ex: [
             {
-              text: 'पुरुषः व्याघ्र इव पुरुषव्याघ्रः ।'
-            },
-            {
-              text: ' नरः सिंह इव नरसिंहः ।'
+              text: 'आस्यम् अब्जम् इव आस्याब्जं '
             }
           ]
         },
@@ -436,7 +354,7 @@ export const state = () => ({
           explanation: 'The first word is sambhāvanā, joined by iti',
           ex: [
             {
-              text: 'गुण इति बुद्धिः गुणबुद्धिः '
+              text: 'गौः इति भ्रमः गोभ्रमः '
             }
           ]
         },
@@ -445,22 +363,7 @@ export const state = () => ({
           explanation: 'The first word is avadhāraṇā, joined by eva',
           ex: [
             {
-              text: 'विद्यैव धनं विद्याधनम् ॥'
-            },
-            {
-              text: ' अविद्यैव शृङ्खला अविद्याशृंखला ।'
-            }
-          ]
-        },
-        {
-          name: '8. मध्यमपदलोपी समास',
-          explanation: 'One or more word has to be imported according to context to fulfil the meaning of the samāsa',
-          ex: [
-            {
-              text: 'शाकप्रियः पार्थिवः शाकपार्थीवः ।'
-            },
-            {
-              text: ' देवपूजको ब्राह्मणः देवब्राह्मणः ।'
+              text: ' विद्यैव भूषणं विद्याभूषणं '
             }
           ]
         }
@@ -470,9 +373,9 @@ export const state = () => ({
       title_sans: 'बहुव्रीहिः',
       title_eng: 'Bahuvrīhi',
       id: 7,
-      definition_sans: '',
-      definition_eng: '',
-      common: 'Bahuvrīhi compounds refer (by example) to a compound noun with no head—a compound noun that refers to a thing which is itself not part of the compound. It is a compound which is an adjective for a third word which is not a part of the compound. ',
+      definition_sans: 'बहुव्रीहेः प्रकारांस्तु सप्त तान् कथाम्यहम् | <br> द्वितीयादिविभक्त्यर्थे भवेदन्यपदार्थके॥ <br> बहुर्वीहिर्न प्रथमाविभक्त्यर्थे इति स्थितिः॥',
+      definition_eng: 'Bahuvrīhi compounds refer (by example) to a compound noun with no head—a compound noun that refers to a thing which is itself not part of the compound. It is a compound which is an adjective for a third word which is not a part of the compound. ',
+      common: 'The types of Bahuvrīhi are explained as follows:',
       types: 7,
       type: [
         {
@@ -480,58 +383,25 @@ export const state = () => ({
           explanation: 'It is a compound having two words.',
           ex: [
             {
-              text: 'चित्राः गावो यस्य सः चित्रगुः गोपः।'
+              text: 'आश्रिता ब्राह्मणा यं स आश्रितब्राह्मणः प्रभुः॥'
             },
             {
-              text: 'प्राप्तम् उदकं यं सः प्राप्तोदको ग्रामः ।'
+              text: 'निर्जिता रिपवो येन स निर्जितरिपुर्नृपः।'
             },
             {
-              text: 'भुक्तम् ओदनं येन सः भुक्तोदनो भृपः ।'
+              text: 'आनीताः पशवो यस्मै स आनीतपशुः क्रतुः॥'
             },
             {
-              text: 'निर्जितः कामो येन सः निर्जितकामः शिवः ।'
+              text: 'विगतं कल्मषं यस्मात्सोऽयं विगतकल्मषः। '
             },
             {
-              text: 'विभक्तं धनं यैस्ते विभक्तधना बन्धव ।'
+              text: 'तुषाराश्छवयो यस्य स तुषारच्छविश्शशी॥'
             },
             {
-              text: 'दत्तः सूपो यस्मै सः दत्तसूपो ब्राह्मणः ।'
+              text: 'बहवो भ्रमरा यस्मिन् स बहुभ्रमरस्तरुः'
             },
             {
-              text: 'उद्धृतं धनं यस्मात्तत् उद्धृतधनं कुण्डलम्।'
-            },
-            {
-              text: 'चक्रं पाणौ यस्य सः चक्रपाणिः हरिः ।'
-            },
-            {
-              text: 'करे स्थितं धनं यस्य सः करस्थितधनो वणिक् ।'
-            },
-            {
-              text: 'पुष्पिताः द्रुमाः यस्मिन् सः पुष्पितद्रुम आरामः ।'
-            },
-            {
-              text: 'बहवो यज्वानो यस्यां सा बहुयज्वा शाला ।'
-            },
-            {
-              text: 'पुष्पिताः द्रुमाः यस्मिन् तत् पुष्पितद्रुमं वनम् ।'
-            },
-            {
-              text: 'खरस्य मुखं यस्य सः खरमुखस्तुरगः ।'
-            },
-            {
-              text: 'उष्ट्रस्य मुखमिव मुखं यस्य सः उष्ट्रमुखो यक्षः ।'
-            },
-            {
-              text: 'उच्चैर्घटो यस्याः सा उच्चैर्घटा नारी ।'
-            },
-            {
-              text: '<p>अङ्ग – गात्रोदर – स्तन-कण्ठोष्ठ- दन्त – मुखा - अक्षि- केशाः स्त्रियां बहुव्रीहौ ईबन्ता भवन्ति । </p><p>In feminine, the Bahuvrīhi ending with the following words take ‘Ip’ as ending.</p><p>ते च यथा – </p><ul><li>सुन्दरं अङ्गं यस्याः सा सुन्दराङ्गी । </li><li>शोभनं गात्रं यस्याः सा  सुगात्री । </li><li>कृशम् उदरम् यस्याः सा कृशोदरी । </li><li>चारू स्तनौ यस्याः सा चारुस्तनी । </li><li>इन्दीवरे इव अक्षिणी यस्याः सा इन्दोवराक्षी । </li><li>कम्बुरिव कण्ठो यस्या सा कम्बुकण्ठी । </li><li>कुटिलाः केशा यस्याः सा कुटिलकेशी ।</li></ul>'
-            },
-            {
-              text: '<p>इतरेषाम्‌ अङ्गादिवाचकानाम्‌ स्त्रीत्वेऽपि आबन्त्वमेव। </p><p> यथा -  चारूदेहा, विस्तृतालका, आवृतकुचा, कुन्ददशना इत्यादि। </p><p>In other words showing parts of body, it takes ‘Ap’</p>'
-            },
-            {
-              text: '<p>उरु- पृथु- लघु- बहु- पटु- ऋजु- स्वादु- चारु- मृदुशब्दानां स्त्रीलिङ्ग- विशेषणत्वे ईबन्तत्वमपि ।</p><p> यथा- मृद्वी शाटी, लघ्वी भाषेत्यादि । </p><p>The adjectives listed would be used with (feminine suffix) ई also when used to qualify a noun in feminine gender (or otherwise they would be used as any feminine word ending in short vowel उ), This makes in their declinations two fold forms, one with ending ई and the other ending उ.</p>'
+              text: 'न विद्यते गदो यस्य सोऽगदः पथ्यभोजनः॥'
             }
           ]
         },
@@ -540,7 +410,25 @@ export const state = () => ({
           explanation: 'It is a compound having more than 2 words.',
           ex: [
             {
-              text: 'अधिकः उन्नतः अंसो यस्यः सः अधिकोन्नतांसः ।'
+              text: 'प्राप्तश्चित्रः पशुर्यां सा प्राप्तचित्रपशुनदी॥'
+            },
+            {
+              text: 'स्तुतोऽनघो हरिर्येन स्तुतानघहरिः कविः॥'
+            },
+            {
+              text: 'दत्तं पूर्णं पयो यस्मै दत्तपूर्णपयश्शिशुः॥'
+            },
+            {
+              text: 'वीतं सर्वं बलं यस्माद्वीतसर्वबलो हि सः॥'
+            },
+            {
+              text: 'दक्षाः प्राज्ञास्सुता यस्य दक्षप्राज्ञसुतो महान्॥'
+            },
+            {
+              text: 'फुल्ला उच्चा द्रुमा यस्मिंस्तत्फुल्लोच्चद्रुमं वनम्। '
+            },
+            {
+              text: 'फुल्ला उच्चा द्रुमा यस्मिंस्तत्फुल्लोच्चद्रुमं वनम्। '
             }
           ]
         },
@@ -549,7 +437,7 @@ export const state = () => ({
           explanation: 'It is a compound having ‘sa’ or ‘saha’ as first word (showing nearness or togetherness).',
           ex: [
             {
-              text: 'सह कृष्णेन वर्तत इति सकृष्णः । सह पुत्रेणेति सपुत्रः । रामेण सह वर्तत इति सरामः ।'
+              text: 'द्रविणैस्सहवर्तंत इति सद्रविणा विशः।'
             }
           ]
         },
@@ -558,7 +446,7 @@ export const state = () => ({
           explanation: 'It is a compound having numerals as uttarapada.',
           ex: [
             {
-              text: 'दशानां समीपे ये सन्ति ते उपदशाः ।'
+              text: 'दशानां तु समीपे ये नरा उपदशा इमे॥'
             }
           ]
         },
@@ -567,7 +455,7 @@ export const state = () => ({
           explanation: 'It is a compound having numerals as both words.',
           ex: [
             {
-              text: 'द्वौ वा त्रयो वा द्वित्राः ।'
+              text: 'पंचषाः पंच वा षड्वा ब्राह्मणा निकटे स्थिताः॥'
             }
           ]
         },
@@ -598,6 +486,7 @@ export const state = () => ({
       title_sans: 'द्विगुः',
       title_eng: 'Dvigu',
       id: 8,
+      definition_sans: 'संख्यापूर्वो द्विगुस्तस्य प्रकारौ द्वौ ब्रवीम्यहम्॥',
       common: 'Dvigu is a subtype of tatpuruṣa in which the modifying member is a number. Dvigu (one who has two cows) itself is a compound : dvau+gāvau. ',
       types: 2,
       type: [
@@ -607,10 +496,7 @@ export const state = () => ({
           explanation: 'This compound refers to the group as a unit and takes singular tense only.',
           ex: [
             {
-              text: 'त्रयाणां शृङ्गाणां समाहारस्त्रिशृङ्गम् । '
-            },
-            {
-              text: 'पञ्चानां फलानां समाहारः पञ्चफली ।'
+              text: 'तिस्रस्समाहृतास्संध्यास्त्रिसंध्यं त्रिपुरं यथा'
             }
           ]
         },
@@ -630,7 +516,7 @@ export const state = () => ({
       title_sans: 'द्वन्द्वः',
       title_eng: 'Dvandva',
       id: 9,
-      definition_sans: 'उभयपदार्थप्रधानो द्वन्द्वः ।',
+      definition_sans: 'द्वंद्वो भवेच्चार्थाश्चत्वारस्स्युस्समुच्चयः ॥',
       definition_eng: 'These consist of two or more noun stems, connected in sense with and (copulative or coordinative). ',
       types: 2,
       type: [
