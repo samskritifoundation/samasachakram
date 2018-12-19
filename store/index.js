@@ -617,73 +617,73 @@ export const state = () => ({
   exercises: [
     {
       id: '1',
-      title: 'Level 1 - Introduction',
-      question: 'समासार्थावबोधकं वाक्यं ___ ',
+      title: 'Introduction',
+      question: 'अनेकशब्दसन्धिः ___ ',
       options: ['विग्रहः', 'समासः', 'सिन्धिः', 'तद्धितः'],
-      ans: 'विग्रहः'
+      ans: 'समासः'
     },
     {
       id: '2',
-      title: 'Level 2 - Complete the Vigrahavākya',
-      question: 'तटं तटं प्रति ___',
-      options: ['अनुतटम्', 'प्रतितटम्', 'तटौ', 'अनुतटौ'],
-      ans: ''
+      title: 'Choose the correct Vigrahavākya',
+      question: 'भूपतिः ___',
+      options: ['भुवः पतिः', 'भूम्याः पतिः', 'भूमेः पतिः', 'भू पतिः'],
+      ans: 'भुवः पतिः'
     },
     {
       id: '3',
-      title: 'Level 2 - Complete the Vigrahavākya',
-      question: 'शीतं च तत् उष्णं च ',
-      options: ['उष्णशीतम्', 'उष्णशीतौ', 'शीतोष्णम्', 'शीतोष्णौ'],
-      ans: ''
+      title: 'Choose the correct Vigrahavākya',
+      question: 'विष्णुभक्तिः ___',
+      options: ['विष्णुः भक्तिः', 'विष्णुं भक्तिः', 'विष्णुना भक्तिः', 'विष्णौ भक्तिः'],
+      ans: 'विष्णौ भक्तिः'
     },
     {
       id: '4',
-      title: 'Level 2 - Complete the Vigrahavākya',
-      question: 'वने चरतीति ',
-      options: ['वनेचरः ', 'वनचरः ', 'वनचरी', 'वनेचरी'],
-      ans: 'वनेचरः '
+      title: 'Complete the Vigrahavākya',
+      question: 'दत्तं पूर्णं पयो यस्मै ',
+      options: ['दत्तपूर्णः ', 'दत्तपूर्णपयः ', 'पूर्णदत्तः', 'पूर्णदत्तपयः'],
+      ans: 'दत्तपूर्णपयः '
     },
     {
       id: '5',
-      title: 'Level 2 - Complete the Vigrahavākya',
-      question: 'धनमस्यास्तीति',
-      options: ['धनी', 'धनमान्', 'धनवान्', 'धनवती'],
-      ans: 'धनवान्'
+      title: 'Complete the Vigrahavākya',
+      question: 'वीतं सर्वं बलं यस्मात्',
+      options: ['सर्ववीतबलः', 'वीतबलः', 'वीतसर्वबलः', 'सर्वबलः'],
+      ans: 'वीतसर्वबलः'
     },
     {
       id: '6',
-      title: 'Level 3 - Types of Samāsa',
-      question: 'उभयपदार्थप्रधानो ___।',
-      options: ['कर्मधारयः', 'तत्पुरुषः', 'बहुव्रीहिः', 'द्वन्द्वः'],
-      ans: 'द्वन्द्वः'
+      title: 'Types of Samāsa',
+      question: 'कर्मधारयस्य ___ प्रकाराः।',
+      options: ['2', '4', '5', '7'],
+      ans: '7'
     },
     {
       id: '7',
-      title: 'Level 3 - Types of Samāsa',
-      question: 'उत्तरपदार्थप्रधानः ___',
-      options: ['कर्मधारयः', 'तत्पुरुषः', 'बहुव्रीहिः', 'द्वन्द्वः'],
-      ans: 'तत्पुरुषः'
+      title: 'Complete the Vigrahavākya',
+      question: 'वासुदेवश्चार्जुनश्च ___',
+      options: ['वासुदेवार्जुनौ', 'वासुदेवार्जुनः', 'वसुदेवार्जुनः', 'अर्जुनवासुदेवः'],
+      ans: 'वासुदेवार्जुनौ'
     },
     {
       id: '8',
-      title: 'Level 3 - Types of Samāsa',
-      question: 'त्रिषु लिङ्गेषु समानं रूपम् ____',
+      title: 'Types of Samāsa',
+      question: 'संख्यापूर्वो ____',
       options: ['द्विगुः', 'अव्ययीभावः', 'कर्मधारयः', 'तत्पुरुषः'],
-      ans: 'अव्ययीभावः'
+      ans: 'द्विगुः'
     },
     {
       id: '9',
-      title: 'Level 4 - Identify the Type of Samāsa',
-      question: 'तनुरेव लता तनुलता ',
-      options: ['द्विगुः', 'लुक्', 'अव्ययीभावः', 'कर्मधारयः'],
-      ans: 'लुक्'
+      title: 'Identify the Type of Samāsa',
+      question: 'कुंभस्य समीपे इति उपकुंभं ',
+      options: ['अव्ययपूर्वकः', 'नामपूर्वकः', 'द्विगुः', 'कर्मधारयः'],
+      ans: 'अव्ययपूर्वकः'
     },
     {
       id: '10',
-      title: 'Level 4 - Identify the Type of Samāsa',
-      question: 'पञ्चानां फलानां समाहारः पञ्चफली ',
+      title: 'Identify the Type of Samāsa',
+      question: 'खे गच्छति यः प्राणी स खगः',
       options: ['द्विगुः', 'लुक्', 'अव्ययीभावः', 'कर्मधारयः'],
-      ans: 'द्विगुः'
+      ans: 'लुक्'
     }
   ]
 })
