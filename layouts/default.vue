@@ -75,7 +75,7 @@
         miniVariant: false,
         right: true,
         rightDrawer: false,
-        title: 'Interactive Tutorial on Samāsacakram'
+        title: 'Interactive Tutorial on Samāsaśikhāmaṇi'
       }
     }
   }
