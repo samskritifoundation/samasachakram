@@ -46,6 +46,14 @@
         </v-list-tile>
       </v-list>
 
+      <v-text-field
+        v-model="searchlist"
+        append-icon="search"
+        label="Search"
+        single-line
+        class = "px-3"
+      ></v-text-field>
+
       <v-list class="pt-0" dense>
         <v-divider light></v-divider>
 
@@ -121,8 +129,9 @@
   export default {
     data () {
       return {
+        searchlist: '',
         drawer: null,
-        items: [
+        titles: [
           {
             title: 'Introduction',
             sl_num: '1',
@@ -151,41 +160,52 @@
           {
             title: 'Karmadhārayaḥ',
             sl_num: '6',
-            to: '/lessons/4'
+            to: '/lessons/6'
           },
           {
             title: 'Bahuvrīhi',
             sl_num: '7',
-            to: '/lessons/4'
+            to: '/lessons/7'
           },
           {
             title: 'Dvigu',
             sl_num: '8',
-            to: '/lessons/4'
+            to: '/lessons/8'
           },
           {
             title: 'Dvandva',
             sl_num: '9',
-            to: '/lessons/4'
+            to: '/lessons/9'
           },
           {
             title: 'Avyayībhāva',
             sl_num: '10',
-            to: '/lessons/4'
+            to: '/lessons/10'
           },
           {
             title: 'Luk Samasa',
             sl_num: '11',
-            to: '/lessons/4'
+            to: '/lessons/11'
           },
           {
             title: 'Aluk Samasa',
             sl_num: '12',
-            to: '/lessons/4'
+            to: '/lessons/12'
           }
         ],
         mini: false,
         right: null
+      }
+    },
+    computed: {
+      items () {
+        if (this.searchlist) {
+          return this.titles.filter(item => {
+            return item.title.toLowerCase().includes(this.searchlist.toLowerCase())
+          })
+        } else {
+          return this.titles
+        }
       }
     }
   }
